@@ -12,15 +12,21 @@ public class ReconnectFuture implements ChannelFutureListener {
 
     private final Client client;
     private static final Logger logger = Logger.getLogger(ReconnectFuture.class.getName());
+    private CloseFuture closeFuture;
 
     public ReconnectFuture(Client client) {
         this.client = client;
     }
 
+    public CloseFuture getCloseFuture() {
+        return this.closeFuture;
+    }
+
     public void operationComplete(ChannelFuture future) throws Exception {
         if (future.isSuccess()) {
             Channel channel = future.channel();
-            channel.closeFuture().addListener(new CloseFuture(this.client));
+            this.closeFuture = new CloseFuture(this.client);
+            channel.closeFuture().addListener(this.closeFuture);
             this.client.setChannel(channel);
             this.client.setReconnectDelay(0);
             this.client.connected();

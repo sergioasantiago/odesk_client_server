@@ -28,6 +28,7 @@ public class Client implements Runnable {
     private final Object connectionMonitor = new Object();
     private static final Logger logger = Logger.getLogger(Client.class.getName());
     private ChannelInitializer<SocketChannel> initializer;
+    private ReconnectFuture reconnectFuture;
 
     public void IncrementReconnectDelay(int i) {
         this.reconnectDelay += i;
@@ -71,6 +72,7 @@ public class Client implements Runnable {
             connect();
             waitConnection();
             writeMessage(this.text);
+            this.channel.closeFuture().removeListener(this.reconnectFuture.getCloseFuture());
             this.channel.close();
             this.channel.eventLoop().shutdownGracefully();
         } catch (InterruptedException e) {
@@ -127,7 +129,8 @@ public class Client implements Runnable {
             b.group(group).channel(NioSocketChannel.class).handler(this.initializer);
 
             // Start the connection attempt.
-            b.connect(this.host, this.port).addListener(new ReconnectFuture(this)).await();
+            this.reconnectFuture = new ReconnectFuture(this);
+            b.connect(this.host, this.port).addListener(this.reconnectFuture).await();
 
         } catch (InterruptedException e) {
             logger.error(e.getMessage(), e);
