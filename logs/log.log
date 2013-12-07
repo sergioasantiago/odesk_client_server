@@ -1,0 +1,1080 @@
+2013-12-06 17:38:12,494 - DEBUG main (InternalLoggerFactory.java:45) io.netty.util.internal.logging.InternalLoggerFactory - Using Log4J as the default logging framework
+2013-12-06 17:38:12,501 - DEBUG main (MultithreadEventLoopGroup.java:41) io.netty.channel.MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 16
+2013-12-06 17:38:12,514 - DEBUG main (PlatformDependent.java:370) io.netty.util.internal.PlatformDependent - UID: 1000
+2013-12-06 17:38:12,516 - DEBUG main (PlatformDependent.java:447) io.netty.util.internal.PlatformDependent - Java version: 7
+2013-12-06 17:38:12,516 - DEBUG main (PlatformDependent.java:454) io.netty.util.internal.PlatformDependent - -Dio.netty.noUnsafe: false
+2013-12-06 17:38:12,518 - DEBUG main (PlatformDependent0.java:61) io.netty.util.internal.PlatformDependent0 - java.nio.ByteBuffer.cleaner: available
+2013-12-06 17:38:12,518 - DEBUG main (PlatformDependent0.java:80) io.netty.util.internal.PlatformDependent0 - java.nio.Buffer.address: available
+2013-12-06 17:38:12,518 - DEBUG main (PlatformDependent0.java:88) io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+2013-12-06 17:38:12,519 - DEBUG main (PlatformDependent0.java:98) io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+2013-12-06 17:38:12,519 - DEBUG main (PlatformDependent0.java:138) io.netty.util.internal.PlatformDependent0 - java.nio.Bits.unaligned: true
+2013-12-06 17:38:12,519 - DEBUG main (PlatformDependent.java:481) io.netty.util.internal.PlatformDependent - sun.misc.Unsafe: available
+2013-12-06 17:38:12,519 - DEBUG main (PlatformDependent.java:559) io.netty.util.internal.PlatformDependent - -Dio.netty.noJavassist: false
+2013-12-06 17:38:12,520 - DEBUG main (PlatformDependent.java:571) io.netty.util.internal.PlatformDependent - Javassist: unavailable
+2013-12-06 17:38:12,520 - DEBUG main (PlatformDependent.java:572) io.netty.util.internal.PlatformDependent - You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+2013-12-06 17:38:12,521 - DEBUG main (PlatformDependent.java:76) io.netty.util.internal.PlatformDependent - -Dio.netty.noPreferDirect: false
+2013-12-06 17:38:12,541 - DEBUG main (NioEventLoop.java:88) io.netty.channel.nio.NioEventLoop - -Dio.netty.noKeySetOptimization: false
+2013-12-06 17:38:12,543 - DEBUG main (NioEventLoop.java:89) io.netty.channel.nio.NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+2013-12-06 17:38:12,584 - DEBUG main (ThreadLocalRandom.java:138) io.netty.util.internal.ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0x9050f4fec37977b3
+2013-12-06 17:38:23,540 - DEBUG main (InternalLoggerFactory.java:45) io.netty.util.internal.logging.InternalLoggerFactory - Using Log4J as the default logging framework
+2013-12-06 17:38:23,547 - DEBUG main (MultithreadEventLoopGroup.java:41) io.netty.channel.MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 16
+2013-12-06 17:38:23,567 - DEBUG main (PlatformDependent.java:370) io.netty.util.internal.PlatformDependent - UID: 1000
+2013-12-06 17:38:23,573 - DEBUG main (PlatformDependent.java:447) io.netty.util.internal.PlatformDependent - Java version: 7
+2013-12-06 17:38:23,573 - DEBUG main (PlatformDependent.java:454) io.netty.util.internal.PlatformDependent - -Dio.netty.noUnsafe: false
+2013-12-06 17:38:23,575 - DEBUG main (PlatformDependent0.java:61) io.netty.util.internal.PlatformDependent0 - java.nio.ByteBuffer.cleaner: available
+2013-12-06 17:38:23,575 - DEBUG main (PlatformDependent0.java:80) io.netty.util.internal.PlatformDependent0 - java.nio.Buffer.address: available
+2013-12-06 17:38:23,576 - DEBUG main (PlatformDependent0.java:88) io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+2013-12-06 17:38:23,576 - DEBUG main (PlatformDependent0.java:98) io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+2013-12-06 17:38:23,576 - DEBUG main (PlatformDependent0.java:138) io.netty.util.internal.PlatformDependent0 - java.nio.Bits.unaligned: true
+2013-12-06 17:38:23,577 - DEBUG main (PlatformDependent.java:481) io.netty.util.internal.PlatformDependent - sun.misc.Unsafe: available
+2013-12-06 17:38:23,577 - DEBUG main (PlatformDependent.java:559) io.netty.util.internal.PlatformDependent - -Dio.netty.noJavassist: false
+2013-12-06 17:38:23,578 - DEBUG main (PlatformDependent.java:571) io.netty.util.internal.PlatformDependent - Javassist: unavailable
+2013-12-06 17:38:23,578 - DEBUG main (PlatformDependent.java:572) io.netty.util.internal.PlatformDependent - You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+2013-12-06 17:38:23,578 - DEBUG main (PlatformDependent.java:76) io.netty.util.internal.PlatformDependent - -Dio.netty.noPreferDirect: false
+2013-12-06 17:38:23,600 - DEBUG main (NioEventLoop.java:88) io.netty.channel.nio.NioEventLoop - -Dio.netty.noKeySetOptimization: false
+2013-12-06 17:38:23,602 - DEBUG main (NioEventLoop.java:89) io.netty.channel.nio.NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+2013-12-06 17:38:23,643 - DEBUG main (ThreadLocalRandom.java:138) io.netty.util.internal.ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0x3e9bf0fdb6876079
+2013-12-06 17:38:23,675 - DEBUG main (NetUtil.java:100) io.netty.util.NetUtil - Loopback interface: lo
+2013-12-06 17:38:23,676 - DEBUG main (NetUtil.java:105) io.netty.util.NetUtil - Loopback address: /0:0:0:0:0:0:0:1%1 (primary)
+2013-12-06 17:38:23,676 - DEBUG main (NetUtil.java:108) io.netty.util.NetUtil - Loopback address: /127.0.0.1
+2013-12-06 17:38:23,676 - DEBUG main (NetUtil.java:158) io.netty.util.NetUtil - /proc/sys/net/core/somaxconn: 128
+2013-12-06 17:38:35,022 - DEBUG main (InternalLoggerFactory.java:45) io.netty.util.internal.logging.InternalLoggerFactory - Using Log4J as the default logging framework
+2013-12-06 17:38:35,030 - DEBUG main (MultithreadEventLoopGroup.java:41) io.netty.channel.MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 16
+2013-12-06 17:38:35,050 - DEBUG main (PlatformDependent.java:370) io.netty.util.internal.PlatformDependent - UID: 1000
+2013-12-06 17:38:35,057 - DEBUG main (PlatformDependent.java:447) io.netty.util.internal.PlatformDependent - Java version: 7
+2013-12-06 17:38:35,057 - DEBUG main (PlatformDependent.java:454) io.netty.util.internal.PlatformDependent - -Dio.netty.noUnsafe: false
+2013-12-06 17:38:35,059 - DEBUG main (PlatformDependent0.java:61) io.netty.util.internal.PlatformDependent0 - java.nio.ByteBuffer.cleaner: available
+2013-12-06 17:38:35,059 - DEBUG main (PlatformDependent0.java:80) io.netty.util.internal.PlatformDependent0 - java.nio.Buffer.address: available
+2013-12-06 17:38:35,059 - DEBUG main (PlatformDependent0.java:88) io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+2013-12-06 17:38:35,060 - DEBUG main (PlatformDependent0.java:98) io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+2013-12-06 17:38:35,060 - DEBUG main (PlatformDependent0.java:138) io.netty.util.internal.PlatformDependent0 - java.nio.Bits.unaligned: true
+2013-12-06 17:38:35,060 - DEBUG main (PlatformDependent.java:481) io.netty.util.internal.PlatformDependent - sun.misc.Unsafe: available
+2013-12-06 17:38:35,061 - DEBUG main (PlatformDependent.java:559) io.netty.util.internal.PlatformDependent - -Dio.netty.noJavassist: false
+2013-12-06 17:38:35,062 - DEBUG main (PlatformDependent.java:571) io.netty.util.internal.PlatformDependent - Javassist: unavailable
+2013-12-06 17:38:35,062 - DEBUG main (PlatformDependent.java:572) io.netty.util.internal.PlatformDependent - You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+2013-12-06 17:38:35,062 - DEBUG main (PlatformDependent.java:76) io.netty.util.internal.PlatformDependent - -Dio.netty.noPreferDirect: false
+2013-12-06 17:38:35,082 - DEBUG main (NioEventLoop.java:88) io.netty.channel.nio.NioEventLoop - -Dio.netty.noKeySetOptimization: false
+2013-12-06 17:38:35,084 - DEBUG main (NioEventLoop.java:89) io.netty.channel.nio.NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+2013-12-06 17:38:35,136 - DEBUG main (ThreadLocalRandom.java:138) io.netty.util.internal.ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0x09119af2b9dadf61
+2013-12-06 17:38:35,498 - DEBUG nioEventLoopGroup-2-1 (ResourceLeakDetector.java:38) io.netty.util.ResourceLeakDetector - -Dio.netty.noResourceLeakDetection: false
+2013-12-06 17:38:35,784 - DEBUG nioEventLoopGroup-3-1 (ResourceLeakDetector.java:38) io.netty.util.ResourceLeakDetector - -Dio.netty.noResourceLeakDetection: false
+2013-12-06 17:39:29,412 - DEBUG main (InternalLoggerFactory.java:45) io.netty.util.internal.logging.InternalLoggerFactory - Using Log4J as the default logging framework
+2013-12-06 17:39:29,418 - DEBUG main (MultithreadEventLoopGroup.java:41) io.netty.channel.MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 16
+2013-12-06 17:39:29,431 - DEBUG main (PlatformDependent.java:370) io.netty.util.internal.PlatformDependent - UID: 1000
+2013-12-06 17:39:29,434 - DEBUG main (PlatformDependent.java:447) io.netty.util.internal.PlatformDependent - Java version: 7
+2013-12-06 17:39:29,434 - DEBUG main (PlatformDependent.java:454) io.netty.util.internal.PlatformDependent - -Dio.netty.noUnsafe: false
+2013-12-06 17:39:29,436 - DEBUG main (PlatformDependent0.java:61) io.netty.util.internal.PlatformDependent0 - java.nio.ByteBuffer.cleaner: available
+2013-12-06 17:39:29,436 - DEBUG main (PlatformDependent0.java:80) io.netty.util.internal.PlatformDependent0 - java.nio.Buffer.address: available
+2013-12-06 17:39:29,436 - DEBUG main (PlatformDependent0.java:88) io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+2013-12-06 17:39:29,437 - DEBUG main (PlatformDependent0.java:98) io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+2013-12-06 17:39:29,437 - DEBUG main (PlatformDependent0.java:138) io.netty.util.internal.PlatformDependent0 - java.nio.Bits.unaligned: true
+2013-12-06 17:39:29,437 - DEBUG main (PlatformDependent.java:481) io.netty.util.internal.PlatformDependent - sun.misc.Unsafe: available
+2013-12-06 17:39:29,438 - DEBUG main (PlatformDependent.java:559) io.netty.util.internal.PlatformDependent - -Dio.netty.noJavassist: false
+2013-12-06 17:39:29,439 - DEBUG main (PlatformDependent.java:571) io.netty.util.internal.PlatformDependent - Javassist: unavailable
+2013-12-06 17:39:29,439 - DEBUG main (PlatformDependent.java:572) io.netty.util.internal.PlatformDependent - You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+2013-12-06 17:39:29,439 - DEBUG main (PlatformDependent.java:76) io.netty.util.internal.PlatformDependent - -Dio.netty.noPreferDirect: false
+2013-12-06 17:39:29,460 - DEBUG main (NioEventLoop.java:88) io.netty.channel.nio.NioEventLoop - -Dio.netty.noKeySetOptimization: false
+2013-12-06 17:39:29,462 - DEBUG main (NioEventLoop.java:89) io.netty.channel.nio.NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+2013-12-06 17:39:29,503 - DEBUG main (ThreadLocalRandom.java:138) io.netty.util.internal.ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0xb56129ca3ed2db42
+2013-12-06 17:39:29,533 - DEBUG main (NetUtil.java:100) io.netty.util.NetUtil - Loopback interface: lo
+2013-12-06 17:39:29,533 - DEBUG main (NetUtil.java:105) io.netty.util.NetUtil - Loopback address: /0:0:0:0:0:0:0:1%1 (primary)
+2013-12-06 17:39:29,534 - DEBUG main (NetUtil.java:108) io.netty.util.NetUtil - Loopback address: /127.0.0.1
+2013-12-06 17:39:29,534 - DEBUG main (NetUtil.java:158) io.netty.util.NetUtil - /proc/sys/net/core/somaxconn: 128
+2013-12-06 17:39:32,513 - DEBUG main (InternalLoggerFactory.java:45) io.netty.util.internal.logging.InternalLoggerFactory - Using Log4J as the default logging framework
+2013-12-06 17:39:32,521 - DEBUG main (MultithreadEventLoopGroup.java:41) io.netty.channel.MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 16
+2013-12-06 17:39:32,536 - DEBUG main (PlatformDependent.java:370) io.netty.util.internal.PlatformDependent - UID: 1000
+2013-12-06 17:39:32,538 - DEBUG main (PlatformDependent.java:447) io.netty.util.internal.PlatformDependent - Java version: 7
+2013-12-06 17:39:32,538 - DEBUG main (PlatformDependent.java:454) io.netty.util.internal.PlatformDependent - -Dio.netty.noUnsafe: false
+2013-12-06 17:39:32,540 - DEBUG main (PlatformDependent0.java:61) io.netty.util.internal.PlatformDependent0 - java.nio.ByteBuffer.cleaner: available
+2013-12-06 17:39:32,540 - DEBUG main (PlatformDependent0.java:80) io.netty.util.internal.PlatformDependent0 - java.nio.Buffer.address: available
+2013-12-06 17:39:32,540 - DEBUG main (PlatformDependent0.java:88) io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+2013-12-06 17:39:32,541 - DEBUG main (PlatformDependent0.java:98) io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+2013-12-06 17:39:32,541 - DEBUG main (PlatformDependent0.java:138) io.netty.util.internal.PlatformDependent0 - java.nio.Bits.unaligned: true
+2013-12-06 17:39:32,541 - DEBUG main (PlatformDependent.java:481) io.netty.util.internal.PlatformDependent - sun.misc.Unsafe: available
+2013-12-06 17:39:32,542 - DEBUG main (PlatformDependent.java:559) io.netty.util.internal.PlatformDependent - -Dio.netty.noJavassist: false
+2013-12-06 17:39:32,543 - DEBUG main (PlatformDependent.java:571) io.netty.util.internal.PlatformDependent - Javassist: unavailable
+2013-12-06 17:39:32,543 - DEBUG main (PlatformDependent.java:572) io.netty.util.internal.PlatformDependent - You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+2013-12-06 17:39:32,543 - DEBUG main (PlatformDependent.java:76) io.netty.util.internal.PlatformDependent - -Dio.netty.noPreferDirect: false
+2013-12-06 17:39:32,563 - DEBUG main (NioEventLoop.java:88) io.netty.channel.nio.NioEventLoop - -Dio.netty.noKeySetOptimization: false
+2013-12-06 17:39:32,565 - DEBUG main (NioEventLoop.java:89) io.netty.channel.nio.NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+2013-12-06 17:39:32,606 - DEBUG main (ThreadLocalRandom.java:138) io.netty.util.internal.ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0x5d7b9feea2d29372
+2013-12-06 17:39:50,443 - DEBUG nioEventLoopGroup-3-1 (ResourceLeakDetector.java:38) io.netty.util.ResourceLeakDetector - -Dio.netty.noResourceLeakDetection: false
+2013-12-06 17:45:42,414 - DEBUG main (InternalLoggerFactory.java:45) io.netty.util.internal.logging.InternalLoggerFactory - Using Log4J as the default logging framework
+2013-12-06 17:45:42,420 - DEBUG main (MultithreadEventLoopGroup.java:41) io.netty.channel.MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 16
+2013-12-06 17:45:42,432 - DEBUG main (PlatformDependent.java:370) io.netty.util.internal.PlatformDependent - UID: 1000
+2013-12-06 17:45:42,435 - DEBUG main (PlatformDependent.java:447) io.netty.util.internal.PlatformDependent - Java version: 7
+2013-12-06 17:45:42,435 - DEBUG main (PlatformDependent.java:454) io.netty.util.internal.PlatformDependent - -Dio.netty.noUnsafe: false
+2013-12-06 17:45:42,436 - DEBUG main (PlatformDependent0.java:61) io.netty.util.internal.PlatformDependent0 - java.nio.ByteBuffer.cleaner: available
+2013-12-06 17:45:42,437 - DEBUG main (PlatformDependent0.java:80) io.netty.util.internal.PlatformDependent0 - java.nio.Buffer.address: available
+2013-12-06 17:45:42,437 - DEBUG main (PlatformDependent0.java:88) io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+2013-12-06 17:45:42,437 - DEBUG main (PlatformDependent0.java:98) io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+2013-12-06 17:45:42,438 - DEBUG main (PlatformDependent0.java:138) io.netty.util.internal.PlatformDependent0 - java.nio.Bits.unaligned: true
+2013-12-06 17:45:42,438 - DEBUG main (PlatformDependent.java:481) io.netty.util.internal.PlatformDependent - sun.misc.Unsafe: available
+2013-12-06 17:45:42,438 - DEBUG main (PlatformDependent.java:559) io.netty.util.internal.PlatformDependent - -Dio.netty.noJavassist: false
+2013-12-06 17:45:42,439 - DEBUG main (PlatformDependent.java:571) io.netty.util.internal.PlatformDependent - Javassist: unavailable
+2013-12-06 17:45:42,439 - DEBUG main (PlatformDependent.java:572) io.netty.util.internal.PlatformDependent - You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+2013-12-06 17:45:42,440 - DEBUG main (PlatformDependent.java:76) io.netty.util.internal.PlatformDependent - -Dio.netty.noPreferDirect: false
+2013-12-06 17:45:42,461 - DEBUG main (NioEventLoop.java:88) io.netty.channel.nio.NioEventLoop - -Dio.netty.noKeySetOptimization: false
+2013-12-06 17:45:42,464 - DEBUG main (NioEventLoop.java:89) io.netty.channel.nio.NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+2013-12-06 17:45:42,507 - DEBUG main (ThreadLocalRandom.java:138) io.netty.util.internal.ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0xefa0e72313fb1a99
+2013-12-06 17:45:42,534 - DEBUG main (NetUtil.java:100) io.netty.util.NetUtil - Loopback interface: lo
+2013-12-06 17:45:42,535 - DEBUG main (NetUtil.java:105) io.netty.util.NetUtil - Loopback address: /0:0:0:0:0:0:0:1%1 (primary)
+2013-12-06 17:45:42,535 - DEBUG main (NetUtil.java:108) io.netty.util.NetUtil - Loopback address: /127.0.0.1
+2013-12-06 17:45:42,535 - DEBUG main (NetUtil.java:158) io.netty.util.NetUtil - /proc/sys/net/core/somaxconn: 128
+2013-12-06 17:45:44,758 - DEBUG main (InternalLoggerFactory.java:45) io.netty.util.internal.logging.InternalLoggerFactory - Using Log4J as the default logging framework
+2013-12-06 17:45:44,764 - DEBUG main (MultithreadEventLoopGroup.java:41) io.netty.channel.MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 16
+2013-12-06 17:45:44,777 - DEBUG main (PlatformDependent.java:370) io.netty.util.internal.PlatformDependent - UID: 1000
+2013-12-06 17:45:44,779 - DEBUG main (PlatformDependent.java:447) io.netty.util.internal.PlatformDependent - Java version: 7
+2013-12-06 17:45:44,779 - DEBUG main (PlatformDependent.java:454) io.netty.util.internal.PlatformDependent - -Dio.netty.noUnsafe: false
+2013-12-06 17:45:44,781 - DEBUG main (PlatformDependent0.java:61) io.netty.util.internal.PlatformDependent0 - java.nio.ByteBuffer.cleaner: available
+2013-12-06 17:45:44,781 - DEBUG main (PlatformDependent0.java:80) io.netty.util.internal.PlatformDependent0 - java.nio.Buffer.address: available
+2013-12-06 17:45:44,782 - DEBUG main (PlatformDependent0.java:88) io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+2013-12-06 17:45:44,782 - DEBUG main (PlatformDependent0.java:98) io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+2013-12-06 17:45:44,783 - DEBUG main (PlatformDependent0.java:138) io.netty.util.internal.PlatformDependent0 - java.nio.Bits.unaligned: true
+2013-12-06 17:45:44,783 - DEBUG main (PlatformDependent.java:481) io.netty.util.internal.PlatformDependent - sun.misc.Unsafe: available
+2013-12-06 17:45:44,783 - DEBUG main (PlatformDependent.java:559) io.netty.util.internal.PlatformDependent - -Dio.netty.noJavassist: false
+2013-12-06 17:45:44,784 - DEBUG main (PlatformDependent.java:571) io.netty.util.internal.PlatformDependent - Javassist: unavailable
+2013-12-06 17:45:44,784 - DEBUG main (PlatformDependent.java:572) io.netty.util.internal.PlatformDependent - You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+2013-12-06 17:45:44,784 - DEBUG main (PlatformDependent.java:76) io.netty.util.internal.PlatformDependent - -Dio.netty.noPreferDirect: false
+2013-12-06 17:45:44,804 - DEBUG main (NioEventLoop.java:88) io.netty.channel.nio.NioEventLoop - -Dio.netty.noKeySetOptimization: false
+2013-12-06 17:45:44,806 - DEBUG main (NioEventLoop.java:89) io.netty.channel.nio.NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+2013-12-06 17:45:44,844 - DEBUG main (ThreadLocalRandom.java:138) io.netty.util.internal.ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0x8d3ee814a8766086
+2013-12-06 17:45:59,573 - DEBUG nioEventLoopGroup-2-1 (ResourceLeakDetector.java:38) io.netty.util.ResourceLeakDetector - -Dio.netty.noResourceLeakDetection: false
+2013-12-06 17:46:13,261 - DEBUG main (InternalLoggerFactory.java:45) io.netty.util.internal.logging.InternalLoggerFactory - Using Log4J as the default logging framework
+2013-12-06 17:46:13,270 - DEBUG main (MultithreadEventLoopGroup.java:41) io.netty.channel.MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 16
+2013-12-06 17:46:13,285 - DEBUG main (PlatformDependent.java:370) io.netty.util.internal.PlatformDependent - UID: 1000
+2013-12-06 17:46:13,288 - DEBUG main (PlatformDependent.java:447) io.netty.util.internal.PlatformDependent - Java version: 7
+2013-12-06 17:46:13,288 - DEBUG main (PlatformDependent.java:454) io.netty.util.internal.PlatformDependent - -Dio.netty.noUnsafe: false
+2013-12-06 17:46:13,290 - DEBUG main (PlatformDependent0.java:61) io.netty.util.internal.PlatformDependent0 - java.nio.ByteBuffer.cleaner: available
+2013-12-06 17:46:13,290 - DEBUG main (PlatformDependent0.java:80) io.netty.util.internal.PlatformDependent0 - java.nio.Buffer.address: available
+2013-12-06 17:46:13,290 - DEBUG main (PlatformDependent0.java:88) io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+2013-12-06 17:46:13,291 - DEBUG main (PlatformDependent0.java:98) io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+2013-12-06 17:46:13,291 - DEBUG main (PlatformDependent0.java:138) io.netty.util.internal.PlatformDependent0 - java.nio.Bits.unaligned: true
+2013-12-06 17:46:13,291 - DEBUG main (PlatformDependent.java:481) io.netty.util.internal.PlatformDependent - sun.misc.Unsafe: available
+2013-12-06 17:46:13,292 - DEBUG main (PlatformDependent.java:559) io.netty.util.internal.PlatformDependent - -Dio.netty.noJavassist: false
+2013-12-06 17:46:13,293 - DEBUG main (PlatformDependent.java:571) io.netty.util.internal.PlatformDependent - Javassist: unavailable
+2013-12-06 17:46:13,293 - DEBUG main (PlatformDependent.java:572) io.netty.util.internal.PlatformDependent - You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+2013-12-06 17:46:13,293 - DEBUG main (PlatformDependent.java:76) io.netty.util.internal.PlatformDependent - -Dio.netty.noPreferDirect: false
+2013-12-06 17:46:13,314 - DEBUG main (NioEventLoop.java:88) io.netty.channel.nio.NioEventLoop - -Dio.netty.noKeySetOptimization: false
+2013-12-06 17:46:13,316 - DEBUG main (NioEventLoop.java:89) io.netty.channel.nio.NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+2013-12-06 17:46:13,361 - DEBUG main (ThreadLocalRandom.java:138) io.netty.util.internal.ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0x581a72da33ce4cd0
+2013-12-06 17:46:20,585 - DEBUG main (InternalLoggerFactory.java:45) io.netty.util.internal.logging.InternalLoggerFactory - Using Log4J as the default logging framework
+2013-12-06 17:46:20,590 - DEBUG main (MultithreadEventLoopGroup.java:41) io.netty.channel.MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 16
+2013-12-06 17:46:20,606 - DEBUG main (PlatformDependent.java:370) io.netty.util.internal.PlatformDependent - UID: 1000
+2013-12-06 17:46:20,610 - DEBUG main (PlatformDependent.java:447) io.netty.util.internal.PlatformDependent - Java version: 7
+2013-12-06 17:46:20,610 - DEBUG main (PlatformDependent.java:454) io.netty.util.internal.PlatformDependent - -Dio.netty.noUnsafe: false
+2013-12-06 17:46:20,612 - DEBUG main (PlatformDependent0.java:61) io.netty.util.internal.PlatformDependent0 - java.nio.ByteBuffer.cleaner: available
+2013-12-06 17:46:20,612 - DEBUG main (PlatformDependent0.java:80) io.netty.util.internal.PlatformDependent0 - java.nio.Buffer.address: available
+2013-12-06 17:46:20,613 - DEBUG main (PlatformDependent0.java:88) io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+2013-12-06 17:46:20,613 - DEBUG main (PlatformDependent0.java:98) io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+2013-12-06 17:46:20,614 - DEBUG main (PlatformDependent0.java:138) io.netty.util.internal.PlatformDependent0 - java.nio.Bits.unaligned: true
+2013-12-06 17:46:20,614 - DEBUG main (PlatformDependent.java:481) io.netty.util.internal.PlatformDependent - sun.misc.Unsafe: available
+2013-12-06 17:46:20,614 - DEBUG main (PlatformDependent.java:559) io.netty.util.internal.PlatformDependent - -Dio.netty.noJavassist: false
+2013-12-06 17:46:20,615 - DEBUG main (PlatformDependent.java:571) io.netty.util.internal.PlatformDependent - Javassist: unavailable
+2013-12-06 17:46:20,615 - DEBUG main (PlatformDependent.java:572) io.netty.util.internal.PlatformDependent - You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+2013-12-06 17:46:20,616 - DEBUG main (PlatformDependent.java:76) io.netty.util.internal.PlatformDependent - -Dio.netty.noPreferDirect: false
+2013-12-06 17:46:20,637 - DEBUG main (NioEventLoop.java:88) io.netty.channel.nio.NioEventLoop - -Dio.netty.noKeySetOptimization: false
+2013-12-06 17:46:20,640 - DEBUG main (NioEventLoop.java:89) io.netty.channel.nio.NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+2013-12-06 17:46:20,680 - DEBUG main (ThreadLocalRandom.java:138) io.netty.util.internal.ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0x277bec6b67275f88
+2013-12-06 17:46:20,712 - DEBUG main (NetUtil.java:100) io.netty.util.NetUtil - Loopback interface: lo
+2013-12-06 17:46:20,713 - DEBUG main (NetUtil.java:105) io.netty.util.NetUtil - Loopback address: /0:0:0:0:0:0:0:1%1 (primary)
+2013-12-06 17:46:20,713 - DEBUG main (NetUtil.java:108) io.netty.util.NetUtil - Loopback address: /127.0.0.1
+2013-12-06 17:46:20,713 - DEBUG main (NetUtil.java:158) io.netty.util.NetUtil - /proc/sys/net/core/somaxconn: 128
+2013-12-06 17:46:22,305 - DEBUG main (InternalLoggerFactory.java:45) io.netty.util.internal.logging.InternalLoggerFactory - Using Log4J as the default logging framework
+2013-12-06 17:46:22,311 - DEBUG main (MultithreadEventLoopGroup.java:41) io.netty.channel.MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 16
+2013-12-06 17:46:22,325 - DEBUG main (PlatformDependent.java:370) io.netty.util.internal.PlatformDependent - UID: 1000
+2013-12-06 17:46:22,327 - DEBUG main (PlatformDependent.java:447) io.netty.util.internal.PlatformDependent - Java version: 7
+2013-12-06 17:46:22,327 - DEBUG main (PlatformDependent.java:454) io.netty.util.internal.PlatformDependent - -Dio.netty.noUnsafe: false
+2013-12-06 17:46:22,329 - DEBUG main (PlatformDependent0.java:61) io.netty.util.internal.PlatformDependent0 - java.nio.ByteBuffer.cleaner: available
+2013-12-06 17:46:22,329 - DEBUG main (PlatformDependent0.java:80) io.netty.util.internal.PlatformDependent0 - java.nio.Buffer.address: available
+2013-12-06 17:46:22,330 - DEBUG main (PlatformDependent0.java:88) io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+2013-12-06 17:46:22,330 - DEBUG main (PlatformDependent0.java:98) io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+2013-12-06 17:46:22,330 - DEBUG main (PlatformDependent0.java:138) io.netty.util.internal.PlatformDependent0 - java.nio.Bits.unaligned: true
+2013-12-06 17:46:22,331 - DEBUG main (PlatformDependent.java:481) io.netty.util.internal.PlatformDependent - sun.misc.Unsafe: available
+2013-12-06 17:46:22,331 - DEBUG main (PlatformDependent.java:559) io.netty.util.internal.PlatformDependent - -Dio.netty.noJavassist: false
+2013-12-06 17:46:22,332 - DEBUG main (PlatformDependent.java:571) io.netty.util.internal.PlatformDependent - Javassist: unavailable
+2013-12-06 17:46:22,332 - DEBUG main (PlatformDependent.java:572) io.netty.util.internal.PlatformDependent - You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+2013-12-06 17:46:22,332 - DEBUG main (PlatformDependent.java:76) io.netty.util.internal.PlatformDependent - -Dio.netty.noPreferDirect: false
+2013-12-06 17:46:22,353 - DEBUG main (NioEventLoop.java:88) io.netty.channel.nio.NioEventLoop - -Dio.netty.noKeySetOptimization: false
+2013-12-06 17:46:22,355 - DEBUG main (NioEventLoop.java:89) io.netty.channel.nio.NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+2013-12-06 17:46:22,399 - DEBUG main (ThreadLocalRandom.java:138) io.netty.util.internal.ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0x699d29b7b98d5fcc
+2013-12-06 17:47:29,249 - DEBUG nioEventLoopGroup-2-1 (ResourceLeakDetector.java:38) io.netty.util.ResourceLeakDetector - -Dio.netty.noResourceLeakDetection: false
+2013-12-06 17:55:41,624 - INFO nioEventLoopGroup-3-1 (ServerHandler.java:17) com.odesk.server.ServerHandler - New client connected!
+2013-12-06 17:56:21,742 - INFO nioEventLoopGroup-3-1 (ServerHandler.java:17) com.odesk.server.ServerHandler - New client connected!
+2013-12-06 18:10:40,537 - INFO nioEventLoopGroup-3-1 (ServerHandler.java:17) com.odesk.server.ServerHandler - New client connected!
+2013-12-06 18:11:44,368 - INFO nioEventLoopGroup-3-1 (ServerHandler.java:17) com.odesk.server.ServerHandler - New client connected!
+2013-12-06 18:17:40,850 - INFO nioEventLoopGroup-3-1 (ServerHandler.java:17) com.odesk.server.ServerHandler - New client connected!
+2013-12-06 19:20:31,301 - INFO nioEventLoopGroup-3-1 (ServerHandler.java:17) com.odesk.server.ServerHandler - New client connected!
+2013-12-06 19:21:15,952 - INFO nioEventLoopGroup-3-1 (ServerHandler.java:17) com.odesk.server.ServerHandler - New client connected!
+2013-12-06 19:23:47,973 - INFO nioEventLoopGroup-3-1 (ServerHandler.java:17) com.odesk.server.ServerHandler - New client connected!
+2013-12-06 19:24:45,412 - INFO nioEventLoopGroup-3-1 (ServerHandler.java:17) com.odesk.server.ServerHandler - New client connected!
+2013-12-06 19:25:20,561 - INFO nioEventLoopGroup-3-1 (ServerHandler.java:17) com.odesk.server.ServerHandler - New client connected!
+2013-12-06 19:52:37,818 - ERROR main (Client.java:95) com.odesk.client.Client - Connection refused: localhost/127.0.0.1:4000
+java.net.ConnectException: Connection refused: localhost/127.0.0.1:4000
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:735)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:191)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:241)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:502)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:452)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:346)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:101)
+	at java.lang.Thread.run(Thread.java:744)
+2013-12-06 19:52:59,181 - ERROR main (Client.java:95) com.odesk.client.Client - Connection refused: localhost/127.0.0.1:4000
+java.net.ConnectException: Connection refused: localhost/127.0.0.1:4000
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:735)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:191)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:241)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:502)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:452)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:346)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:101)
+	at java.lang.Thread.run(Thread.java:744)
+2013-12-06 19:53:53,790 - ERROR main (Client.java:92) com.odesk.client.Client - Connection refused: localhost/127.0.0.1:4000
+java.net.ConnectException: Connection refused: localhost/127.0.0.1:4000
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:735)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:191)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:241)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:502)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:452)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:346)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:101)
+	at java.lang.Thread.run(Thread.java:744)
+2013-12-06 19:54:10,157 - ERROR main (Client.java:92) com.odesk.client.Client - Connection refused: localhost/127.0.0.1:4000
+java.net.ConnectException: Connection refused: localhost/127.0.0.1:4000
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:735)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:191)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:241)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:502)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:452)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:346)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:101)
+	at java.lang.Thread.run(Thread.java:744)
+2013-12-06 19:55:27,025 - ERROR main (Client.java:92) com.odesk.client.Client - Connection refused: localhost/127.0.0.1:4000
+java.net.ConnectException: Connection refused: localhost/127.0.0.1:4000
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:735)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:191)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:241)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:502)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:452)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:346)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:101)
+	at java.lang.Thread.run(Thread.java:744)
+2013-12-06 20:19:17,767 - INFO nioEventLoopGroup-2-1 (Client.java:81) com.odesk.client.Client - Connection refused. Trying to reconnect in 3
+2013-12-06 20:20:17,361 - INFO nioEventLoopGroup-2-1 (Client.java:81) com.odesk.client.Client - Connection refused. Trying to reconnect in 3
+2013-12-06 20:20:36,487 - INFO nioEventLoopGroup-2-1 (Client.java:81) com.odesk.client.Client - Connection refused. Trying to reconnect in 3
+2013-12-06 20:21:56,707 - INFO nioEventLoopGroup-2-1 (Client.java:82) com.odesk.client.Client - Connection refused. Trying to reconnect in 3
+2013-12-06 20:22:26,842 - INFO nioEventLoopGroup-2-1 (Client.java:82) com.odesk.client.Client - Connection refused. Trying to reconnect in 3
+2013-12-06 20:22:45,812 - INFO nioEventLoopGroup-2-1 (Client.java:82) com.odesk.client.Client - Connection refused. Trying to reconnect in 3
+2013-12-06 20:23:52,254 - INFO nioEventLoopGroup-2-1 (Client.java:82) com.odesk.client.Client - Connection refused. Trying to reconnect in 3
+2013-12-06 20:24:40,037 - INFO nioEventLoopGroup-2-1 (Client.java:80) com.odesk.client.Client - Connection refused. Trying to reconnect in 3
+2013-12-06 20:24:40,039 - INFO nioEventLoopGroup-2-1 (Client.java:84) com.odesk.client.Client - Trying to reconnect...
+2013-12-06 20:24:40,044 - INFO nioEventLoopGroup-3-1 (Client.java:80) com.odesk.client.Client - Connection refused. Trying to reconnect in 6
+2013-12-06 20:24:40,045 - INFO nioEventLoopGroup-3-1 (Client.java:84) com.odesk.client.Client - Trying to reconnect...
+2013-12-06 20:24:40,058 - INFO nioEventLoopGroup-4-1 (Client.java:80) com.odesk.client.Client - Connection refused. Trying to reconnect in 9
+2013-12-06 20:24:40,058 - INFO nioEventLoopGroup-4-1 (Client.java:84) com.odesk.client.Client - Trying to reconnect...
+2013-12-06 20:24:40,061 - INFO nioEventLoopGroup-5-1 (Client.java:80) com.odesk.client.Client - Connection refused. Trying to reconnect in 12
+2013-12-06 20:24:40,062 - INFO nioEventLoopGroup-5-1 (Client.java:84) com.odesk.client.Client - Trying to reconnect...
+2013-12-06 20:24:40,065 - INFO nioEventLoopGroup-6-1 (Client.java:80) com.odesk.client.Client - Connection refused. Trying to reconnect in 15
+2013-12-06 20:24:40,065 - INFO nioEventLoopGroup-6-1 (Client.java:84) com.odesk.client.Client - Trying to reconnect...
+2013-12-06 20:24:40,068 - INFO nioEventLoopGroup-7-1 (Client.java:80) com.odesk.client.Client - Connection refused. Trying to reconnect in 18
+2013-12-06 20:24:40,068 - INFO nioEventLoopGroup-7-1 (Client.java:84) com.odesk.client.Client - Trying to reconnect...
+2013-12-06 20:24:40,073 - INFO nioEventLoopGroup-8-1 (Client.java:80) com.odesk.client.Client - Connection refused. Trying to reconnect in 21
+2013-12-06 20:24:40,073 - INFO nioEventLoopGroup-8-1 (Client.java:84) com.odesk.client.Client - Trying to reconnect...
+2013-12-06 20:24:40,077 - INFO nioEventLoopGroup-9-1 (Client.java:80) com.odesk.client.Client - Connection refused. Trying to reconnect in 24
+2013-12-06 20:24:40,078 - INFO nioEventLoopGroup-9-1 (Client.java:84) com.odesk.client.Client - Trying to reconnect...
+2013-12-06 20:24:40,084 - INFO nioEventLoopGroup-10-1 (Client.java:80) com.odesk.client.Client - Connection refused. Trying to reconnect in 27
+2013-12-06 20:24:40,084 - INFO nioEventLoopGroup-10-1 (Client.java:84) com.odesk.client.Client - Trying to reconnect...
+2013-12-06 20:24:40,090 - INFO nioEventLoopGroup-11-1 (Client.java:80) com.odesk.client.Client - Connection refused. Trying to reconnect in 30
+2013-12-06 20:24:40,090 - INFO nioEventLoopGroup-11-1 (Client.java:84) com.odesk.client.Client - Trying to reconnect...
+2013-12-06 20:24:40,093 - INFO nioEventLoopGroup-12-1 (Client.java:80) com.odesk.client.Client - Connection refused. Trying to reconnect in 33
+2013-12-06 20:24:40,094 - INFO nioEventLoopGroup-12-1 (Client.java:84) com.odesk.client.Client - Trying to reconnect...
+2013-12-06 20:24:40,099 - INFO nioEventLoopGroup-13-1 (Client.java:80) com.odesk.client.Client - Connection refused. Trying to reconnect in 36
+2013-12-06 20:24:40,099 - INFO nioEventLoopGroup-13-1 (Client.java:84) com.odesk.client.Client - Trying to reconnect...
+2013-12-06 20:24:40,106 - INFO nioEventLoopGroup-14-1 (Client.java:80) com.odesk.client.Client - Connection refused. Trying to reconnect in 39
+2013-12-06 20:24:40,106 - INFO nioEventLoopGroup-14-1 (Client.java:84) com.odesk.client.Client - Trying to reconnect...
+2013-12-06 20:24:40,113 - INFO nioEventLoopGroup-15-1 (Client.java:80) com.odesk.client.Client - Connection refused. Trying to reconnect in 42
+2013-12-06 20:24:40,114 - INFO nioEventLoopGroup-15-1 (Client.java:84) com.odesk.client.Client - Trying to reconnect...
+2013-12-06 20:24:40,122 - INFO nioEventLoopGroup-16-1 (Client.java:80) com.odesk.client.Client - Connection refused. Trying to reconnect in 45
+2013-12-06 20:24:40,122 - INFO nioEventLoopGroup-16-1 (Client.java:84) com.odesk.client.Client - Trying to reconnect...
+2013-12-06 20:24:40,131 - INFO nioEventLoopGroup-17-1 (Client.java:80) com.odesk.client.Client - Connection refused. Trying to reconnect in 48
+2013-12-06 20:24:40,132 - INFO nioEventLoopGroup-17-1 (Client.java:84) com.odesk.client.Client - Trying to reconnect...
+2013-12-06 20:24:40,137 - INFO nioEventLoopGroup-18-1 (Client.java:80) com.odesk.client.Client - Connection refused. Trying to reconnect in 51
+2013-12-06 20:24:40,138 - INFO nioEventLoopGroup-18-1 (Client.java:84) com.odesk.client.Client - Trying to reconnect...
+2013-12-06 20:24:40,145 - INFO nioEventLoopGroup-19-1 (Client.java:80) com.odesk.client.Client - Connection refused. Trying to reconnect in 54
+2013-12-06 20:24:40,146 - INFO nioEventLoopGroup-19-1 (Client.java:84) com.odesk.client.Client - Trying to reconnect...
+2013-12-06 20:24:40,150 - INFO nioEventLoopGroup-20-1 (Client.java:80) com.odesk.client.Client - Connection refused. Trying to reconnect in 57
+2013-12-06 20:24:40,150 - INFO nioEventLoopGroup-20-1 (Client.java:84) com.odesk.client.Client - Trying to reconnect...
+2013-12-06 20:24:40,156 - INFO nioEventLoopGroup-21-1 (Client.java:80) com.odesk.client.Client - Connection refused. Trying to reconnect in 60
+2013-12-06 20:24:40,156 - INFO nioEventLoopGroup-21-1 (Client.java:84) com.odesk.client.Client - Trying to reconnect...
+2013-12-06 20:24:40,162 - INFO nioEventLoopGroup-22-1 (Client.java:80) com.odesk.client.Client - Connection refused. Trying to reconnect in 63
+2013-12-06 20:24:40,162 - INFO nioEventLoopGroup-22-1 (Client.java:84) com.odesk.client.Client - Trying to reconnect...
+2013-12-06 20:24:40,166 - INFO nioEventLoopGroup-23-1 (Client.java:80) com.odesk.client.Client - Connection refused. Trying to reconnect in 66
+2013-12-06 20:24:40,166 - INFO nioEventLoopGroup-23-1 (Client.java:84) com.odesk.client.Client - Trying to reconnect...
+2013-12-06 20:24:40,171 - INFO nioEventLoopGroup-24-1 (Client.java:80) com.odesk.client.Client - Connection refused. Trying to reconnect in 69
+2013-12-06 20:24:40,171 - INFO nioEventLoopGroup-24-1 (Client.java:84) com.odesk.client.Client - Trying to reconnect...
+2013-12-06 20:24:40,175 - INFO nioEventLoopGroup-25-1 (Client.java:80) com.odesk.client.Client - Connection refused. Trying to reconnect in 72
+2013-12-06 20:24:40,176 - INFO nioEventLoopGroup-25-1 (Client.java:84) com.odesk.client.Client - Trying to reconnect...
+2013-12-06 20:24:40,179 - INFO nioEventLoopGroup-26-1 (Client.java:80) com.odesk.client.Client - Connection refused. Trying to reconnect in 75
+2013-12-06 20:24:40,179 - INFO nioEventLoopGroup-26-1 (Client.java:84) com.odesk.client.Client - Trying to reconnect...
+2013-12-06 20:24:40,182 - INFO nioEventLoopGroup-27-1 (Client.java:80) com.odesk.client.Client - Connection refused. Trying to reconnect in 78
+2013-12-06 20:24:40,182 - INFO nioEventLoopGroup-27-1 (Client.java:84) com.odesk.client.Client - Trying to reconnect...
+2013-12-06 20:24:40,185 - INFO nioEventLoopGroup-28-1 (Client.java:80) com.odesk.client.Client - Connection refused. Trying to reconnect in 81
+2013-12-06 20:24:40,185 - INFO nioEventLoopGroup-28-1 (Client.java:84) com.odesk.client.Client - Trying to reconnect...
+2013-12-06 20:24:40,187 - INFO nioEventLoopGroup-29-1 (Client.java:80) com.odesk.client.Client - Connection refused. Trying to reconnect in 84
+2013-12-06 20:24:40,188 - INFO nioEventLoopGroup-29-1 (Client.java:84) com.odesk.client.Client - Trying to reconnect...
+2013-12-06 20:24:40,190 - INFO nioEventLoopGroup-30-1 (Client.java:80) com.odesk.client.Client - Connection refused. Trying to reconnect in 87
+2013-12-06 20:24:40,190 - INFO nioEventLoopGroup-30-1 (Client.java:84) com.odesk.client.Client - Trying to reconnect...
+2013-12-06 20:24:40,193 - INFO nioEventLoopGroup-31-1 (Client.java:80) com.odesk.client.Client - Connection refused. Trying to reconnect in 90
+2013-12-06 20:24:40,193 - INFO nioEventLoopGroup-31-1 (Client.java:84) com.odesk.client.Client - Trying to reconnect...
+2013-12-06 20:24:40,196 - INFO nioEventLoopGroup-32-1 (Client.java:80) com.odesk.client.Client - Connection refused. Trying to reconnect in 93
+2013-12-06 20:24:40,197 - INFO nioEventLoopGroup-32-1 (Client.java:84) com.odesk.client.Client - Trying to reconnect...
+2013-12-06 20:24:40,200 - INFO nioEventLoopGroup-33-1 (Client.java:80) com.odesk.client.Client - Connection refused. Trying to reconnect in 96
+2013-12-06 20:24:40,200 - INFO nioEventLoopGroup-33-1 (Client.java:84) com.odesk.client.Client - Trying to reconnect...
+2013-12-06 20:24:40,203 - INFO nioEventLoopGroup-34-1 (Client.java:80) com.odesk.client.Client - Connection refused. Trying to reconnect in 99
+2013-12-06 20:24:40,204 - INFO nioEventLoopGroup-34-1 (Client.java:84) com.odesk.client.Client - Trying to reconnect...
+2013-12-06 20:24:40,207 - INFO nioEventLoopGroup-35-1 (Client.java:80) com.odesk.client.Client - Connection refused. Trying to reconnect in 102
+2013-12-06 20:24:40,208 - INFO nioEventLoopGroup-35-1 (Client.java:84) com.odesk.client.Client - Trying to reconnect...
+2013-12-06 20:24:40,212 - INFO nioEventLoopGroup-36-1 (Client.java:80) com.odesk.client.Client - Connection refused. Trying to reconnect in 105
+2013-12-06 20:24:40,213 - INFO nioEventLoopGroup-36-1 (Client.java:84) com.odesk.client.Client - Trying to reconnect...
+2013-12-06 20:24:40,216 - INFO nioEventLoopGroup-37-1 (Client.java:80) com.odesk.client.Client - Connection refused. Trying to reconnect in 108
+2013-12-06 20:24:40,216 - INFO nioEventLoopGroup-37-1 (Client.java:84) com.odesk.client.Client - Trying to reconnect...
+2013-12-06 20:24:40,227 - INFO nioEventLoopGroup-38-1 (Client.java:80) com.odesk.client.Client - Connection refused. Trying to reconnect in 111
+2013-12-06 20:24:40,227 - INFO nioEventLoopGroup-38-1 (Client.java:84) com.odesk.client.Client - Trying to reconnect...
+2013-12-06 20:24:40,230 - INFO nioEventLoopGroup-39-1 (Client.java:80) com.odesk.client.Client - Connection refused. Trying to reconnect in 114
+2013-12-06 20:24:40,230 - INFO nioEventLoopGroup-39-1 (Client.java:84) com.odesk.client.Client - Trying to reconnect...
+2013-12-06 20:24:40,234 - INFO nioEventLoopGroup-40-1 (Client.java:80) com.odesk.client.Client - Connection refused. Trying to reconnect in 117
+2013-12-06 20:24:40,234 - INFO nioEventLoopGroup-40-1 (Client.java:84) com.odesk.client.Client - Trying to reconnect...
+2013-12-06 20:24:40,236 - INFO nioEventLoopGroup-41-1 (Client.java:80) com.odesk.client.Client - Connection refused. Trying to reconnect in 120
+2013-12-06 20:24:40,237 - INFO nioEventLoopGroup-41-1 (Client.java:84) com.odesk.client.Client - Trying to reconnect...
+2013-12-06 20:24:40,239 - INFO nioEventLoopGroup-42-1 (Client.java:80) com.odesk.client.Client - Connection refused. Trying to reconnect in 123
+2013-12-06 20:24:40,240 - INFO nioEventLoopGroup-42-1 (Client.java:84) com.odesk.client.Client - Trying to reconnect...
+2013-12-06 20:24:40,244 - INFO nioEventLoopGroup-43-1 (Client.java:80) com.odesk.client.Client - Connection refused. Trying to reconnect in 126
+2013-12-06 20:24:40,244 - INFO nioEventLoopGroup-43-1 (Client.java:84) com.odesk.client.Client - Trying to reconnect...
+2013-12-06 20:24:40,251 - INFO nioEventLoopGroup-44-1 (Client.java:80) com.odesk.client.Client - Connection refused. Trying to reconnect in 129
+2013-12-06 20:24:40,251 - INFO nioEventLoopGroup-44-1 (Client.java:84) com.odesk.client.Client - Trying to reconnect...
+2013-12-06 20:24:40,254 - INFO nioEventLoopGroup-45-1 (Client.java:80) com.odesk.client.Client - Connection refused. Trying to reconnect in 132
+2013-12-06 20:24:40,255 - INFO nioEventLoopGroup-45-1 (Client.java:84) com.odesk.client.Client - Trying to reconnect...
+2013-12-06 20:24:40,258 - INFO nioEventLoopGroup-46-1 (Client.java:80) com.odesk.client.Client - Connection refused. Trying to reconnect in 135
+2013-12-06 20:24:40,259 - INFO nioEventLoopGroup-46-1 (Client.java:84) com.odesk.client.Client - Trying to reconnect...
+2013-12-06 20:24:40,262 - INFO nioEventLoopGroup-47-1 (Client.java:80) com.odesk.client.Client - Connection refused. Trying to reconnect in 138
+2013-12-06 20:24:40,263 - INFO nioEventLoopGroup-47-1 (Client.java:84) com.odesk.client.Client - Trying to reconnect...
+2013-12-06 20:24:40,265 - INFO nioEventLoopGroup-48-1 (Client.java:80) com.odesk.client.Client - Connection refused. Trying to reconnect in 141
+2013-12-06 20:24:40,266 - INFO nioEventLoopGroup-48-1 (Client.java:84) com.odesk.client.Client - Trying to reconnect...
+2013-12-06 20:24:40,268 - INFO nioEventLoopGroup-49-1 (Client.java:80) com.odesk.client.Client - Connection refused. Trying to reconnect in 144
+2013-12-06 20:24:40,268 - INFO nioEventLoopGroup-49-1 (Client.java:84) com.odesk.client.Client - Trying to reconnect...
+2013-12-06 20:24:40,271 - INFO nioEventLoopGroup-50-1 (Client.java:80) com.odesk.client.Client - Connection refused. Trying to reconnect in 147
+2013-12-06 20:24:40,271 - INFO nioEventLoopGroup-50-1 (Client.java:84) com.odesk.client.Client - Trying to reconnect...
+2013-12-06 20:24:40,274 - INFO nioEventLoopGroup-51-1 (Client.java:80) com.odesk.client.Client - Connection refused. Trying to reconnect in 150
+2013-12-06 20:24:40,274 - INFO nioEventLoopGroup-51-1 (Client.java:84) com.odesk.client.Client - Trying to reconnect...
+2013-12-06 20:24:40,277 - INFO nioEventLoopGroup-52-1 (Client.java:80) com.odesk.client.Client - Connection refused. Trying to reconnect in 153
+2013-12-06 20:24:40,277 - INFO nioEventLoopGroup-52-1 (Client.java:84) com.odesk.client.Client - Trying to reconnect...
+2013-12-06 20:24:40,279 - INFO nioEventLoopGroup-53-1 (Client.java:80) com.odesk.client.Client - Connection refused. Trying to reconnect in 156
+2013-12-06 20:24:40,279 - INFO nioEventLoopGroup-53-1 (Client.java:84) com.odesk.client.Client - Trying to reconnect...
+2013-12-06 20:24:40,284 - INFO nioEventLoopGroup-54-1 (Client.java:80) com.odesk.client.Client - Connection refused. Trying to reconnect in 159
+2013-12-06 20:24:40,285 - INFO nioEventLoopGroup-54-1 (Client.java:84) com.odesk.client.Client - Trying to reconnect...
+2013-12-06 20:24:40,289 - INFO nioEventLoopGroup-55-1 (Client.java:80) com.odesk.client.Client - Connection refused. Trying to reconnect in 162
+2013-12-06 20:24:40,289 - INFO nioEventLoopGroup-55-1 (Client.java:84) com.odesk.client.Client - Trying to reconnect...
+2013-12-06 20:24:40,296 - INFO nioEventLoopGroup-56-1 (Client.java:80) com.odesk.client.Client - Connection refused. Trying to reconnect in 165
+2013-12-06 20:24:40,296 - INFO nioEventLoopGroup-56-1 (Client.java:84) com.odesk.client.Client - Trying to reconnect...
+2013-12-06 20:24:40,301 - INFO nioEventLoopGroup-57-1 (Client.java:80) com.odesk.client.Client - Connection refused. Trying to reconnect in 168
+2013-12-06 20:24:40,302 - INFO nioEventLoopGroup-57-1 (Client.java:84) com.odesk.client.Client - Trying to reconnect...
+2013-12-06 20:24:40,308 - INFO nioEventLoopGroup-58-1 (Client.java:80) com.odesk.client.Client - Connection refused. Trying to reconnect in 171
+2013-12-06 20:24:40,309 - INFO nioEventLoopGroup-58-1 (Client.java:84) com.odesk.client.Client - Trying to reconnect...
+2013-12-06 20:24:40,316 - INFO nioEventLoopGroup-59-1 (Client.java:80) com.odesk.client.Client - Connection refused. Trying to reconnect in 174
+2013-12-06 20:24:40,317 - INFO nioEventLoopGroup-59-1 (Client.java:84) com.odesk.client.Client - Trying to reconnect...
+2013-12-06 20:24:40,324 - INFO nioEventLoopGroup-60-1 (Client.java:80) com.odesk.client.Client - Connection refused. Trying to reconnect in 177
+2013-12-06 20:24:40,325 - INFO nioEventLoopGroup-60-1 (Client.java:84) com.odesk.client.Client - Trying to reconnect...
+2013-12-06 20:24:40,330 - INFO nioEventLoopGroup-61-1 (Client.java:80) com.odesk.client.Client - Connection refused. Trying to reconnect in 180
+2013-12-06 20:24:40,330 - INFO nioEventLoopGroup-61-1 (Client.java:84) com.odesk.client.Client - Trying to reconnect...
+2013-12-06 20:24:40,336 - INFO nioEventLoopGroup-62-1 (Client.java:80) com.odesk.client.Client - Connection refused. Trying to reconnect in 183
+2013-12-06 20:24:40,336 - INFO nioEventLoopGroup-62-1 (Client.java:84) com.odesk.client.Client - Trying to reconnect...
+2013-12-06 20:24:40,343 - INFO nioEventLoopGroup-63-1 (Client.java:80) com.odesk.client.Client - Connection refused. Trying to reconnect in 186
+2013-12-06 20:24:40,344 - INFO nioEventLoopGroup-63-1 (Client.java:84) com.odesk.client.Client - Trying to reconnect...
+2013-12-06 20:24:40,351 - INFO nioEventLoopGroup-64-1 (Client.java:80) com.odesk.client.Client - Connection refused. Trying to reconnect in 189
+2013-12-06 20:24:40,352 - INFO nioEventLoopGroup-64-1 (Client.java:84) com.odesk.client.Client - Trying to reconnect...
+2013-12-06 20:24:40,371 - INFO nioEventLoopGroup-65-1 (Client.java:80) com.odesk.client.Client - Connection refused. Trying to reconnect in 192
+2013-12-06 20:24:40,371 - INFO nioEventLoopGroup-65-1 (Client.java:84) com.odesk.client.Client - Trying to reconnect...
+2013-12-06 20:24:40,378 - INFO nioEventLoopGroup-66-1 (Client.java:80) com.odesk.client.Client - Connection refused. Trying to reconnect in 195
+2013-12-06 20:24:40,378 - INFO nioEventLoopGroup-66-1 (Client.java:84) com.odesk.client.Client - Trying to reconnect...
+2013-12-06 20:24:40,383 - INFO nioEventLoopGroup-67-1 (Client.java:80) com.odesk.client.Client - Connection refused. Trying to reconnect in 198
+2013-12-06 20:24:40,383 - INFO nioEventLoopGroup-67-1 (Client.java:84) com.odesk.client.Client - Trying to reconnect...
+2013-12-06 20:24:40,387 - INFO nioEventLoopGroup-68-1 (Client.java:80) com.odesk.client.Client - Connection refused. Trying to reconnect in 201
+2013-12-06 20:24:40,387 - INFO nioEventLoopGroup-68-1 (Client.java:84) com.odesk.client.Client - Trying to reconnect...
+2013-12-06 20:24:40,391 - INFO nioEventLoopGroup-69-1 (Client.java:80) com.odesk.client.Client - Connection refused. Trying to reconnect in 204
+2013-12-06 20:24:40,391 - INFO nioEventLoopGroup-69-1 (Client.java:84) com.odesk.client.Client - Trying to reconnect...
+2013-12-06 20:24:40,396 - INFO nioEventLoopGroup-70-1 (Client.java:80) com.odesk.client.Client - Connection refused. Trying to reconnect in 207
+2013-12-06 20:24:40,397 - INFO nioEventLoopGroup-70-1 (Client.java:84) com.odesk.client.Client - Trying to reconnect...
+2013-12-06 20:24:40,403 - INFO nioEventLoopGroup-71-1 (Client.java:80) com.odesk.client.Client - Connection refused. Trying to reconnect in 210
+2013-12-06 20:24:40,403 - INFO nioEventLoopGroup-71-1 (Client.java:84) com.odesk.client.Client - Trying to reconnect...
+2013-12-06 20:24:40,409 - INFO nioEventLoopGroup-72-1 (Client.java:80) com.odesk.client.Client - Connection refused. Trying to reconnect in 213
+2013-12-06 20:24:40,410 - INFO nioEventLoopGroup-72-1 (Client.java:84) com.odesk.client.Client - Trying to reconnect...
+2013-12-06 20:24:40,417 - INFO nioEventLoopGroup-73-1 (Client.java:80) com.odesk.client.Client - Connection refused. Trying to reconnect in 216
+2013-12-06 20:24:40,418 - INFO nioEventLoopGroup-73-1 (Client.java:84) com.odesk.client.Client - Trying to reconnect...
+2013-12-06 20:24:40,425 - INFO nioEventLoopGroup-74-1 (Client.java:80) com.odesk.client.Client - Connection refused. Trying to reconnect in 219
+2013-12-06 20:24:40,425 - INFO nioEventLoopGroup-74-1 (Client.java:84) com.odesk.client.Client - Trying to reconnect...
+2013-12-06 20:24:40,430 - INFO nioEventLoopGroup-75-1 (Client.java:80) com.odesk.client.Client - Connection refused. Trying to reconnect in 222
+2013-12-06 20:24:40,430 - INFO nioEventLoopGroup-75-1 (Client.java:84) com.odesk.client.Client - Trying to reconnect...
+2013-12-06 20:24:40,435 - INFO nioEventLoopGroup-76-1 (Client.java:80) com.odesk.client.Client - Connection refused. Trying to reconnect in 225
+2013-12-06 20:24:40,435 - INFO nioEventLoopGroup-76-1 (Client.java:84) com.odesk.client.Client - Trying to reconnect...
+2013-12-06 20:24:40,439 - INFO nioEventLoopGroup-77-1 (Client.java:80) com.odesk.client.Client - Connection refused. Trying to reconnect in 228
+2013-12-06 20:24:40,439 - INFO nioEventLoopGroup-77-1 (Client.java:84) com.odesk.client.Client - Trying to reconnect...
+2013-12-06 20:24:40,443 - INFO nioEventLoopGroup-78-1 (Client.java:80) com.odesk.client.Client - Connection refused. Trying to reconnect in 231
+2013-12-06 20:24:40,443 - INFO nioEventLoopGroup-78-1 (Client.java:84) com.odesk.client.Client - Trying to reconnect...
+2013-12-06 20:24:40,448 - INFO nioEventLoopGroup-79-1 (Client.java:80) com.odesk.client.Client - Connection refused. Trying to reconnect in 234
+2013-12-06 20:24:40,449 - INFO nioEventLoopGroup-79-1 (Client.java:84) com.odesk.client.Client - Trying to reconnect...
+2013-12-06 20:24:40,454 - INFO nioEventLoopGroup-80-1 (Client.java:80) com.odesk.client.Client - Connection refused. Trying to reconnect in 237
+2013-12-06 20:24:40,455 - INFO nioEventLoopGroup-80-1 (Client.java:84) com.odesk.client.Client - Trying to reconnect...
+2013-12-06 20:24:40,460 - INFO nioEventLoopGroup-81-1 (Client.java:80) com.odesk.client.Client - Connection refused. Trying to reconnect in 240
+2013-12-06 20:24:40,461 - INFO nioEventLoopGroup-81-1 (Client.java:84) com.odesk.client.Client - Trying to reconnect...
+2013-12-06 20:24:40,466 - INFO nioEventLoopGroup-82-1 (Client.java:80) com.odesk.client.Client - Connection refused. Trying to reconnect in 243
+2013-12-06 20:24:40,466 - INFO nioEventLoopGroup-82-1 (Client.java:84) com.odesk.client.Client - Trying to reconnect...
+2013-12-06 20:24:40,469 - INFO nioEventLoopGroup-83-1 (Client.java:80) com.odesk.client.Client - Connection refused. Trying to reconnect in 246
+2013-12-06 20:24:40,469 - INFO nioEventLoopGroup-83-1 (Client.java:84) com.odesk.client.Client - Trying to reconnect...
+2013-12-06 20:24:40,473 - INFO nioEventLoopGroup-84-1 (Client.java:80) com.odesk.client.Client - Connection refused. Trying to reconnect in 249
+2013-12-06 20:24:40,474 - INFO nioEventLoopGroup-84-1 (Client.java:84) com.odesk.client.Client - Trying to reconnect...
+2013-12-06 20:24:40,478 - INFO nioEventLoopGroup-85-1 (Client.java:80) com.odesk.client.Client - Connection refused. Trying to reconnect in 252
+2013-12-06 20:24:40,479 - INFO nioEventLoopGroup-85-1 (Client.java:84) com.odesk.client.Client - Trying to reconnect...
+2013-12-06 20:24:40,484 - INFO nioEventLoopGroup-86-1 (Client.java:80) com.odesk.client.Client - Connection refused. Trying to reconnect in 255
+2013-12-06 20:24:40,485 - INFO nioEventLoopGroup-86-1 (Client.java:84) com.odesk.client.Client - Trying to reconnect...
+2013-12-06 20:24:40,487 - WARN nioEventLoopGroup-86-1 (DefaultPromise.java:631) io.netty.util.concurrent.DefaultPromise - An exception was thrown by com.odesk.client.Client$1.operationComplete()
+java.lang.IllegalStateException: failed to create a child event loop
+	at io.netty.util.concurrent.MultithreadEventExecutorGroup.<init>(MultithreadEventExecutorGroup.java:61)
+	at io.netty.channel.MultithreadEventLoopGroup.<init>(MultithreadEventLoopGroup.java:49)
+	at io.netty.channel.nio.NioEventLoopGroup.<init>(NioEventLoopGroup.java:61)
+	at io.netty.channel.nio.NioEventLoopGroup.<init>(NioEventLoopGroup.java:52)
+	at io.netty.channel.nio.NioEventLoopGroup.<init>(NioEventLoopGroup.java:44)
+	at io.netty.channel.nio.NioEventLoopGroup.<init>(NioEventLoopGroup.java:36)
+	at com.odesk.client.Client.run(Client.java:65)
+	at com.odesk.client.Client$1.operationComplete(Client.java:85)
+	at com.odesk.client.Client$1.operationComplete(Client.java:1)
+	at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:628)
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners0(DefaultPromise.java:593)
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:550)
+	at io.netty.util.concurrent.DefaultPromise.tryFailure(DefaultPromise.java:414)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:251)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:502)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:452)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:346)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:101)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: io.netty.channel.ChannelException: failed to open a new selector
+	at io.netty.channel.nio.NioEventLoop.openSelector(NioEventLoop.java:128)
+	at io.netty.channel.nio.NioEventLoop.<init>(NioEventLoop.java:120)
+	at io.netty.channel.nio.NioEventLoopGroup.newChild(NioEventLoopGroup.java:87)
+	at io.netty.util.concurrent.MultithreadEventExecutorGroup.<init>(MultithreadEventExecutorGroup.java:57)
+	... 18 more
+Caused by: java.io.IOException: Too many open files
+	at sun.nio.ch.EPollArrayWrapper.epollCreate(Native Method)
+	at sun.nio.ch.EPollArrayWrapper.<init>(EPollArrayWrapper.java:130)
+	at sun.nio.ch.EPollSelectorImpl.<init>(EPollSelectorImpl.java:68)
+	at sun.nio.ch.EPollSelectorProvider.openSelector(EPollSelectorProvider.java:36)
+	at io.netty.channel.nio.NioEventLoop.openSelector(NioEventLoop.java:126)
+	... 21 more
+2013-12-06 20:25:43,015 - INFO nioEventLoopGroup-2-1 (Client.java:80) com.odesk.client.Client - Connection refused. Trying to reconnect in 3000
+2013-12-06 20:25:46,019 - INFO nioEventLoopGroup-2-1 (Client.java:85) com.odesk.client.Client - Trying to reconnect...
+2013-12-06 20:25:46,032 - INFO nioEventLoopGroup-3-1 (Client.java:80) com.odesk.client.Client - Connection refused. Trying to reconnect in 6000
+2013-12-06 20:25:52,032 - INFO nioEventLoopGroup-3-1 (Client.java:85) com.odesk.client.Client - Trying to reconnect...
+2013-12-06 20:25:52,040 - INFO nioEventLoopGroup-4-1 (Client.java:80) com.odesk.client.Client - Connection refused. Trying to reconnect in 9000
+2013-12-06 20:26:01,041 - INFO nioEventLoopGroup-4-1 (Client.java:85) com.odesk.client.Client - Trying to reconnect...
+2013-12-06 20:26:01,049 - INFO nioEventLoopGroup-5-1 (Client.java:80) com.odesk.client.Client - Connection refused. Trying to reconnect in 12000
+2013-12-06 20:26:13,049 - INFO nioEventLoopGroup-5-1 (Client.java:85) com.odesk.client.Client - Trying to reconnect...
+2013-12-06 20:26:13,059 - WARN nioEventLoopGroup-6-1 (DefaultPromise.java:631) io.netty.util.concurrent.DefaultPromise - An exception was thrown by com.odesk.client.Client$1.operationComplete()
+java.lang.IllegalMonitorStateException
+	at java.lang.Object.notify(Native Method)
+	at com.odesk.client.Client$1.operationComplete(Client.java:77)
+	at com.odesk.client.Client$1.operationComplete(Client.java:1)
+	at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:628)
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners0(DefaultPromise.java:593)
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:550)
+	at io.netty.util.concurrent.DefaultPromise.trySuccess(DefaultPromise.java:396)
+	at io.netty.channel.DefaultChannelPromise.trySuccess(DefaultChannelPromise.java:82)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.fulfillConnectPromise(AbstractNioChannel.java:217)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:242)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:502)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:452)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:346)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:101)
+	at java.lang.Thread.run(Thread.java:744)
+2013-12-06 20:26:13,087 - INFO nioEventLoopGroup-3-1 (ServerHandler.java:26) com.odesk.server.ServerHandler - New client connected! ID: 37068349-1b16-4918-9d14-eda1df1657b3
+2013-12-06 20:27:05,026 - INFO nioEventLoopGroup-2-1 (Client.java:79) com.odesk.client.Client - Connection refused. Trying to reconnect in 3000
+2013-12-06 20:27:08,031 - INFO nioEventLoopGroup-2-1 (Client.java:84) com.odesk.client.Client - Trying to reconnect...
+2013-12-06 20:27:08,045 - INFO nioEventLoopGroup-3-1 (Client.java:79) com.odesk.client.Client - Connection refused. Trying to reconnect in 6000
+2013-12-06 20:27:14,045 - INFO nioEventLoopGroup-3-1 (Client.java:84) com.odesk.client.Client - Trying to reconnect...
+2013-12-06 20:27:14,054 - INFO nioEventLoopGroup-4-1 (Client.java:79) com.odesk.client.Client - Connection refused. Trying to reconnect in 9000
+2013-12-06 20:27:47,469 - INFO nioEventLoopGroup-2-1 (Client.java:82) com.odesk.client.Client - Connection refused. Trying to reconnect in 3000
+2013-12-06 20:27:50,475 - INFO nioEventLoopGroup-2-1 (Client.java:87) com.odesk.client.Client - Trying to reconnect...
+2013-12-06 20:27:50,487 - INFO nioEventLoopGroup-3-1 (Client.java:82) com.odesk.client.Client - Connection refused. Trying to reconnect in 6000
+2013-12-06 20:27:56,488 - INFO nioEventLoopGroup-3-1 (Client.java:87) com.odesk.client.Client - Trying to reconnect...
+2013-12-06 20:27:56,531 - INFO nioEventLoopGroup-3-1 (ServerHandler.java:26) com.odesk.server.ServerHandler - New client connected! ID: 31f94513-002b-4ee6-8a96-ea6206224b07
+2013-12-06 20:28:45,821 - INFO nioEventLoopGroup-3-2 (ServerHandler.java:26) com.odesk.server.ServerHandler - New client connected! ID: ddeefccb-5402-4ac2-9253-c0b31c148a20
+2013-12-06 20:28:45,824 - INFO nioEventLoopGroup-2-1 (Client.java:80) com.odesk.client.Client - Connection established.
+2013-12-06 20:30:38,080 - INFO nioEventLoopGroup-2-1 (Client.java:82) com.odesk.client.Client - Connection refused. Trying to reconnect in 3000
+2013-12-06 20:30:41,085 - INFO nioEventLoopGroup-2-1 (Client.java:84) com.odesk.client.Client - Trying to reconnect...
+2013-12-06 20:30:41,093 - INFO nioEventLoopGroup-3-1 (Client.java:82) com.odesk.client.Client - Connection refused. Trying to reconnect in 6000
+2013-12-06 20:30:47,094 - INFO nioEventLoopGroup-3-1 (Client.java:84) com.odesk.client.Client - Trying to reconnect...
+2013-12-06 20:30:47,101 - INFO nioEventLoopGroup-4-1 (ClientHandler.java:15) com.odesk.client.ClientHandler - Connection established
+2013-12-06 20:30:47,143 - INFO nioEventLoopGroup-3-1 (ServerHandler.java:26) com.odesk.server.ServerHandler - New client connected! ID: 2d2ad82d-5066-4819-9428-27e5d122753e
+2013-12-06 20:31:13,140 - INFO nioEventLoopGroup-3-2 (ServerHandler.java:26) com.odesk.server.ServerHandler - New client connected! ID: f9b90b34-cb29-47d7-95f8-aa58ee60541c
+2013-12-06 20:31:13,144 - INFO nioEventLoopGroup-2-1 (ClientHandler.java:15) com.odesk.client.ClientHandler - Connection established
+2013-12-06 21:14:06,821 - INFO nioEventLoopGroup-2-1 (ClientHandler.java:15) com.odesk.client.ClientHandler - Connection established
+2013-12-06 21:14:06,841 - INFO nioEventLoopGroup-3-1 (ServerHandler.java:26) com.odesk.server.ServerHandler - New client connected! ID: 104305f1-d51e-4b5d-84ee-b7d0a6fead52
+2013-12-06 21:14:48,193 - INFO nioEventLoopGroup-2-1 (ClientHandler.java:15) com.odesk.client.ClientHandler - Connection established
+2013-12-06 21:14:48,234 - INFO nioEventLoopGroup-3-1 (ServerHandler.java:26) com.odesk.server.ServerHandler - New client connected! ID: a8f3bbf3-5ee3-4449-a617-27967d4c8a04
+2013-12-06 21:15:29,631 - INFO nioEventLoopGroup-2-1 (ClientHandler.java:15) com.odesk.client.ClientHandler - Connection established
+2013-12-06 21:15:29,679 - INFO nioEventLoopGroup-3-1 (ServerHandler.java:26) com.odesk.server.ServerHandler - New client connected! ID: 81e992e8-9eed-4a9e-8abe-ae2a97380c5a
+2013-12-06 21:16:40,519 - INFO nioEventLoopGroup-2-1 (Client.java:82) com.odesk.client.Client - Connection refused. Trying to reconnect in 3000
+2013-12-06 21:16:43,521 - INFO nioEventLoopGroup-2-1 (Client.java:84) com.odesk.client.Client - Trying to reconnect...
+2013-12-06 21:16:43,535 - INFO nioEventLoopGroup-3-1 (Client.java:82) com.odesk.client.Client - Connection refused. Trying to reconnect in 6000
+2013-12-06 21:16:49,535 - INFO nioEventLoopGroup-3-1 (Client.java:84) com.odesk.client.Client - Trying to reconnect...
+2013-12-06 21:16:49,543 - INFO nioEventLoopGroup-4-1 (ClientHandler.java:15) com.odesk.client.ClientHandler - Connection established
+2013-12-06 21:16:49,582 - INFO nioEventLoopGroup-3-1 (ServerHandler.java:26) com.odesk.server.ServerHandler - New client connected! ID: 62d074d6-a5ea-4d48-9c99-dc34600a0be5
+2013-12-06 21:17:16,433 - INFO nioEventLoopGroup-3-2 (ServerHandler.java:26) com.odesk.server.ServerHandler - New client connected! ID: b8c7be2e-6daa-4d89-bf7b-9700e35a4be5
+2013-12-06 21:17:16,436 - INFO nioEventLoopGroup-2-1 (ClientHandler.java:15) com.odesk.client.ClientHandler - Connection established
+2013-12-06 21:19:19,729 - INFO nioEventLoopGroup-3-1 (ServerHandler.java:26) com.odesk.server.ServerHandler - New client connected! ID: f1acf276-7fd5-4544-ac4e-a5cacc312bcb
+2013-12-06 21:20:19,971 - INFO nioEventLoopGroup-2-1 (ClientHandler.java:15) com.odesk.client.ClientHandler - Connection established
+2013-12-06 21:20:57,690 - INFO nioEventLoopGroup-2-1 (ClientHandler.java:15) com.odesk.client.ClientHandler - Connection established
+2013-12-06 21:20:57,732 - INFO nioEventLoopGroup-3-1 (ServerHandler.java:26) com.odesk.server.ServerHandler - New client connected! ID: eff05a11-e1e2-4b28-a966-08ef775ad005
+2013-12-06 21:22:16,203 - INFO nioEventLoopGroup-2-1 (Client.java:84) com.odesk.client.Client - Connection refused. Trying to reconnect in 3000
+2013-12-06 21:22:19,206 - INFO nioEventLoopGroup-2-1 (Client.java:86) com.odesk.client.Client - Trying to reconnect...
+2013-12-06 21:22:19,219 - INFO nioEventLoopGroup-3-1 (Client.java:84) com.odesk.client.Client - Connection refused. Trying to reconnect in 6000
+2013-12-06 21:22:25,220 - INFO nioEventLoopGroup-3-1 (Client.java:86) com.odesk.client.Client - Trying to reconnect...
+2013-12-06 21:22:25,228 - INFO nioEventLoopGroup-4-1 (ClientHandler.java:15) com.odesk.client.ClientHandler - Connection established
+2013-12-06 21:22:25,259 - INFO nioEventLoopGroup-3-1 (ServerHandler.java:26) com.odesk.server.ServerHandler - New client connected! ID: eb3c2801-eb00-4bac-a42e-3614ee7b4723
+2013-12-06 21:34:42,278 - INFO nioEventLoopGroup-2-1 (ClientHandler.java:15) com.odesk.client.ClientHandler - Connection established
+2013-12-06 21:34:42,293 - INFO nioEventLoopGroup-3-1 (ServerHandler.java:26) com.odesk.server.ServerHandler - New client connected! ID: ceb91091-3fc4-4342-8cc8-1969888a983b
+2013-12-06 21:35:13,740 - INFO nioEventLoopGroup-2-1 (ReconnectFuture.java:27) com.odesk.client.ReconnectFuture - Connection refused. Trying to reconnect in 3000
+2013-12-06 21:35:21,713 - INFO nioEventLoopGroup-2-1 (ReconnectFuture.java:29) com.odesk.client.ReconnectFuture - Trying to reconnect...
+2013-12-06 21:35:21,755 - INFO nioEventLoopGroup-3-1 (ServerHandler.java:26) com.odesk.server.ServerHandler - New client connected! ID: e052d097-a57e-494d-a947-817673da5e9a
+2013-12-06 21:35:23,053 - INFO nioEventLoopGroup-3-1 (ClientHandler.java:15) com.odesk.client.ClientHandler - Connection established
+2013-12-06 21:36:36,205 - INFO nioEventLoopGroup-2-1 (ReconnectFuture.java:27) com.odesk.client.ReconnectFuture - Connection refused. Trying to reconnect in 3000
+2013-12-06 21:36:39,209 - INFO nioEventLoopGroup-2-1 (ReconnectFuture.java:29) com.odesk.client.ReconnectFuture - Trying to reconnect...
+2013-12-06 21:36:39,251 - INFO nioEventLoopGroup-3-1 (ServerHandler.java:26) com.odesk.server.ServerHandler - New client connected! ID: ec7fb4d2-bf5e-45f5-bf7d-0a1b52ab29ea
+2013-12-06 21:37:13,420 - INFO nioEventLoopGroup-3-2 (ServerHandler.java:26) com.odesk.server.ServerHandler - New client connected! ID: f121284d-514b-4a2e-b277-5820947bc071
+2013-12-06 21:37:18,738 - INFO nioEventLoopGroup-2-1 (ClientHandler.java:15) com.odesk.client.ClientHandler - Connection established
+2013-12-06 21:41:39,147 - INFO nioEventLoopGroup-3-3 (ServerHandler.java:26) com.odesk.server.ServerHandler - New client connected! ID: 453b6bd2-32cf-447a-bfd2-c816e0fc2ddb
+2013-12-06 21:41:39,150 - INFO nioEventLoopGroup-2-1 (ClientHandler.java:15) com.odesk.client.ClientHandler - Connection established
+2013-12-06 21:41:44,045 - INFO nioEventLoopGroup-3-4 (ServerHandler.java:26) com.odesk.server.ServerHandler - New client connected! ID: 25c83e7b-c0d5-49c3-b285-012d09ba16ea
+2013-12-06 21:41:45,709 - INFO nioEventLoopGroup-2-1 (ClientHandler.java:15) com.odesk.client.ClientHandler - Connection established
+2013-12-06 21:43:04,542 - INFO nioEventLoopGroup-3-5 (ServerHandler.java:26) com.odesk.server.ServerHandler - New client connected! ID: edeb7d16-4c22-4b7a-a27b-9958a0129054
+2013-12-06 21:43:07,039 - INFO nioEventLoopGroup-2-1 (ClientHandler.java:15) com.odesk.client.ClientHandler - Connection established
+2013-12-06 21:44:57,339 - INFO nioEventLoopGroup-2-1 (ReconnectFuture.java:27) com.odesk.client.ReconnectFuture - Connection refused. Trying to reconnect in 3000
+2013-12-06 21:45:00,345 - INFO nioEventLoopGroup-2-1 (ReconnectFuture.java:29) com.odesk.client.ReconnectFuture - Trying to reconnect...
+2013-12-06 21:45:00,353 - INFO nioEventLoopGroup-3-1 (ReconnectFuture.java:27) com.odesk.client.ReconnectFuture - Connection refused. Trying to reconnect in 6000
+2013-12-06 21:45:06,354 - INFO nioEventLoopGroup-3-1 (ReconnectFuture.java:29) com.odesk.client.ReconnectFuture - Trying to reconnect...
+2013-12-06 21:45:06,361 - INFO nioEventLoopGroup-4-1 (ClientHandler.java:15) com.odesk.client.ClientHandler - Connection established
+2013-12-06 21:45:06,365 - INFO nioEventLoopGroup-4-1 (ClientHandler.java:20) com.odesk.client.ClientHandler - Connection finished
+2013-12-06 21:45:06,381 - INFO nioEventLoopGroup-3-1 (ServerHandler.java:26) com.odesk.server.ServerHandler - New client connected! ID: d7049409-43b7-409d-b429-4f876283d94d
+2013-12-06 21:49:54,981 - INFO nioEventLoopGroup-2-1 (ClientHandler.java:15) com.odesk.client.ClientHandler - Connection established
+2013-12-06 21:49:54,989 - INFO nioEventLoopGroup-2-1 (ClientHandler.java:20) com.odesk.client.ClientHandler - Connection finished
+2013-12-06 21:49:54,999 - INFO nioEventLoopGroup-3-1 (ServerHandler.java:26) com.odesk.server.ServerHandler - New client connected! ID: 700b8ea7-c018-413a-ac44-4f0971e3a37a
+2013-12-06 21:50:36,567 - INFO nioEventLoopGroup-2-1 (ClientHandler.java:15) com.odesk.client.ClientHandler - Connection established
+2013-12-06 21:50:36,572 - INFO nioEventLoopGroup-2-1 (ClientHandler.java:20) com.odesk.client.ClientHandler - Connection finished
+2013-12-06 21:50:36,582 - INFO nioEventLoopGroup-3-1 (ServerHandler.java:26) com.odesk.server.ServerHandler - New client connected! ID: b2495a4a-1ff7-4298-bc9e-aa90c9ab1909
+2013-12-06 21:54:34,275 - INFO nioEventLoopGroup-2-1 (ClientHandler.java:15) com.odesk.client.ClientHandler - Connection established
+2013-12-06 21:54:34,280 - INFO nioEventLoopGroup-2-1 (ClientHandler.java:20) com.odesk.client.ClientHandler - Connection finished
+2013-12-06 21:54:34,292 - INFO nioEventLoopGroup-3-1 (ServerHandler.java:26) com.odesk.server.ServerHandler - New client connected! ID: 03b70460-6b7c-4bf0-8189-c7bf20c03160
+2013-12-06 21:54:51,950 - INFO nioEventLoopGroup-2-1 (ClientHandler.java:15) com.odesk.client.ClientHandler - Connection established
+2013-12-06 21:54:51,955 - INFO nioEventLoopGroup-2-1 (ClientHandler.java:20) com.odesk.client.ClientHandler - Connection finished
+2013-12-06 21:54:51,968 - INFO nioEventLoopGroup-3-1 (ServerHandler.java:26) com.odesk.server.ServerHandler - New client connected! ID: a34b231a-bbe1-487e-916f-e6716b361fdf
+2013-12-06 21:56:17,161 - INFO nioEventLoopGroup-3-2 (ServerHandler.java:26) com.odesk.server.ServerHandler - New client connected! ID: a57376c7-807c-4907-ae2f-a32e0edd2b97
+2013-12-06 21:56:17,165 - INFO nioEventLoopGroup-2-1 (ClientHandler.java:15) com.odesk.client.ClientHandler - Connection established
+2013-12-06 21:59:59,247 - INFO nioEventLoopGroup-2-1 (ClientHandler.java:15) com.odesk.client.ClientHandler - Connection established
+2013-12-06 21:59:59,268 - INFO nioEventLoopGroup-3-1 (ServerHandler.java:26) com.odesk.server.ServerHandler - New client connected! ID: 942d8d94-31ea-4c25-945e-2d6036977bcd
+2013-12-06 22:00:35,056 - INFO nioEventLoopGroup-3-1 (ServerHandler.java:26) com.odesk.server.ServerHandler - New client connected! ID: 5d1bd6d8-1d33-4824-b0fa-d663c866783e
+2013-12-06 22:00:37,962 - INFO nioEventLoopGroup-2-1 (ClientHandler.java:15) com.odesk.client.ClientHandler - Connection established
+2013-12-06 22:00:56,294 - INFO nioEventLoopGroup-2-1 (ClientHandler.java:15) com.odesk.client.ClientHandler - Connection established
+2013-12-06 22:00:56,328 - INFO nioEventLoopGroup-3-1 (ServerHandler.java:26) com.odesk.server.ServerHandler - New client connected! ID: 02410731-10b8-4742-b53a-ae6d45094b11
+2013-12-06 22:04:26,240 - INFO nioEventLoopGroup-3-1 (ServerHandler.java:26) com.odesk.server.ServerHandler - New client connected! ID: 78cb8c64-a795-467a-ad4d-c9e3dc0a4d76
+2013-12-06 22:04:30,544 - INFO nioEventLoopGroup-2-1 (ClientHandler.java:15) com.odesk.client.ClientHandler - Connection established
+2013-12-06 22:06:26,149 - INFO nioEventLoopGroup-2-1 (ClientHandler.java:15) com.odesk.client.ClientHandler - Connection established
+2013-12-06 22:06:26,181 - INFO nioEventLoopGroup-3-1 (ServerHandler.java:26) com.odesk.server.ServerHandler - New client connected! ID: 13e01579-dca4-46d4-9556-3bc9c25efef9
+2013-12-06 22:08:02,126 - INFO nioEventLoopGroup-2-1 (ClientHandler.java:15) com.odesk.client.ClientHandler - Connection established
+2013-12-06 22:08:02,147 - INFO nioEventLoopGroup-3-1 (ServerHandler.java:26) com.odesk.server.ServerHandler - New client connected! ID: e7c1ad33-5d84-4470-a663-45625aebad6c
+2013-12-06 22:09:06,953 - INFO nioEventLoopGroup-2-1 (ClientHandler.java:15) com.odesk.client.ClientHandler - Connection established
+2013-12-06 22:09:06,972 - INFO nioEventLoopGroup-3-1 (ServerHandler.java:26) com.odesk.server.ServerHandler - New client connected! ID: c2b8b308-21ac-4929-ad95-1c38004e8876
+2013-12-06 22:10:05,212 - INFO nioEventLoopGroup-2-1 (ReconnectFuture.java:24) com.odesk.client.ReconnectFuture - Connection refused. Trying to reconnect in 3000
+2013-12-06 22:10:05,212 - ERROR main (Client.java:106) com.odesk.client.Client - Connection refused: localhost/127.0.0.1:4000
+java.net.ConnectException: Connection refused: localhost/127.0.0.1:4000
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:735)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:191)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:241)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:502)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:452)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:346)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:101)
+	at java.lang.Thread.run(Thread.java:744)
+2013-12-06 22:10:08,214 - INFO nioEventLoopGroup-2-1 (ReconnectFuture.java:26) com.odesk.client.ReconnectFuture - Trying to reconnect...
+2013-12-06 22:11:17,972 - INFO nioEventLoopGroup-2-1 (ClientHandler.java:15) com.odesk.client.ClientHandler - Connection established
+2013-12-06 22:11:17,989 - INFO nioEventLoopGroup-3-1 (ServerHandler.java:26) com.odesk.server.ServerHandler - New client connected! ID: 44cbf75e-b7ef-4418-9911-17c91c00c430
+2013-12-06 22:12:08,497 - INFO nioEventLoopGroup-3-2 (ServerHandler.java:26) com.odesk.server.ServerHandler - New client connected! ID: 45adc42d-2b57-4702-b77d-72029b4dab38
+2013-12-06 22:12:08,502 - INFO nioEventLoopGroup-2-1 (ClientHandler.java:15) com.odesk.client.ClientHandler - Connection established
+2013-12-06 22:13:27,443 - INFO nioEventLoopGroup-2-1 (ClientHandler.java:15) com.odesk.client.ClientHandler - Connection established
+2013-12-06 22:13:27,465 - INFO nioEventLoopGroup-3-1 (ServerHandler.java:26) com.odesk.server.ServerHandler - New client connected! ID: 41732965-3ed5-4f81-9b9c-dedde28ecc26
+2013-12-06 22:14:18,496 - INFO nioEventLoopGroup-2-1 (ClientHandler.java:15) com.odesk.client.ClientHandler - Connection established
+2013-12-06 22:14:18,517 - INFO nioEventLoopGroup-3-1 (ServerHandler.java:26) com.odesk.server.ServerHandler - New client connected! ID: 863e889f-bfb8-4cbc-9ec3-a271a92f8648
+2013-12-06 22:14:37,500 - INFO nioEventLoopGroup-3-2 (ServerHandler.java:26) com.odesk.server.ServerHandler - New client connected! ID: 8c39db45-c6ab-4253-9f00-8e1e1257ed11
+2013-12-06 22:14:37,504 - INFO nioEventLoopGroup-2-1 (ClientHandler.java:15) com.odesk.client.ClientHandler - Connection established
+2013-12-06 22:16:07,464 - INFO nioEventLoopGroup-3-3 (ServerHandler.java:26) com.odesk.server.ServerHandler - New client connected! ID: b728032d-c48c-4c28-9c49-c4779b4316c7
+2013-12-06 22:16:07,467 - INFO nioEventLoopGroup-2-1 (ClientHandler.java:15) com.odesk.client.ClientHandler - Connection established
+2013-12-06 22:17:25,490 - INFO nioEventLoopGroup-2-1 (ClientHandler.java:15) com.odesk.client.ClientHandler - Connection established
+2013-12-06 22:17:25,527 - INFO nioEventLoopGroup-3-1 (ServerHandler.java:26) com.odesk.server.ServerHandler - New client connected! ID: a0881311-3bde-4443-9f29-1802af64701a
+2013-12-06 22:17:51,964 - INFO nioEventLoopGroup-2-1 (ClientHandler.java:15) com.odesk.client.ClientHandler - Connection established
+2013-12-06 22:17:52,005 - INFO nioEventLoopGroup-3-1 (ServerHandler.java:26) com.odesk.server.ServerHandler - New client connected! ID: 8281c6c9-1b8f-420e-9cfc-dbfc800db5bf
+2013-12-06 22:20:33,079 - INFO nioEventLoopGroup-2-1 (ClientHandler.java:15) com.odesk.client.ClientHandler - Connection established
+2013-12-06 22:20:33,115 - INFO nioEventLoopGroup-3-1 (ServerHandler.java:26) com.odesk.server.ServerHandler - New client connected! ID: 187c0e6f-dc37-4b11-92fb-7c184d537d55
+2013-12-06 22:21:16,133 - INFO nioEventLoopGroup-2-1 (ClientHandler.java:15) com.odesk.client.ClientHandler - Connection established
+2013-12-06 22:21:16,151 - INFO nioEventLoopGroup-3-1 (ServerHandler.java:26) com.odesk.server.ServerHandler - New client connected! ID: 32decf3a-1741-482c-abe1-cb4b3d736313
+2013-12-06 22:22:04,818 - INFO nioEventLoopGroup-2-1 (ClientHandler.java:15) com.odesk.client.ClientHandler - Connection established
+2013-12-06 22:22:04,833 - INFO nioEventLoopGroup-3-1 (ServerHandler.java:26) com.odesk.server.ServerHandler - New client connected! ID: 1e26a03d-9a8e-42cd-8386-012567b07efd
+2013-12-06 22:22:48,265 - INFO nioEventLoopGroup-2-1 (ReconnectFuture.java:24) com.odesk.client.ReconnectFuture - Connection refused. Trying to reconnect in 3000
+2013-12-06 22:22:51,274 - INFO nioEventLoopGroup-2-1 (ReconnectFuture.java:26) com.odesk.client.ReconnectFuture - Trying to reconnect...
+2013-12-06 22:23:28,118 - INFO nioEventLoopGroup-2-1 (ClientHandler.java:15) com.odesk.client.ClientHandler - Connection established
+2013-12-06 22:23:28,137 - INFO nioEventLoopGroup-3-1 (ServerHandler.java:26) com.odesk.server.ServerHandler - New client connected! ID: a7090eac-5427-4a8a-a36a-7b75395437ac
+2013-12-06 22:23:51,940 - INFO nioEventLoopGroup-2-1 (ClientHandler.java:15) com.odesk.client.ClientHandler - Connection established
+2013-12-06 22:23:51,956 - INFO nioEventLoopGroup-3-1 (ServerHandler.java:26) com.odesk.server.ServerHandler - New client connected! ID: d59e6b04-f105-4e88-8b63-226ddfa90a39
+2013-12-06 22:24:12,494 - INFO nioEventLoopGroup-2-1 (ClientHandler.java:15) com.odesk.client.ClientHandler - Connection established
+2013-12-06 22:24:12,512 - INFO nioEventLoopGroup-3-1 (ServerHandler.java:26) com.odesk.server.ServerHandler - New client connected! ID: 192ec9fa-ff7b-42d9-9759-34d1001c088c
+2013-12-06 22:26:33,070 - INFO nioEventLoopGroup-3-1 (ServerHandler.java:26) com.odesk.server.ServerHandler - New client connected! ID: 1e6b804e-0f0b-4cd6-b746-5c401b6a7a75
+2013-12-06 22:27:15,925 - INFO nioEventLoopGroup-2-1 (ClientHandler.java:15) com.odesk.client.ClientHandler - Connection established
+2013-12-06 22:28:19,696 - INFO nioEventLoopGroup-3-1 (ServerHandler.java:26) com.odesk.server.ServerHandler - New client connected! ID: 29bde0af-5bde-4a9e-9ee4-b77c7e91c37e
+2013-12-06 22:28:22,024 - INFO nioEventLoopGroup-2-1 (ClientHandler.java:15) com.odesk.client.ClientHandler - Connection established
+2013-12-06 22:30:26,992 - INFO nioEventLoopGroup-2-1 (ClientHandler.java:15) com.odesk.client.ClientHandler - Connection established
+2013-12-06 22:30:27,011 - INFO nioEventLoopGroup-3-1 (ServerHandler.java:26) com.odesk.server.ServerHandler - New client connected! ID: 44df3c88-10a9-481d-9114-d7958ec78d48
+2013-12-06 22:32:39,165 - INFO nioEventLoopGroup-2-1 (ClientHandler.java:15) com.odesk.client.ClientHandler - Connection established
+2013-12-06 22:32:39,189 - INFO nioEventLoopGroup-3-1 (ServerHandler.java:26) com.odesk.server.ServerHandler - New client connected! ID: 9c20d109-752f-4aa9-b483-955ca9c80255
+2013-12-06 22:34:32,672 - INFO nioEventLoopGroup-2-1 (ClientHandler.java:15) com.odesk.client.ClientHandler - Connection established
+2013-12-06 22:34:32,697 - INFO nioEventLoopGroup-3-1 (ServerHandler.java:26) com.odesk.server.ServerHandler - New client connected! ID: 8b05e574-74e2-4f9f-9f38-85eaf9a27e29
+2013-12-06 22:34:39,682 - INFO nioEventLoopGroup-3-1 (ServerHandler.java:32) com.odesk.server.ServerHandler - text: "ddddddd"
+
+2013-12-06 22:35:23,103 - INFO nioEventLoopGroup-2-1 (ClientHandler.java:15) com.odesk.client.ClientHandler - Connection established
+2013-12-06 22:35:23,123 - INFO nioEventLoopGroup-3-1 (ServerHandler.java:26) com.odesk.server.ServerHandler - New client connected! ID: 6167eb66-a467-4184-a4c3-6444c4f96c7d
+2013-12-06 22:37:13,202 - INFO nioEventLoopGroup-2-1 (ClientHandler.java:15) com.odesk.client.ClientHandler - Connection established
+2013-12-06 22:37:13,221 - INFO nioEventLoopGroup-3-1 (ServerHandler.java:26) com.odesk.server.ServerHandler - New client connected! ID: 6bac7f5e-c49e-4679-bebf-78738dc82cd3
+2013-12-06 22:38:20,019 - INFO nioEventLoopGroup-2-1 (ClientHandler.java:15) com.odesk.client.ClientHandler - Connection established
+2013-12-06 22:38:20,039 - INFO nioEventLoopGroup-3-1 (ServerHandler.java:26) com.odesk.server.ServerHandler - New client connected! ID: 47dc22c8-c5c4-415a-b69c-c7f1da83b336
+2013-12-06 22:42:44,933 - INFO nioEventLoopGroup-2-1 (ClientHandler.java:15) com.odesk.client.ClientHandler - Connection established
+2013-12-06 22:42:44,953 - INFO nioEventLoopGroup-3-1 (ServerHandler.java:26) com.odesk.server.ServerHandler - New client connected! ID: e660a288-563d-4cb6-90a1-e5a2809fd724
+2013-12-06 22:42:49,592 - INFO nioEventLoopGroup-3-1 (ServerHandler.java:32) com.odesk.server.ServerHandler - text: "sdadsa"
+
+2013-12-06 22:43:07,839 - INFO nioEventLoopGroup-2-1 (ReconnectFuture.java:24) com.odesk.client.ReconnectFuture - Connection refused. Trying to reconnect in 3000
+2013-12-06 22:43:10,841 - INFO nioEventLoopGroup-2-1 (ReconnectFuture.java:26) com.odesk.client.ReconnectFuture - Trying to reconnect...
+2013-12-06 22:43:10,852 - INFO nioEventLoopGroup-3-1 (ReconnectFuture.java:24) com.odesk.client.ReconnectFuture - Connection refused. Trying to reconnect in 6000
+2013-12-06 22:43:16,852 - INFO nioEventLoopGroup-3-1 (ReconnectFuture.java:26) com.odesk.client.ReconnectFuture - Trying to reconnect...
+2013-12-06 22:43:16,861 - INFO nioEventLoopGroup-4-1 (ReconnectFuture.java:24) com.odesk.client.ReconnectFuture - Connection refused. Trying to reconnect in 9000
+2013-12-06 22:44:16,937 - INFO nioEventLoopGroup-2-1 (ClientHandler.java:15) com.odesk.client.ClientHandler - Connection established
+2013-12-06 22:44:16,956 - INFO nioEventLoopGroup-3-1 (ServerHandler.java:26) com.odesk.server.ServerHandler - New client connected! ID: d0de9acb-7e72-40db-b247-e745b7b87725
+2013-12-06 22:44:21,440 - INFO nioEventLoopGroup-3-1 (ServerHandler.java:32) com.odesk.server.ServerHandler - text: "dsa"
+
+2013-12-06 22:44:26,553 - INFO nioEventLoopGroup-3-1 (ServerHandler.java:32) com.odesk.server.ServerHandler - text: "teste"
+
+2013-12-06 22:44:53,406 - INFO nioEventLoopGroup-2-1 (ReconnectFuture.java:27) com.odesk.client.ReconnectFuture - Connection refused. Trying to reconnect in 3000
+2013-12-06 22:44:56,414 - INFO nioEventLoopGroup-2-1 (ReconnectFuture.java:29) com.odesk.client.ReconnectFuture - Trying to reconnect...
+2013-12-06 22:44:58,154 - INFO nioEventLoopGroup-3-1 (ReconnectFuture.java:27) com.odesk.client.ReconnectFuture - Connection refused. Trying to reconnect in 6000
+2013-12-06 22:45:04,155 - INFO nioEventLoopGroup-3-1 (ReconnectFuture.java:29) com.odesk.client.ReconnectFuture - Trying to reconnect...
+2013-12-06 22:45:04,199 - INFO nioEventLoopGroup-3-1 (ServerHandler.java:26) com.odesk.server.ServerHandler - New client connected! ID: 9a3927e9-835d-45f1-b0c6-09ad518c7b74
+2013-12-06 22:45:07,031 - INFO nioEventLoopGroup-4-1 (ClientHandler.java:15) com.odesk.client.ClientHandler - Connection established
+2013-12-06 22:45:14,174 - INFO nioEventLoopGroup-3-1 (ServerHandler.java:32) com.odesk.server.ServerHandler - text: "hhh"
+
+2013-12-06 22:46:36,471 - INFO nioEventLoopGroup-2-1 (ClientHandler.java:15) com.odesk.client.ClientHandler - Connection established
+2013-12-06 22:46:36,491 - INFO nioEventLoopGroup-3-1 (ServerHandler.java:26) com.odesk.server.ServerHandler - New client connected! ID: 8502bcfa-c892-43e2-959d-e86b21fc3c5c
+2013-12-06 22:46:41,251 - INFO nioEventLoopGroup-3-1 (ServerHandler.java:32) com.odesk.server.ServerHandler - text: "fff"
+
+2013-12-06 22:47:18,842 - INFO nioEventLoopGroup-2-1 (ClientHandler.java:15) com.odesk.client.ClientHandler - Connection established
+2013-12-06 22:47:18,862 - INFO nioEventLoopGroup-3-1 (ServerHandler.java:26) com.odesk.server.ServerHandler - New client connected! ID: bfb201c2-73d5-4d55-8221-baf2cb18effb
+2013-12-06 22:47:28,483 - INFO nioEventLoopGroup-3-1 (ServerHandler.java:32) com.odesk.server.ServerHandler - text: "dsadsa"
+
+2013-12-06 22:47:31,260 - INFO nioEventLoopGroup-2-1 (CloseFuture.java:19) com.odesk.client.CloseFuture - Connection refused. Trying to reconnect in 3000
+2013-12-06 22:47:34,263 - INFO nioEventLoopGroup-2-1 (CloseFuture.java:21) com.odesk.client.CloseFuture - Trying to reconnect...
+2013-12-06 22:47:34,273 - INFO nioEventLoopGroup-3-1 (ReconnectFuture.java:27) com.odesk.client.ReconnectFuture - Connection refused. Trying to reconnect in 6000
+2013-12-06 22:47:40,274 - INFO nioEventLoopGroup-3-1 (ReconnectFuture.java:29) com.odesk.client.ReconnectFuture - Trying to reconnect...
+2013-12-06 22:47:40,282 - INFO nioEventLoopGroup-4-1 (ReconnectFuture.java:27) com.odesk.client.ReconnectFuture - Connection refused. Trying to reconnect in 9000
+2013-12-06 22:47:49,283 - INFO nioEventLoopGroup-4-1 (ReconnectFuture.java:29) com.odesk.client.ReconnectFuture - Trying to reconnect...
+2013-12-06 22:47:49,292 - INFO nioEventLoopGroup-5-1 (ReconnectFuture.java:27) com.odesk.client.ReconnectFuture - Connection refused. Trying to reconnect in 12000
+2013-12-06 22:48:01,293 - INFO nioEventLoopGroup-5-1 (ReconnectFuture.java:29) com.odesk.client.ReconnectFuture - Trying to reconnect...
+2013-12-06 22:48:01,299 - INFO nioEventLoopGroup-6-1 (ReconnectFuture.java:27) com.odesk.client.ReconnectFuture - Connection refused. Trying to reconnect in 15000
+2013-12-06 22:48:16,300 - INFO nioEventLoopGroup-6-1 (ReconnectFuture.java:29) com.odesk.client.ReconnectFuture - Trying to reconnect...
+2013-12-06 22:48:16,308 - INFO nioEventLoopGroup-7-1 (ReconnectFuture.java:27) com.odesk.client.ReconnectFuture - Connection refused. Trying to reconnect in 18000
+2013-12-06 22:48:34,309 - INFO nioEventLoopGroup-7-1 (ReconnectFuture.java:29) com.odesk.client.ReconnectFuture - Trying to reconnect...
+2013-12-06 22:48:34,318 - INFO nioEventLoopGroup-8-1 (ReconnectFuture.java:27) com.odesk.client.ReconnectFuture - Connection refused. Trying to reconnect in 21000
+2013-12-06 23:25:39,758 - INFO nioEventLoopGroup-2-1 (ReconnectFuture.java:27) com.odesk.client.ReconnectFuture - Connection refused. Trying to reconnect in 3000
+2013-12-06 23:25:42,761 - INFO nioEventLoopGroup-2-1 (ReconnectFuture.java:29) com.odesk.client.ReconnectFuture - Trying to reconnect...
+2013-12-06 23:25:42,772 - INFO nioEventLoopGroup-3-1 (ReconnectFuture.java:27) com.odesk.client.ReconnectFuture - Connection refused. Trying to reconnect in 6000
+2013-12-06 23:25:48,772 - INFO nioEventLoopGroup-3-1 (ReconnectFuture.java:29) com.odesk.client.ReconnectFuture - Trying to reconnect...
+2013-12-06 23:25:48,781 - INFO nioEventLoopGroup-4-1 (ReconnectFuture.java:27) com.odesk.client.ReconnectFuture - Connection refused. Trying to reconnect in 9000
+2013-12-06 23:28:34,218 - INFO nioEventLoopGroup-2-1 (ClientHandler.java:15) com.odesk.client.ClientHandler - Connection established
+2013-12-06 23:28:34,241 - INFO nioEventLoopGroup-3-1 (ServerHandler.java:27) com.odesk.server.ServerHandler - New client connected! ID: 1653964484
+2013-12-06 23:29:28,735 - INFO nioEventLoopGroup-2-1 (CloseFuture.java:19) com.odesk.client.CloseFuture - Connection lost. Trying to reconnect in 3000
+2013-12-06 23:29:56,077 - INFO nioEventLoopGroup-3-1 (ServerHandler.java:27) com.odesk.server.ServerHandler - New client connected! ID: 2067708448
+2013-12-06 23:29:59,724 - INFO nioEventLoopGroup-2-1 (ClientHandler.java:15) com.odesk.client.ClientHandler - Connection established
+2013-12-06 23:30:11,344 - INFO nioEventLoopGroup-3-1 (ServerHandler.java:38) com.odesk.server.ServerHandler - text: "sassasa"
+
+2013-12-06 23:32:04,888 - INFO nioEventLoopGroup-2-1 (CloseFuture.java:19) com.odesk.client.CloseFuture - Connection lost. Trying to reconnect in 3000
+2013-12-06 23:32:07,896 - INFO nioEventLoopGroup-2-1 (CloseFuture.java:21) com.odesk.client.CloseFuture - Trying to reconnect...
+2013-12-06 23:32:07,906 - INFO nioEventLoopGroup-3-1 (ReconnectFuture.java:27) com.odesk.client.ReconnectFuture - Connection refused. Trying to reconnect in 6000
+2013-12-07 10:13:02,565 - INFO nioEventLoopGroup-2-1 (ClientHandler.java:15) com.odesk.client.ClientHandler - Connection established
+2013-12-07 10:13:02,587 - INFO nioEventLoopGroup-3-1 (ServerHandler.java:72) com.odesk.server.ServerHandler - New client connected! ID: 795601071
+2013-12-07 10:13:57,937 - INFO nioEventLoopGroup-2-1 (CloseFuture.java:19) com.odesk.client.CloseFuture - Connection lost. Trying to reconnect in 3000
+2013-12-07 10:14:05,697 - INFO nioEventLoopGroup-2-1 (ClientHandler.java:15) com.odesk.client.ClientHandler - Connection established
+2013-12-07 10:14:05,719 - INFO nioEventLoopGroup-3-1 (ServerHandler.java:75) com.odesk.server.ServerHandler - New client connected! ID: -20746040
+2013-12-07 10:14:27,196 - INFO nioEventLoopGroup-2-1 (CloseFuture.java:19) com.odesk.client.CloseFuture - Connection lost. Trying to reconnect in 3000
+2013-12-07 10:14:30,198 - INFO nioEventLoopGroup-2-1 (CloseFuture.java:21) com.odesk.client.CloseFuture - Trying to reconnect...
+2013-12-07 10:14:30,206 - INFO nioEventLoopGroup-3-1 (ReconnectFuture.java:27) com.odesk.client.ReconnectFuture - Connection refused. Trying to reconnect in 6000
+2013-12-07 10:14:36,207 - INFO nioEventLoopGroup-3-1 (ReconnectFuture.java:29) com.odesk.client.ReconnectFuture - Trying to reconnect...
+2013-12-07 10:14:36,216 - INFO nioEventLoopGroup-4-1 (ClientHandler.java:15) com.odesk.client.ClientHandler - Connection established
+2013-12-07 10:14:36,249 - INFO nioEventLoopGroup-3-1 (ServerHandler.java:75) com.odesk.server.ServerHandler - New client connected! ID: -1351153108
+2013-12-07 10:15:41,198 - INFO nioEventLoopGroup-4-1 (CloseFuture.java:19) com.odesk.client.CloseFuture - Connection lost. Trying to reconnect in 3000
+2013-12-07 10:15:57,094 - INFO nioEventLoopGroup-2-1 (ClientHandler.java:15) com.odesk.client.ClientHandler - Connection established
+2013-12-07 10:15:57,115 - INFO nioEventLoopGroup-3-1 (ServerHandler.java:75) com.odesk.server.ServerHandler - New client connected! ID: -1988525929
+2013-12-07 10:16:05,788 - INFO nioEventLoopGroup-3-1 (ServerHandler.java:86) com.odesk.server.ServerHandler - text: "teste"
+
+2013-12-07 10:16:35,846 - INFO nioEventLoopGroup-2-1 (CloseFuture.java:19) com.odesk.client.CloseFuture - Connection lost. Trying to reconnect in 3000
+2013-12-07 10:16:38,853 - INFO nioEventLoopGroup-2-1 (CloseFuture.java:21) com.odesk.client.CloseFuture - Trying to reconnect...
+2013-12-07 10:16:38,862 - INFO nioEventLoopGroup-3-1 (ClientHandler.java:15) com.odesk.client.ClientHandler - Connection established
+2013-12-07 10:16:38,888 - INFO nioEventLoopGroup-3-1 (ServerHandler.java:75) com.odesk.server.ServerHandler - New client connected! ID: -381064220
+2013-12-07 10:16:46,276 - INFO nioEventLoopGroup-3-1 (ServerHandler.java:86) com.odesk.server.ServerHandler - Message Receiced: text: "teste"
+
+2013-12-07 10:18:13,816 - INFO nioEventLoopGroup-3-2 (ServerHandler.java:75) com.odesk.server.ServerHandler - New client connected! ID: -252694224
+2013-12-07 10:18:13,821 - INFO nioEventLoopGroup-2-1 (ClientHandler.java:15) com.odesk.client.ClientHandler - Connection established
+2013-12-07 10:18:53,965 - INFO nioEventLoopGroup-2-1 (CloseFuture.java:19) com.odesk.client.CloseFuture - Connection lost. Trying to reconnect in 3000
+2013-12-07 10:19:22,686 - INFO nioEventLoopGroup-2-1 (ClientHandler.java:15) com.odesk.client.ClientHandler - Connection established
+2013-12-07 10:19:22,712 - INFO nioEventLoopGroup-3-1 (ServerHandler.java:75) com.odesk.server.ServerHandler - New client connected! ID: 1786845023
+2013-12-07 10:25:15,457 - INFO nioEventLoopGroup-2-1 (ClientHandler.java:15) com.odesk.client.ClientHandler - Connection established
+2013-12-07 10:25:15,482 - INFO nioEventLoopGroup-3-1 (ServerHandler.java:15) com.odesk.server.ServerHandler - New client connected! ID: -288556429
+2013-12-07 10:25:40,572 - INFO nioEventLoopGroup-3-1 (ServerHandler.java:26) com.odesk.server.ServerHandler - Message Received: text: "teste"
+
+2013-12-07 10:26:35,617 - INFO nioEventLoopGroup-2-1 (ClientHandler.java:15) com.odesk.client.ClientHandler - Connection established
+2013-12-07 10:26:35,633 - INFO nioEventLoopGroup-3-1 (ServerHandler.java:15) com.odesk.server.ServerHandler - New client connected! ID: -284610184
+2013-12-07 10:27:19,763 - INFO nioEventLoopGroup-2-1 (CloseFuture.java:19) com.odesk.client.CloseFuture - Connection lost. Trying to reconnect in 3000
+2013-12-07 10:27:23,601 - INFO nioEventLoopGroup-2-1 (ReconnectFuture.java:27) com.odesk.client.ReconnectFuture - Connection refused. Trying to reconnect in 3000
+2013-12-07 10:27:26,604 - INFO nioEventLoopGroup-2-1 (ReconnectFuture.java:29) com.odesk.client.ReconnectFuture - Trying to reconnect...
+2013-12-07 10:27:26,616 - INFO nioEventLoopGroup-3-1 (ClientHandler.java:15) com.odesk.client.ClientHandler - Connection established
+2013-12-07 10:27:26,676 - INFO nioEventLoopGroup-3-1 (ServerHandler.java:15) com.odesk.server.ServerHandler - New client connected! ClientID: 1225777585
+2013-12-07 10:27:52,452 - INFO nioEventLoopGroup-3-1 (CloseFuture.java:19) com.odesk.client.CloseFuture - Connection lost. Trying to reconnect in 3000
+2013-12-07 10:27:59,010 - INFO nioEventLoopGroup-2-1 (ClientHandler.java:15) com.odesk.client.ClientHandler - Connection established
+2013-12-07 10:27:59,061 - INFO nioEventLoopGroup-3-1 (ServerHandler.java:15) com.odesk.server.ServerHandler - New client connected! ClientID: -1524169688
+2013-12-07 10:28:46,627 - INFO nioEventLoopGroup-3-1 (ServerHandler.java:26) com.odesk.server.ServerHandler - Message Received: text: "teste"
+
+2013-12-07 10:28:56,242 - INFO nioEventLoopGroup-3-1 (ServerHandler.java:26) com.odesk.server.ServerHandler - Message Received: text: "teer"
+
+2013-12-07 10:32:48,939 - INFO nioEventLoopGroup-2-1 (CloseFuture.java:19) com.odesk.client.CloseFuture - Connection lost. Trying to reconnect in 3000
+2013-12-07 10:32:57,143 - INFO nioEventLoopGroup-2-1 (ClientHandler.java:15) com.odesk.client.ClientHandler - Connection established
+2013-12-07 10:32:57,178 - INFO nioEventLoopGroup-3-1 (ServerHandler.java:15) com.odesk.server.ServerHandler - New client connected! ClientID: -1695806621
+2013-12-07 10:33:07,083 - INFO nioEventLoopGroup-2-1 (ClientHandler.java:20) com.odesk.client.ClientHandler - Message Received: text: "tetet"
+
+2013-12-07 10:33:09,144 - INFO nioEventLoopGroup-2-1 (ClientHandler.java:20) com.odesk.client.ClientHandler - Message Received: text: "tetet"
+
+2013-12-07 10:34:03,788 - INFO nioEventLoopGroup-2-1 (ClientHandler.java:20) com.odesk.client.ClientHandler - Message Received: text: "ttttt"
+
+2013-12-07 10:34:14,537 - INFO nioEventLoopGroup-2-1 (CloseFuture.java:19) com.odesk.client.CloseFuture - Connection lost. Trying to reconnect in 3000
+2013-12-07 10:34:23,279 - INFO nioEventLoopGroup-2-1 (ClientHandler.java:15) com.odesk.client.ClientHandler - Connection established
+2013-12-07 10:34:23,299 - INFO nioEventLoopGroup-3-1 (ServerHandler.java:15) com.odesk.server.ServerHandler - New client connected! ClientID: 731864919
+2013-12-07 10:34:30,073 - INFO nioEventLoopGroup-2-1 (ClientHandler.java:20) com.odesk.client.ClientHandler - Message Received: text: "test"
+
+2013-12-07 10:34:34,279 - INFO nioEventLoopGroup-3-1 (ServerHandler.java:26) com.odesk.server.ServerHandler - Message Received: text: "tes"
+
+2013-12-07 10:34:44,233 - INFO nioEventLoopGroup-2-1 (ClientHandler.java:20) com.odesk.client.ClientHandler - Message Received: text: "bye"
+
+2013-12-07 10:35:04,279 - INFO nioEventLoopGroup-2-1 (CloseFuture.java:19) com.odesk.client.CloseFuture - Connection lost. Trying to reconnect in 3000
+2013-12-07 10:35:07,280 - INFO nioEventLoopGroup-2-1 (CloseFuture.java:21) com.odesk.client.CloseFuture - Trying to reconnect...
+2013-12-07 10:35:07,290 - INFO nioEventLoopGroup-3-1 (ReconnectFuture.java:27) com.odesk.client.ReconnectFuture - Connection refused. Trying to reconnect in 6000
+2013-12-07 10:35:13,291 - INFO nioEventLoopGroup-3-1 (ReconnectFuture.java:29) com.odesk.client.ReconnectFuture - Trying to reconnect...
+2013-12-07 10:35:13,299 - INFO nioEventLoopGroup-4-1 (ClientHandler.java:15) com.odesk.client.ClientHandler - Connection established
+2013-12-07 10:35:13,339 - INFO nioEventLoopGroup-3-1 (ServerHandler.java:15) com.odesk.server.ServerHandler - New client connected! ClientID: -1698967052
+2013-12-07 10:35:24,509 - INFO nioEventLoopGroup-4-1 (ClientHandler.java:20) com.odesk.client.ClientHandler - Message Received: text: "bye"
+
+2013-12-07 10:36:38,078 - INFO nioEventLoopGroup-4-1 (CloseFuture.java:19) com.odesk.client.CloseFuture - Connection lost. Trying to reconnect in 3000
+2013-12-07 10:36:41,079 - INFO nioEventLoopGroup-4-1 (CloseFuture.java:21) com.odesk.client.CloseFuture - Trying to reconnect...
+2013-12-07 10:36:41,088 - INFO nioEventLoopGroup-5-1 (ReconnectFuture.java:27) com.odesk.client.ReconnectFuture - Connection refused. Trying to reconnect in 6000
+2013-12-07 10:36:47,088 - INFO nioEventLoopGroup-5-1 (ReconnectFuture.java:29) com.odesk.client.ReconnectFuture - Trying to reconnect...
+2013-12-07 10:36:47,094 - INFO nioEventLoopGroup-6-1 (ClientHandler.java:15) com.odesk.client.ClientHandler - Connection established
+2013-12-07 10:36:47,120 - INFO nioEventLoopGroup-3-1 (ServerHandler.java:15) com.odesk.server.ServerHandler - New client connected! ClientID: 2081657798
+2013-12-07 10:36:53,837 - INFO nioEventLoopGroup-6-1 (ClientHandler.java:20) com.odesk.client.ClientHandler - Message Received: text: "tttt"
+
+2013-12-07 10:37:05,507 - INFO nioEventLoopGroup-6-1 (ClientHandler.java:20) com.odesk.client.ClientHandler - Message Received: text: "bye"
+
+2013-12-07 10:37:07,858 - INFO nioEventLoopGroup-6-1 (CloseFuture.java:19) com.odesk.client.CloseFuture - Connection lost. Trying to reconnect in 3000
+2013-12-07 10:37:10,859 - INFO nioEventLoopGroup-6-1 (CloseFuture.java:21) com.odesk.client.CloseFuture - Trying to reconnect...
+2013-12-07 10:37:10,868 - INFO nioEventLoopGroup-7-1 (ClientHandler.java:15) com.odesk.client.ClientHandler - Connection established
+2013-12-07 10:37:10,870 - INFO nioEventLoopGroup-3-2 (ServerHandler.java:15) com.odesk.server.ServerHandler - New client connected! ClientID: -2032369190
+2013-12-07 10:50:00,059 - INFO nioEventLoopGroup-2-1 (ClientHandler.java:15) com.odesk.client.ClientHandler - Connection established
+2013-12-07 10:50:00,074 - INFO nioEventLoopGroup-3-1 (ServerHandler.java:15) com.odesk.server.ServerHandler - New client connected! ClientID: 270557500
+2013-12-07 10:50:06,448 - INFO nioEventLoopGroup-2-1 (ClientHandler.java:20) com.odesk.client.ClientHandler - Message Received: text: "ttttt"
+
+2013-12-07 10:50:14,433 - INFO nioEventLoopGroup-2-1 (CloseFuture.java:19) com.odesk.client.CloseFuture - Connection lost. Trying to reconnect in 3000
+2013-12-07 11:03:07,583 - INFO nioEventLoopGroup-2-1 (ClientHandler.java:15) com.odesk.client.ClientHandler - Connection established
+2013-12-07 11:03:07,601 - INFO nioEventLoopGroup-3-1 (ServerHandler.java:15) com.odesk.server.ServerHandler - New client connected! ClientID: 1846509012
+2013-12-07 11:03:10,427 - INFO nioEventLoopGroup-2-1 (CloseFuture.java:19) com.odesk.client.CloseFuture - Connection lost. Trying to reconnect in 3000
+2013-12-07 11:03:29,747 - INFO nioEventLoopGroup-2-1 (ClientHandler.java:15) com.odesk.client.ClientHandler - Connection established
+2013-12-07 11:03:29,774 - INFO nioEventLoopGroup-3-1 (ServerHandler.java:15) com.odesk.server.ServerHandler - New client connected! ClientID: 1611999512
+2013-12-07 11:03:31,531 - INFO nioEventLoopGroup-3-2 (ServerHandler.java:15) com.odesk.server.ServerHandler - New client connected! ClientID: 234633361
+2013-12-07 11:03:31,535 - INFO nioEventLoopGroup-2-1 (ClientHandler.java:15) com.odesk.client.ClientHandler - Connection established
+2013-12-07 11:04:12,779 - INFO nioEventLoopGroup-2-1 (CloseFuture.java:19) com.odesk.client.CloseFuture - Connection lost. Trying to reconnect in 3000
+2013-12-07 11:04:12,780 - INFO nioEventLoopGroup-2-1 (CloseFuture.java:19) com.odesk.client.CloseFuture - Connection lost. Trying to reconnect in 3000
+2013-12-07 11:04:15,781 - INFO nioEventLoopGroup-2-1 (CloseFuture.java:21) com.odesk.client.CloseFuture - Trying to reconnect...
+2013-12-07 11:04:15,782 - INFO nioEventLoopGroup-2-1 (CloseFuture.java:21) com.odesk.client.CloseFuture - Trying to reconnect...
+2013-12-07 11:04:15,791 - INFO nioEventLoopGroup-3-1 (ReconnectFuture.java:27) com.odesk.client.ReconnectFuture - Connection refused. Trying to reconnect in 6000
+2013-12-07 11:04:15,791 - INFO nioEventLoopGroup-3-1 (ReconnectFuture.java:27) com.odesk.client.ReconnectFuture - Connection refused. Trying to reconnect in 6000
+2013-12-07 11:04:21,792 - INFO nioEventLoopGroup-3-1 (ReconnectFuture.java:29) com.odesk.client.ReconnectFuture - Trying to reconnect...
+2013-12-07 11:04:21,792 - INFO nioEventLoopGroup-3-1 (ReconnectFuture.java:29) com.odesk.client.ReconnectFuture - Trying to reconnect...
+2013-12-07 11:04:21,800 - INFO nioEventLoopGroup-4-1 (ClientHandler.java:15) com.odesk.client.ClientHandler - Connection established
+2013-12-07 11:04:21,800 - INFO nioEventLoopGroup-4-1 (ClientHandler.java:15) com.odesk.client.ClientHandler - Connection established
+2013-12-07 11:04:21,844 - INFO nioEventLoopGroup-3-2 (ServerHandler.java:15) com.odesk.server.ServerHandler - New client connected! ClientID: 2127403188
+2013-12-07 11:04:21,844 - INFO nioEventLoopGroup-3-1 (ServerHandler.java:15) com.odesk.server.ServerHandler - New client connected! ClientID: 1081633143
+2013-12-07 11:05:19,781 - INFO nioEventLoopGroup-4-1 (CloseFuture.java:19) com.odesk.client.CloseFuture - Connection lost. Trying to reconnect in 3000
+2013-12-07 11:05:19,781 - INFO nioEventLoopGroup-4-1 (CloseFuture.java:19) com.odesk.client.CloseFuture - Connection lost. Trying to reconnect in 3000
+2013-12-07 11:05:30,373 - INFO nioEventLoopGroup-2-1 (ClientHandler.java:15) com.odesk.client.ClientHandler - Connection established
+2013-12-07 11:05:30,391 - INFO nioEventLoopGroup-3-1 (ServerHandler.java:15) com.odesk.server.ServerHandler - New client connected! ClientID: -137099443
+2013-12-07 11:05:33,058 - INFO nioEventLoopGroup-3-2 (ServerHandler.java:15) com.odesk.server.ServerHandler - New client connected! ClientID: -1863886150
+2013-12-07 11:05:33,062 - INFO nioEventLoopGroup-2-1 (ClientHandler.java:15) com.odesk.client.ClientHandler - Connection established
+2013-12-07 11:06:47,749 - INFO nioEventLoopGroup-2-1 (CloseFuture.java:19) com.odesk.client.CloseFuture - Connection lost. Trying to reconnect in 3000
+2013-12-07 11:06:47,751 - INFO nioEventLoopGroup-2-1 (CloseFuture.java:19) com.odesk.client.CloseFuture - Connection lost. Trying to reconnect in 3000
+2013-12-07 11:12:29,606 - INFO nioEventLoopGroup-2-1 (ClientHandler.java:15) com.odesk.client.ClientHandler - Connection established
+2013-12-07 11:12:29,626 - INFO nioEventLoopGroup-3-1 (ServerHandler.java:15) com.odesk.server.ServerHandler - New client connected! ClientID: -1964853958
+2013-12-07 11:12:31,392 - INFO nioEventLoopGroup-3-2 (ServerHandler.java:15) com.odesk.server.ServerHandler - New client connected! ClientID: 340688760
+2013-12-07 11:12:31,395 - INFO nioEventLoopGroup-2-1 (ClientHandler.java:15) com.odesk.client.ClientHandler - Connection established
+2013-12-07 11:12:43,249 - INFO nioEventLoopGroup-2-1 (ClientHandler.java:20) com.odesk.client.ClientHandler - Message Received: mode: 0
+port: 5000
+
+2013-12-07 11:12:53,350 - INFO nioEventLoopGroup-2-1 (ClientHandler.java:20) com.odesk.client.ClientHandler - Message Received: mode: 1
+port: 5000
+host: "/127.0.0.1:4000"
+text: "teste"
+
+2013-12-07 11:14:13,492 - INFO nioEventLoopGroup-2-1 (ClientHandler.java:15) com.odesk.client.ClientHandler - Connection established
+2013-12-07 11:14:13,518 - INFO nioEventLoopGroup-3-1 (ServerHandler.java:15) com.odesk.server.ServerHandler - New client connected! ClientID: -967060209
+2013-12-07 11:14:14,998 - INFO nioEventLoopGroup-3-2 (ServerHandler.java:15) com.odesk.server.ServerHandler - New client connected! ClientID: -186452742
+2013-12-07 11:14:15,002 - INFO nioEventLoopGroup-2-1 (ClientHandler.java:15) com.odesk.client.ClientHandler - Connection established
+2013-12-07 11:14:29,942 - INFO nioEventLoopGroup-2-1 (ClientHandler.java:20) com.odesk.client.ClientHandler - Message Received: mode: 0
+port: 5000
+
+2013-12-07 11:14:42,278 - INFO nioEventLoopGroup-2-1 (ClientHandler.java:20) com.odesk.client.ClientHandler - Message Received: mode: 1
+port: 5000
+host: "/127.0.0.1:42880"
+text: "teste"
+
+2013-12-07 11:15:24,950 - INFO nioEventLoopGroup-2-1 (ClientHandler.java:15) com.odesk.client.ClientHandler - Connection established
+2013-12-07 11:15:24,969 - INFO nioEventLoopGroup-3-1 (ServerHandler.java:15) com.odesk.server.ServerHandler - New client connected! ClientID: 449074233
+2013-12-07 11:15:26,986 - INFO nioEventLoopGroup-3-2 (ServerHandler.java:15) com.odesk.server.ServerHandler - New client connected! ClientID: 350242239
+2013-12-07 11:15:26,990 - INFO nioEventLoopGroup-2-1 (ClientHandler.java:15) com.odesk.client.ClientHandler - Connection established
+2013-12-07 11:15:36,386 - INFO nioEventLoopGroup-2-1 (ClientHandler.java:20) com.odesk.client.ClientHandler - Message Received: mode: 0
+port: 5000
+
+2013-12-07 11:15:55,021 - INFO nioEventLoopGroup-2-1 (ClientHandler.java:20) com.odesk.client.ClientHandler - Message Received: mode: 1
+port: 5000
+host: "localhost"
+text: "teste"
+
+2013-12-07 11:38:20,928 - INFO nioEventLoopGroup-2-1 (ClientHandler.java:22) com.odesk.client.ClientHandler - Connection established: localhost/127.0.0.1:4000
+2013-12-07 11:38:20,948 - INFO nioEventLoopGroup-3-1 (ServerHandler.java:15) com.odesk.server.ServerHandler - New client connected! ClientID: 1487743249
+2013-12-07 11:38:23,231 - INFO nioEventLoopGroup-3-2 (ServerHandler.java:15) com.odesk.server.ServerHandler - New client connected! ClientID: -290849990
+2013-12-07 11:38:23,234 - INFO nioEventLoopGroup-2-1 (ClientHandler.java:22) com.odesk.client.ClientHandler - Connection established: localhost/127.0.0.1:4000
+2013-12-07 11:38:48,610 - INFO nioEventLoopGroup-3-1 (InnerClientHandler.java:16) com.odesk.client.ClientHandler - Connection established: localhost/127.0.0.1:5000
+2013-12-07 11:38:48,615 - INFO nioEventLoopGroup-4-1 (InnerServerHandler.java:17) com.odesk.server.ServerHandler - New client connected! ClientID: -2714738
+2013-12-07 11:38:48,695 - INFO nioEventLoopGroup-4-1 (InnerServerHandler.java:28) com.odesk.server.ServerHandler - Message Received: text: "testtttt"
+
+2013-12-07 11:49:46,304 - INFO nioEventLoopGroup-2-1 (ReconnectFuture.java:27) com.odesk.client.ReconnectFuture - Connection refused. Trying to reconnect in 3000
+2013-12-07 11:49:49,308 - INFO nioEventLoopGroup-2-1 (ReconnectFuture.java:29) com.odesk.client.ReconnectFuture - Trying to reconnect...
+2013-12-07 11:49:49,320 - INFO nioEventLoopGroup-3-1 (ClientHandler.java:23) com.odesk.client.ClientHandler - Connection established: localhost/127.0.0.1:4000
+2013-12-07 11:49:49,351 - INFO nioEventLoopGroup-3-1 (ServerHandler.java:15) com.odesk.server.ServerHandler - New client connected! ClientID: -1399700128
+2013-12-07 11:49:51,927 - INFO nioEventLoopGroup-3-2 (ServerHandler.java:15) com.odesk.server.ServerHandler - New client connected! ClientID: 687839157
+2013-12-07 11:49:51,935 - INFO nioEventLoopGroup-2-1 (ClientHandler.java:23) com.odesk.client.ClientHandler - Connection established: localhost/127.0.0.1:4000
+2013-12-07 11:50:26,353 - INFO nioEventLoopGroup-5-1 (InnerServerHandler.java:17) com.odesk.server.ServerHandler - New client connected! ClientID: -2017284981
+2013-12-07 11:50:26,347 - INFO nioEventLoopGroup-3-1 (InnerClientHandler.java:16) com.odesk.client.ClientHandler - Connection established: localhost/127.0.0.1:5000
+2013-12-07 11:50:26,374 - INFO nioEventLoopGroup-3-1 (CloseFuture.java:19) com.odesk.client.CloseFuture - Connection lost. Trying to reconnect in 3000
+2013-12-07 11:50:26,436 - INFO nioEventLoopGroup-5-1 (InnerServerHandler.java:28) com.odesk.server.ServerHandler - Message Received: text: "teste"
+
+2013-12-07 11:50:29,375 - INFO nioEventLoopGroup-3-1 (CloseFuture.java:21) com.odesk.client.CloseFuture - Trying to reconnect...
+2013-12-07 11:50:29,384 - INFO nioEventLoopGroup-4-1 (InnerClientHandler.java:16) com.odesk.client.ClientHandler - Connection established: localhost/127.0.0.1:5000
+2013-12-07 11:50:29,387 - INFO nioEventLoopGroup-5-2 (InnerServerHandler.java:17) com.odesk.server.ServerHandler - New client connected! ClientID: 53355787
+2013-12-07 11:50:33,492 - INFO nioEventLoopGroup-3-2 (ServerHandler.java:26) com.odesk.server.ServerHandler - Message Received: 
+2013-12-07 11:55:18,303 - INFO nioEventLoopGroup-2-1 (CloseFuture.java:19) com.odesk.client.CloseFuture - Connection lost. Trying to reconnect in 3000
+2013-12-07 12:01:48,918 - INFO pool-1-thread-1 (Server.java:127) com.odesk.server.Server - Listening on port: 4000
+2013-12-07 12:01:56,953 - INFO nioEventLoopGroup-2-1 (ClientHandler.java:23) com.odesk.client.ClientHandler - Connection established: localhost/127.0.0.1:4000
+2013-12-07 12:01:56,975 - INFO nioEventLoopGroup-3-1 (ServerHandler.java:15) com.odesk.server.ServerHandler - New client connected! ClientID: -720467074
+2013-12-07 12:01:59,470 - INFO nioEventLoopGroup-3-2 (ServerHandler.java:15) com.odesk.server.ServerHandler - New client connected! ClientID: 1566896239
+2013-12-07 12:01:59,480 - INFO nioEventLoopGroup-2-1 (ClientHandler.java:23) com.odesk.client.ClientHandler - Connection established: localhost/127.0.0.1:4000
+2013-12-07 12:02:19,949 - INFO pool-2-thread-1 (Server.java:127) com.odesk.server.Server - Listening on port: 5000
+2013-12-07 12:02:25,348 - ERROR nioEventLoopGroup-2-1 (ClientHandler.java:48) com.odesk.client.ClientHandler - Unexpected exception from downstream.
+com.google.protobuf.UninitializedMessageException: Message missing required fields: success
+	at com.google.protobuf.AbstractMessage$Builder.newUninitializedMessageException(AbstractMessage.java:770)
+	at com.odesk.protobuf.ODeskProtos$Success$Builder.build(ODeskProtos.java:787)
+	at com.odesk.client.ClientHandler.channelRead(ClientHandler.java:39)
+	at io.netty.channel.DefaultChannelHandlerContext.invokeChannelRead(DefaultChannelHandlerContext.java:338)
+	at io.netty.channel.DefaultChannelHandlerContext.fireChannelRead(DefaultChannelHandlerContext.java:324)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:153)
+	at io.netty.channel.DefaultChannelHandlerContext.invokeChannelRead(DefaultChannelHandlerContext.java:338)
+	at io.netty.channel.DefaultChannelHandlerContext.fireChannelRead(DefaultChannelHandlerContext.java:324)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:785)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:122)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:485)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:452)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:346)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:101)
+	at java.lang.Thread.run(Thread.java:744)
+2013-12-07 12:02:25,354 - INFO nioEventLoopGroup-2-1 (CloseFuture.java:19) com.odesk.client.CloseFuture - Connection lost. Trying to reconnect in 3000
+2013-12-07 12:02:28,354 - INFO nioEventLoopGroup-2-1 (CloseFuture.java:21) com.odesk.client.CloseFuture - Trying to reconnect...
+2013-12-07 12:02:28,363 - INFO nioEventLoopGroup-5-1 (ClientHandler.java:23) com.odesk.client.ClientHandler - Connection established: localhost/127.0.0.1:4000
+2013-12-07 12:02:28,366 - INFO nioEventLoopGroup-3-3 (ServerHandler.java:15) com.odesk.server.ServerHandler - New client connected! ClientID: 1393600593
+2013-12-07 12:03:22,001 - INFO pool-1-thread-1 (Server.java:127) com.odesk.server.Server - Listening on port: 4000
+2013-12-07 12:03:24,372 - INFO nioEventLoopGroup-2-1 (ClientHandler.java:23) com.odesk.client.ClientHandler - Connection established: localhost/127.0.0.1:4000
+2013-12-07 12:03:24,393 - INFO nioEventLoopGroup-3-1 (ServerHandler.java:15) com.odesk.server.ServerHandler - New client connected! ClientID: 1604950991
+2013-12-07 12:03:26,424 - INFO nioEventLoopGroup-3-2 (ServerHandler.java:15) com.odesk.server.ServerHandler - New client connected! ClientID: -1218449319
+2013-12-07 12:03:26,436 - INFO nioEventLoopGroup-2-1 (ClientHandler.java:23) com.odesk.client.ClientHandler - Connection established: localhost/127.0.0.1:4000
+2013-12-07 12:03:42,639 - INFO pool-2-thread-1 (Server.java:127) com.odesk.server.Server - Listening on port: 5000
+2013-12-07 12:03:45,203 - INFO nioEventLoopGroup-3-1 (ServerHandler.java:26) com.odesk.server.ServerHandler - Message Received: success: true
+
+2013-12-07 12:05:51,840 - INFO nioEventLoopGroup-2-1 (CloseFuture.java:19) com.odesk.client.CloseFuture - Connection lost. Trying to reconnect in 3000
+2013-12-07 12:05:51,849 - INFO nioEventLoopGroup-2-1 (CloseFuture.java:19) com.odesk.client.CloseFuture - Connection lost. Trying to reconnect in 3000
+2013-12-07 12:21:44,248 - INFO pool-1-thread-1 (Server.java:127) com.odesk.server.Server - Listening on port: 4000
+2013-12-07 12:21:46,169 - INFO nioEventLoopGroup-2-1 (ClientHandler.java:23) com.odesk.client.ClientHandler - Connection established: localhost/127.0.0.1:4000
+2013-12-07 12:21:46,194 - INFO nioEventLoopGroup-3-1 (ServerHandler.java:15) com.odesk.server.ServerHandler - New client connected! ClientID: 660949135
+2013-12-07 12:21:48,864 - INFO nioEventLoopGroup-3-2 (ServerHandler.java:15) com.odesk.server.ServerHandler - New client connected! ClientID: 406865349
+2013-12-07 12:21:48,868 - INFO nioEventLoopGroup-2-1 (ClientHandler.java:23) com.odesk.client.ClientHandler - Connection established: localhost/127.0.0.1:4000
+2013-12-07 12:21:59,570 - INFO pool-2-thread-1 (Server.java:127) com.odesk.server.Server - Listening on port: 5000
+2013-12-07 12:21:59,636 - INFO nioEventLoopGroup-3-1 (ServerHandler.java:26) com.odesk.server.ServerHandler - Message Received: success: true
+
+2013-12-07 12:22:44,795 - INFO nioEventLoopGroup-2-1 (CloseFuture.java:19) com.odesk.client.CloseFuture - Connection lost. Trying to reconnect in 3000
+2013-12-07 12:22:44,810 - INFO nioEventLoopGroup-2-1 (CloseFuture.java:19) com.odesk.client.CloseFuture - Connection lost. Trying to reconnect in 3000
+2013-12-07 12:22:50,477 - INFO pool-1-thread-1 (Server.java:127) com.odesk.server.Server - Listening on port: 4000
+2013-12-07 12:22:51,878 - INFO nioEventLoopGroup-2-1 (ClientHandler.java:23) com.odesk.client.ClientHandler - Connection established: localhost/127.0.0.1:4000
+2013-12-07 12:22:51,896 - INFO nioEventLoopGroup-3-1 (ServerHandler.java:15) com.odesk.server.ServerHandler - New client connected! ClientID: -1519469531
+2013-12-07 12:22:53,430 - INFO nioEventLoopGroup-3-2 (ServerHandler.java:15) com.odesk.server.ServerHandler - New client connected! ClientID: -40963539
+2013-12-07 12:22:53,434 - INFO nioEventLoopGroup-2-1 (ClientHandler.java:23) com.odesk.client.ClientHandler - Connection established: localhost/127.0.0.1:4000
+2013-12-07 12:23:04,174 - INFO pool-1-thread-1 (Server.java:127) com.odesk.server.Server - Listening on port: 5000
+2013-12-07 12:23:15,299 - INFO nioEventLoopGroup-4-1 (InnerServerHandler.java:14) com.odesk.server.inner.InnerServerHandler - New client connected! ClientID: 858352544
+2013-12-07 12:23:15,296 - INFO nioEventLoopGroup-3-1 (InnerClientHandler.java:16) com.odesk.client.ClientHandler - Connection established: localhost/127.0.0.1:5000
+2013-12-07 12:23:15,315 - INFO nioEventLoopGroup-3-1 (CloseFuture.java:19) com.odesk.client.CloseFuture - Connection lost. Trying to reconnect in 3000
+2013-12-07 12:23:15,373 - INFO nioEventLoopGroup-3-2 (ServerHandler.java:26) com.odesk.server.ServerHandler - Message Received: success: true
+
+2013-12-07 12:23:15,376 - INFO nioEventLoopGroup-4-1 (InnerServerHandler.java:23) com.odesk.server.inner.InnerServerHandler - Message Received: text: "teste"
+
+2013-12-07 12:23:18,316 - INFO nioEventLoopGroup-3-1 (CloseFuture.java:21) com.odesk.client.CloseFuture - Trying to reconnect...
+2013-12-07 12:23:18,324 - INFO nioEventLoopGroup-4-1 (InnerClientHandler.java:16) com.odesk.client.ClientHandler - Connection established: localhost/127.0.0.1:5000
+2013-12-07 12:23:18,326 - INFO nioEventLoopGroup-4-2 (InnerServerHandler.java:14) com.odesk.server.inner.InnerServerHandler - New client connected! ClientID: -1620290117
+2013-12-07 12:26:35,932 - INFO nioEventLoopGroup-2-1 (CloseFuture.java:19) com.odesk.client.CloseFuture - Connection lost. Trying to reconnect in 3000
+2013-12-07 12:26:40,819 - INFO pool-1-thread-1 (Server.java:127) com.odesk.server.Server - Listening on port: 4000
+2013-12-07 12:26:42,389 - INFO nioEventLoopGroup-2-1 (ClientHandler.java:23) com.odesk.client.ClientHandler - Connection established: localhost/127.0.0.1:4000
+2013-12-07 12:26:42,413 - INFO nioEventLoopGroup-3-1 (ServerHandler.java:15) com.odesk.server.ServerHandler - New client connected! ClientID: -1132913674
+2013-12-07 12:26:43,908 - INFO nioEventLoopGroup-3-2 (ServerHandler.java:15) com.odesk.server.ServerHandler - New client connected! ClientID: 1827115513
+2013-12-07 12:26:43,912 - INFO nioEventLoopGroup-2-1 (ClientHandler.java:23) com.odesk.client.ClientHandler - Connection established: localhost/127.0.0.1:4000
+2013-12-07 12:26:55,271 - INFO pool-1-thread-1 (Server.java:127) com.odesk.server.Server - Listening on port: 6000
+2013-12-07 12:27:04,010 - INFO nioEventLoopGroup-4-1 (InnerServerHandler.java:14) com.odesk.server.inner.InnerServerHandler - New client connected! ClientID: 1858856719
+2013-12-07 12:27:04,005 - INFO nioEventLoopGroup-3-1 (InnerClientHandler.java:16) com.odesk.client.ClientHandler - Connection established: localhost/127.0.0.1:6000
+2013-12-07 12:27:04,031 - INFO nioEventLoopGroup-3-1 (CloseFuture.java:19) com.odesk.client.CloseFuture - Connection lost. Trying to reconnect in 3000
+2013-12-07 12:27:04,091 - INFO nioEventLoopGroup-3-2 (ServerHandler.java:26) com.odesk.server.ServerHandler - Message Received: success: true
+
+2013-12-07 12:27:04,095 - INFO nioEventLoopGroup-4-1 (InnerServerHandler.java:23) com.odesk.server.inner.InnerServerHandler - Message Received: text: "test"
+
+2013-12-07 12:27:07,031 - INFO nioEventLoopGroup-3-1 (CloseFuture.java:21) com.odesk.client.CloseFuture - Trying to reconnect...
+2013-12-07 12:27:07,039 - INFO nioEventLoopGroup-4-1 (InnerClientHandler.java:16) com.odesk.client.ClientHandler - Connection established: localhost/127.0.0.1:6000
+2013-12-07 12:27:07,042 - INFO nioEventLoopGroup-4-2 (InnerServerHandler.java:14) com.odesk.server.inner.InnerServerHandler - New client connected! ClientID: -457967482
+2013-12-07 12:28:48,649 - INFO nioEventLoopGroup-2-1 (CloseFuture.java:19) com.odesk.client.CloseFuture - Connection lost. Trying to reconnect in 3000
+2013-12-07 12:28:54,333 - INFO pool-1-thread-1 (Server.java:127) com.odesk.server.Server - Listening on port: 4000
+2013-12-07 12:28:55,862 - INFO nioEventLoopGroup-2-1 (ClientHandler.java:23) com.odesk.client.ClientHandler - Connection established: localhost/127.0.0.1:4000
+2013-12-07 12:28:55,878 - INFO nioEventLoopGroup-3-1 (ServerHandler.java:15) com.odesk.server.ServerHandler - New client connected! ClientID: 427045415
+2013-12-07 12:28:59,064 - INFO nioEventLoopGroup-3-2 (ServerHandler.java:15) com.odesk.server.ServerHandler - New client connected! ClientID: 1268323020
+2013-12-07 12:28:59,068 - INFO nioEventLoopGroup-2-1 (ClientHandler.java:23) com.odesk.client.ClientHandler - Connection established: localhost/127.0.0.1:4000
+2013-12-07 12:29:12,131 - INFO pool-1-thread-1 (Server.java:127) com.odesk.server.Server - Listening on port: 5000
+2013-12-07 12:29:18,132 - INFO nioEventLoopGroup-4-1 (InnerServerHandler.java:14) com.odesk.server.inner.InnerServerHandler - New client connected! ClientID: -696359533
+2013-12-07 12:29:18,129 - INFO nioEventLoopGroup-3-1 (InnerClientHandler.java:16) com.odesk.client.ClientHandler - Connection established: localhost/127.0.0.1:5000
+2013-12-07 12:29:18,155 - INFO nioEventLoopGroup-3-1 (CloseFuture.java:19) com.odesk.client.CloseFuture - Connection lost. Trying to reconnect in 3000
+2013-12-07 12:29:18,217 - INFO nioEventLoopGroup-3-2 (ServerHandler.java:26) com.odesk.server.ServerHandler - Message Received: success: true
+
+2013-12-07 12:29:18,219 - INFO nioEventLoopGroup-4-1 (InnerServerHandler.java:23) com.odesk.server.inner.InnerServerHandler - Message Received: text: "test"
+
+2013-12-07 12:29:21,156 - INFO nioEventLoopGroup-3-1 (CloseFuture.java:21) com.odesk.client.CloseFuture - Trying to reconnect...
+2013-12-07 12:29:21,164 - INFO nioEventLoopGroup-4-1 (InnerClientHandler.java:16) com.odesk.client.ClientHandler - Connection established: localhost/127.0.0.1:5000
+2013-12-07 12:29:21,167 - INFO nioEventLoopGroup-4-2 (InnerServerHandler.java:14) com.odesk.server.inner.InnerServerHandler - New client connected! ClientID: -1813260903
+2013-12-07 12:31:11,181 - INFO pool-1-thread-1 (Server.java:127) com.odesk.server.Server - Listening on port: 4000
+2013-12-07 12:31:12,544 - INFO nioEventLoopGroup-2-1 (ClientHandler.java:23) com.odesk.client.ClientHandler - Connection established: localhost/127.0.0.1:4000
+2013-12-07 12:31:12,562 - INFO nioEventLoopGroup-3-1 (ServerHandler.java:15) com.odesk.server.ServerHandler - New client connected! ClientID: 1359838211
+2013-12-07 12:31:14,066 - INFO nioEventLoopGroup-3-2 (ServerHandler.java:15) com.odesk.server.ServerHandler - New client connected! ClientID: -430520376
+2013-12-07 12:31:14,070 - INFO nioEventLoopGroup-2-1 (ClientHandler.java:23) com.odesk.client.ClientHandler - Connection established: localhost/127.0.0.1:4000
+2013-12-07 12:31:22,568 - INFO pool-1-thread-1 (Server.java:127) com.odesk.server.Server - Listening on port: 5000
+2013-12-07 12:31:30,897 - INFO nioEventLoopGroup-4-1 (InnerServerHandler.java:14) com.odesk.server.inner.InnerServerHandler - New client connected! ClientID: 1213918315
+2013-12-07 12:31:30,896 - INFO nioEventLoopGroup-3-1 (InnerClientHandler.java:16) com.odesk.client.ClientHandler - Connection established: localhost/127.0.0.1:5000
+2013-12-07 12:31:30,906 - INFO nioEventLoopGroup-3-1 (CloseFuture.java:19) com.odesk.client.CloseFuture - Connection lost. Trying to reconnect in 3000
+2013-12-07 12:31:30,961 - INFO nioEventLoopGroup-3-2 (ServerHandler.java:26) com.odesk.server.ServerHandler - Message Received: success: true
+
+2013-12-07 12:31:30,964 - INFO nioEventLoopGroup-4-1 (InnerServerHandler.java:23) com.odesk.server.inner.InnerServerHandler - Message Received: text: "test"
+
+2013-12-07 12:31:33,906 - INFO nioEventLoopGroup-3-1 (CloseFuture.java:21) com.odesk.client.CloseFuture - Trying to reconnect...
+2013-12-07 12:31:33,915 - INFO nioEventLoopGroup-4-1 (InnerClientHandler.java:16) com.odesk.client.ClientHandler - Connection established: localhost/127.0.0.1:5000
+2013-12-07 12:31:33,917 - INFO nioEventLoopGroup-4-2 (InnerServerHandler.java:14) com.odesk.server.inner.InnerServerHandler - New client connected! ClientID: 373385239
+2013-12-07 12:32:46,596 - INFO pool-1-thread-1 (Server.java:127) com.odesk.server.Server - Listening on port: 4000
+2013-12-07 12:32:48,401 - INFO nioEventLoopGroup-2-1 (ClientHandler.java:23) com.odesk.client.ClientHandler - Connection established: localhost/127.0.0.1:4000
+2013-12-07 12:32:48,426 - INFO nioEventLoopGroup-3-1 (ServerHandler.java:15) com.odesk.server.ServerHandler - New client connected! ClientID: -899202335
+2013-12-07 12:32:50,039 - INFO nioEventLoopGroup-3-2 (ServerHandler.java:15) com.odesk.server.ServerHandler - New client connected! ClientID: -1348825802
+2013-12-07 12:32:50,042 - INFO nioEventLoopGroup-2-1 (ClientHandler.java:23) com.odesk.client.ClientHandler - Connection established: localhost/127.0.0.1:4000
+2013-12-07 12:33:14,410 - INFO pool-1-thread-1 (Server.java:127) com.odesk.server.Server - Listening on port: 5000
+2013-12-07 12:33:23,642 - INFO nioEventLoopGroup-4-1 (InnerServerHandler.java:14) com.odesk.server.inner.InnerServerHandler - New client connected! ClientID: -1187639708
+2013-12-07 12:33:23,637 - INFO nioEventLoopGroup-3-1 (InnerClientHandler.java:16) com.odesk.client.ClientHandler - Connection established: localhost/127.0.0.1:5000
+2013-12-07 12:33:23,656 - INFO nioEventLoopGroup-3-1 (CloseFuture.java:19) com.odesk.client.CloseFuture - Connection lost. Trying to reconnect in 3000
+2013-12-07 12:33:23,738 - INFO nioEventLoopGroup-3-2 (ServerHandler.java:26) com.odesk.server.ServerHandler - Message Received: success: true
+
+2013-12-07 12:33:23,740 - INFO nioEventLoopGroup-4-1 (InnerServerHandler.java:23) com.odesk.server.inner.InnerServerHandler - Message Received: text: "ttttt"
+
+2013-12-07 12:33:26,657 - INFO nioEventLoopGroup-3-1 (CloseFuture.java:21) com.odesk.client.CloseFuture - Trying to reconnect...
+2013-12-07 12:33:26,665 - INFO nioEventLoopGroup-4-1 (InnerClientHandler.java:16) com.odesk.client.ClientHandler - Connection established: localhost/127.0.0.1:5000
+2013-12-07 12:33:26,666 - INFO nioEventLoopGroup-4-2 (InnerServerHandler.java:14) com.odesk.server.inner.InnerServerHandler - New client connected! ClientID: -389478742
+2013-12-07 12:33:56,401 - INFO pool-1-thread-1 (Server.java:127) com.odesk.server.Server - Listening on port: 4000
+2013-12-07 12:34:00,570 - INFO nioEventLoopGroup-2-1 (ClientHandler.java:23) com.odesk.client.ClientHandler - Connection established: localhost/127.0.0.1:4000
+2013-12-07 12:34:00,594 - INFO nioEventLoopGroup-3-1 (ServerHandler.java:15) com.odesk.server.ServerHandler - New client connected! ClientID: 2012465791
+2013-12-07 12:34:01,812 - INFO nioEventLoopGroup-3-2 (ServerHandler.java:15) com.odesk.server.ServerHandler - New client connected! ClientID: -1307209464
+2013-12-07 12:34:01,816 - INFO nioEventLoopGroup-2-1 (ClientHandler.java:23) com.odesk.client.ClientHandler - Connection established: localhost/127.0.0.1:4000
+2013-12-07 12:34:12,623 - INFO pool-1-thread-1 (Server.java:127) com.odesk.server.Server - Listening on port: 5000
+2013-12-07 12:34:19,987 - INFO nioEventLoopGroup-4-1 (InnerServerHandler.java:14) com.odesk.server.inner.InnerServerHandler - New client connected! ClientID: -336508422
+2013-12-07 12:34:19,985 - INFO nioEventLoopGroup-3-1 (InnerClientHandler.java:16) com.odesk.client.ClientHandler - Connection established: localhost/127.0.0.1:5000
+2013-12-07 12:34:19,997 - INFO nioEventLoopGroup-3-1 (CloseFuture.java:19) com.odesk.client.CloseFuture - Connection lost. Trying to reconnect in 3000
+2013-12-07 12:34:20,048 - INFO nioEventLoopGroup-3-2 (ServerHandler.java:26) com.odesk.server.ServerHandler - Message Received: success: true
+
+2013-12-07 12:34:20,052 - INFO nioEventLoopGroup-4-1 (InnerServerHandler.java:23) com.odesk.server.inner.InnerServerHandler - Message Received: text: "tttt"
+
+2013-12-07 12:34:22,997 - INFO nioEventLoopGroup-3-1 (CloseFuture.java:21) com.odesk.client.CloseFuture - Trying to reconnect...
+2013-12-07 12:34:23,005 - INFO nioEventLoopGroup-4-1 (InnerClientHandler.java:16) com.odesk.client.ClientHandler - Connection established: localhost/127.0.0.1:5000
+2013-12-07 12:34:23,007 - INFO nioEventLoopGroup-4-2 (InnerServerHandler.java:14) com.odesk.server.inner.InnerServerHandler - New client connected! ClientID: -1482555384
+2013-12-07 20:58:45,828 - INFO nioEventLoopGroup-4-1 (CloseFuture.java:19) com.odesk.client.CloseFuture - Connection lost. Trying to reconnect in 3000
+2013-12-07 21:00:45,219 - INFO nioEventLoopGroup-2-1 (ReconnectFuture.java:27) com.odesk.client.ReconnectFuture - Connection refused. Trying to reconnect in 3000
+2013-12-07 21:00:48,221 - INFO nioEventLoopGroup-2-1 (ReconnectFuture.java:29) com.odesk.client.ReconnectFuture - Trying to reconnect...
+2013-12-07 21:00:48,229 - INFO nioEventLoopGroup-3-1 (ReconnectFuture.java:27) com.odesk.client.ReconnectFuture - Connection refused. Trying to reconnect in 6000
+2013-12-07 21:00:48,876 - INFO pool-1-thread-1 (Server.java:127) com.odesk.server.Server - Listening on port: 4000
+2013-12-07 21:00:54,230 - INFO nioEventLoopGroup-3-1 (ReconnectFuture.java:29) com.odesk.client.ReconnectFuture - Trying to reconnect...
+2013-12-07 21:00:54,241 - INFO nioEventLoopGroup-4-1 (ClientHandler.java:23) com.odesk.client.ClientHandler - Connection established: localhost/127.0.0.1:4000
+2013-12-07 21:00:54,273 - INFO nioEventLoopGroup-3-1 (ServerHandler.java:15) com.odesk.server.ServerHandler - New client connected! ClientID: -868646281
+2013-12-07 21:00:59,979 - INFO nioEventLoopGroup-3-1 (ServerHandler.java:26) com.odesk.server.ServerHandler - Message Received: text: "teste"
+
+2013-12-07 21:01:06,238 - INFO nioEventLoopGroup-3-1 (ServerHandler.java:26) com.odesk.server.ServerHandler - Message Received: text: "penis"
+
+2013-12-07 21:01:18,837 - INFO nioEventLoopGroup-4-1 (ClientHandler.java:42) com.odesk.client.ClientHandler - Message Received: text: "3123123"
+
+2013-12-07 21:05:34,344 - INFO pool-1-thread-1 (Server.java:129) com.odesk.server.Server - Listening on port: 4000
+2013-12-07 21:05:40,203 - INFO nioEventLoopGroup-2-1 (ClientHandler.java:23) com.odesk.client.ClientHandler - Connection established: localhost/127.0.0.1:4000
+2013-12-07 21:05:40,220 - INFO nioEventLoopGroup-3-1 (ServerHandler.java:15) com.odesk.server.ServerHandler - New client connected! ClientID: -239794718
+2013-12-07 21:05:45,123 - INFO nioEventLoopGroup-3-2 (ServerHandler.java:15) com.odesk.server.ServerHandler - New client connected! ClientID: 551867523
+2013-12-07 21:05:45,127 - INFO nioEventLoopGroup-2-1 (ClientHandler.java:23) com.odesk.client.ClientHandler - Connection established: localhost/127.0.0.1:4000
+2013-12-07 21:05:49,079 - INFO nioEventLoopGroup-3-2 (ServerHandler.java:26) com.odesk.server.ServerHandler - Message Received: text: "teste"
+
+2013-12-07 21:06:03,948 - INFO pool-1-thread-1 (Server.java:129) com.odesk.server.Server - Listening on port: 5000
+2013-12-07 21:06:14,267 - INFO nioEventLoopGroup-4-1 (InnerServerHandler.java:16) com.odesk.server.inner.InnerServerHandler - New client connected! ClientID: -1793328598
+2013-12-07 21:06:14,265 - INFO nioEventLoopGroup-3-1 (InnerClientHandler.java:16) com.odesk.client.ClientHandler - Connection established: localhost/127.0.0.1:5000
+2013-12-07 21:06:14,269 - INFO nioEventLoopGroup-3-1 (CloseFuture.java:19) com.odesk.client.CloseFuture - Connection lost. Trying to reconnect in 3000
+2013-12-07 21:06:14,274 - INFO nioEventLoopGroup-3-2 (ServerHandler.java:26) com.odesk.server.ServerHandler - Message Received: success: true
+
+2013-12-07 21:06:14,326 - INFO nioEventLoopGroup-4-1 (InnerServerHandler.java:25) com.odesk.server.inner.InnerServerHandler - Message Received: text: "teste"
+
+2013-12-07 21:06:14,358 - INFO nioEventLoopGroup-3-1 (ServerHandler.java:26) com.odesk.server.ServerHandler - Message Received: success: true
+
+2013-12-07 21:06:17,269 - INFO nioEventLoopGroup-3-1 (CloseFuture.java:21) com.odesk.client.CloseFuture - Trying to reconnect...
+2013-12-07 21:06:17,279 - INFO nioEventLoopGroup-4-1 (ReconnectFuture.java:27) com.odesk.client.ReconnectFuture - Connection refused. Trying to reconnect in 6000
+2013-12-07 21:06:23,280 - INFO nioEventLoopGroup-4-1 (ReconnectFuture.java:29) com.odesk.client.ReconnectFuture - Trying to reconnect...
+2013-12-07 21:06:23,288 - INFO nioEventLoopGroup-5-1 (ReconnectFuture.java:27) com.odesk.client.ReconnectFuture - Connection refused. Trying to reconnect in 9000
+2013-12-07 21:06:32,289 - INFO nioEventLoopGroup-5-1 (ReconnectFuture.java:29) com.odesk.client.ReconnectFuture - Trying to reconnect...
+2013-12-07 21:06:32,297 - INFO nioEventLoopGroup-6-1 (ReconnectFuture.java:27) com.odesk.client.ReconnectFuture - Connection refused. Trying to reconnect in 12000
+2013-12-07 21:06:44,298 - INFO nioEventLoopGroup-6-1 (ReconnectFuture.java:29) com.odesk.client.ReconnectFuture - Trying to reconnect...
+2013-12-07 21:06:44,306 - INFO nioEventLoopGroup-7-1 (ReconnectFuture.java:27) com.odesk.client.ReconnectFuture - Connection refused. Trying to reconnect in 15000
