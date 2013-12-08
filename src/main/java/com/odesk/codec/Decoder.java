@@ -10,6 +10,7 @@ import org.apache.log4j.Logger;
 
 import com.google.protobuf.InvalidProtocolBufferException;
 import com.odesk.protobuf.ODeskProtos.DirectlyCommunication;
+import com.odesk.protobuf.ODeskProtos.Handshake;
 import com.odesk.protobuf.ODeskProtos.Success;
 import com.odesk.protobuf.ODeskProtos.TextMessage;
 import com.odesk.protobuf.Types;
@@ -49,6 +50,9 @@ public class Decoder extends ReplayingDecoder<DecoderState> {
                                 break;
                             case SUCCESS:
                                 out.add(Success.parseFrom(frame));
+                                break;
+                            case HANDSHAKE:
+                                out.add(Handshake.parseFrom(frame));
                                 break;
                         }
                     } catch (InvalidProtocolBufferException e) {

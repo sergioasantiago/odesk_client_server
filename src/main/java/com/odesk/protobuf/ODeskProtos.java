@@ -943,6 +943,21 @@ public final class ODeskProtos {
      */
     com.google.protobuf.ByteString
         getTextBytes();
+
+    // optional string name = 5;
+    /**
+     * <code>optional string name = 5;</code>
+     */
+    boolean hasName();
+    /**
+     * <code>optional string name = 5;</code>
+     */
+    java.lang.String getName();
+    /**
+     * <code>optional string name = 5;</code>
+     */
+    com.google.protobuf.ByteString
+        getNameBytes();
   }
   /**
    * Protobuf type {@code odesk.DirectlyCommunication}
@@ -1013,6 +1028,11 @@ public final class ODeskProtos {
             case 34: {
               bitField0_ |= 0x00000008;
               text_ = input.readBytes();
+              break;
+            }
+            case 42: {
+              bitField0_ |= 0x00000010;
+              name_ = input.readBytes();
               break;
             }
           }
@@ -1173,11 +1193,55 @@ public final class ODeskProtos {
       }
     }
 
+    // optional string name = 5;
+    public static final int NAME_FIELD_NUMBER = 5;
+    private java.lang.Object name_;
+    /**
+     * <code>optional string name = 5;</code>
+     */
+    public boolean hasName() {
+      return ((bitField0_ & 0x00000010) == 0x00000010);
+    }
+    /**
+     * <code>optional string name = 5;</code>
+     */
+    public java.lang.String getName() {
+      java.lang.Object ref = name_;
+      if (ref instanceof java.lang.String) {
+        return (java.lang.String) ref;
+      } else {
+        com.google.protobuf.ByteString bs = 
+            (com.google.protobuf.ByteString) ref;
+        java.lang.String s = bs.toStringUtf8();
+        if (bs.isValidUtf8()) {
+          name_ = s;
+        }
+        return s;
+      }
+    }
+    /**
+     * <code>optional string name = 5;</code>
+     */
+    public com.google.protobuf.ByteString
+        getNameBytes() {
+      java.lang.Object ref = name_;
+      if (ref instanceof java.lang.String) {
+        com.google.protobuf.ByteString b = 
+            com.google.protobuf.ByteString.copyFromUtf8(
+                (java.lang.String) ref);
+        name_ = b;
+        return b;
+      } else {
+        return (com.google.protobuf.ByteString) ref;
+      }
+    }
+
     private void initFields() {
       mode_ = 0;
       port_ = 0;
       host_ = "";
       text_ = "";
+      name_ = "";
     }
     private byte memoizedIsInitialized = -1;
     public final boolean isInitialized() {
@@ -1207,6 +1271,9 @@ public final class ODeskProtos {
       if (((bitField0_ & 0x00000008) == 0x00000008)) {
         output.writeBytes(4, getTextBytes());
       }
+      if (((bitField0_ & 0x00000010) == 0x00000010)) {
+        output.writeBytes(5, getNameBytes());
+      }
       getUnknownFields().writeTo(output);
     }
 
@@ -1231,6 +1298,10 @@ public final class ODeskProtos {
       if (((bitField0_ & 0x00000008) == 0x00000008)) {
         size += com.google.protobuf.CodedOutputStream
           .computeBytesSize(4, getTextBytes());
+      }
+      if (((bitField0_ & 0x00000010) == 0x00000010)) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBytesSize(5, getNameBytes());
       }
       size += getUnknownFields().getSerializedSize();
       memoizedSerializedSize = size;
@@ -1356,6 +1427,8 @@ public final class ODeskProtos {
         bitField0_ = (bitField0_ & ~0x00000004);
         text_ = "";
         bitField0_ = (bitField0_ & ~0x00000008);
+        name_ = "";
+        bitField0_ = (bitField0_ & ~0x00000010);
         return this;
       }
 
@@ -1400,6 +1473,10 @@ public final class ODeskProtos {
           to_bitField0_ |= 0x00000008;
         }
         result.text_ = text_;
+        if (((from_bitField0_ & 0x00000010) == 0x00000010)) {
+          to_bitField0_ |= 0x00000010;
+        }
+        result.name_ = name_;
         result.bitField0_ = to_bitField0_;
         onBuilt();
         return result;
@@ -1430,6 +1507,11 @@ public final class ODeskProtos {
         if (other.hasText()) {
           bitField0_ |= 0x00000008;
           text_ = other.text_;
+          onChanged();
+        }
+        if (other.hasName()) {
+          bitField0_ |= 0x00000010;
+          name_ = other.name_;
           onChanged();
         }
         this.mergeUnknownFields(other.getUnknownFields());
@@ -1677,6 +1759,80 @@ public final class ODeskProtos {
         return this;
       }
 
+      // optional string name = 5;
+      private java.lang.Object name_ = "";
+      /**
+       * <code>optional string name = 5;</code>
+       */
+      public boolean hasName() {
+        return ((bitField0_ & 0x00000010) == 0x00000010);
+      }
+      /**
+       * <code>optional string name = 5;</code>
+       */
+      public java.lang.String getName() {
+        java.lang.Object ref = name_;
+        if (!(ref instanceof java.lang.String)) {
+          java.lang.String s = ((com.google.protobuf.ByteString) ref)
+              .toStringUtf8();
+          name_ = s;
+          return s;
+        } else {
+          return (java.lang.String) ref;
+        }
+      }
+      /**
+       * <code>optional string name = 5;</code>
+       */
+      public com.google.protobuf.ByteString
+          getNameBytes() {
+        java.lang.Object ref = name_;
+        if (ref instanceof String) {
+          com.google.protobuf.ByteString b = 
+              com.google.protobuf.ByteString.copyFromUtf8(
+                  (java.lang.String) ref);
+          name_ = b;
+          return b;
+        } else {
+          return (com.google.protobuf.ByteString) ref;
+        }
+      }
+      /**
+       * <code>optional string name = 5;</code>
+       */
+      public Builder setName(
+          java.lang.String value) {
+        if (value == null) {
+    throw new NullPointerException();
+  }
+  bitField0_ |= 0x00000010;
+        name_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional string name = 5;</code>
+       */
+      public Builder clearName() {
+        bitField0_ = (bitField0_ & ~0x00000010);
+        name_ = getDefaultInstance().getName();
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional string name = 5;</code>
+       */
+      public Builder setNameBytes(
+          com.google.protobuf.ByteString value) {
+        if (value == null) {
+    throw new NullPointerException();
+  }
+  bitField0_ |= 0x00000010;
+        name_ = value;
+        onChanged();
+        return this;
+      }
+
       // @@protoc_insertion_point(builder_scope:odesk.DirectlyCommunication)
     }
 
@@ -1686,6 +1842,485 @@ public final class ODeskProtos {
     }
 
     // @@protoc_insertion_point(class_scope:odesk.DirectlyCommunication)
+  }
+
+  public interface HandshakeOrBuilder
+      extends com.google.protobuf.MessageOrBuilder {
+
+    // required string name = 1;
+    /**
+     * <code>required string name = 1;</code>
+     */
+    boolean hasName();
+    /**
+     * <code>required string name = 1;</code>
+     */
+    java.lang.String getName();
+    /**
+     * <code>required string name = 1;</code>
+     */
+    com.google.protobuf.ByteString
+        getNameBytes();
+  }
+  /**
+   * Protobuf type {@code odesk.Handshake}
+   */
+  public static final class Handshake extends
+      com.google.protobuf.GeneratedMessage
+      implements HandshakeOrBuilder {
+    // Use Handshake.newBuilder() to construct.
+    private Handshake(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+      super(builder);
+      this.unknownFields = builder.getUnknownFields();
+    }
+    private Handshake(boolean noInit) { this.unknownFields = com.google.protobuf.UnknownFieldSet.getDefaultInstance(); }
+
+    private static final Handshake defaultInstance;
+    public static Handshake getDefaultInstance() {
+      return defaultInstance;
+    }
+
+    public Handshake getDefaultInstanceForType() {
+      return defaultInstance;
+    }
+
+    private final com.google.protobuf.UnknownFieldSet unknownFields;
+    @java.lang.Override
+    public final com.google.protobuf.UnknownFieldSet
+        getUnknownFields() {
+      return this.unknownFields;
+    }
+    private Handshake(
+        com.google.protobuf.CodedInputStream input,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      initFields();
+      int mutable_bitField0_ = 0;
+      com.google.protobuf.UnknownFieldSet.Builder unknownFields =
+          com.google.protobuf.UnknownFieldSet.newBuilder();
+      try {
+        boolean done = false;
+        while (!done) {
+          int tag = input.readTag();
+          switch (tag) {
+            case 0:
+              done = true;
+              break;
+            default: {
+              if (!parseUnknownField(input, unknownFields,
+                                     extensionRegistry, tag)) {
+                done = true;
+              }
+              break;
+            }
+            case 10: {
+              bitField0_ |= 0x00000001;
+              name_ = input.readBytes();
+              break;
+            }
+          }
+        }
+      } catch (com.google.protobuf.InvalidProtocolBufferException e) {
+        throw e.setUnfinishedMessage(this);
+      } catch (java.io.IOException e) {
+        throw new com.google.protobuf.InvalidProtocolBufferException(
+            e.getMessage()).setUnfinishedMessage(this);
+      } finally {
+        this.unknownFields = unknownFields.build();
+        makeExtensionsImmutable();
+      }
+    }
+    public static final com.google.protobuf.Descriptors.Descriptor
+        getDescriptor() {
+      return com.odesk.protobuf.ODeskProtos.internal_static_odesk_Handshake_descriptor;
+    }
+
+    protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+        internalGetFieldAccessorTable() {
+      return com.odesk.protobuf.ODeskProtos.internal_static_odesk_Handshake_fieldAccessorTable
+          .ensureFieldAccessorsInitialized(
+              com.odesk.protobuf.ODeskProtos.Handshake.class, com.odesk.protobuf.ODeskProtos.Handshake.Builder.class);
+    }
+
+    public static com.google.protobuf.Parser<Handshake> PARSER =
+        new com.google.protobuf.AbstractParser<Handshake>() {
+      public Handshake parsePartialFrom(
+          com.google.protobuf.CodedInputStream input,
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws com.google.protobuf.InvalidProtocolBufferException {
+        return new Handshake(input, extensionRegistry);
+      }
+    };
+
+    @java.lang.Override
+    public com.google.protobuf.Parser<Handshake> getParserForType() {
+      return PARSER;
+    }
+
+    private int bitField0_;
+    // required string name = 1;
+    public static final int NAME_FIELD_NUMBER = 1;
+    private java.lang.Object name_;
+    /**
+     * <code>required string name = 1;</code>
+     */
+    public boolean hasName() {
+      return ((bitField0_ & 0x00000001) == 0x00000001);
+    }
+    /**
+     * <code>required string name = 1;</code>
+     */
+    public java.lang.String getName() {
+      java.lang.Object ref = name_;
+      if (ref instanceof java.lang.String) {
+        return (java.lang.String) ref;
+      } else {
+        com.google.protobuf.ByteString bs = 
+            (com.google.protobuf.ByteString) ref;
+        java.lang.String s = bs.toStringUtf8();
+        if (bs.isValidUtf8()) {
+          name_ = s;
+        }
+        return s;
+      }
+    }
+    /**
+     * <code>required string name = 1;</code>
+     */
+    public com.google.protobuf.ByteString
+        getNameBytes() {
+      java.lang.Object ref = name_;
+      if (ref instanceof java.lang.String) {
+        com.google.protobuf.ByteString b = 
+            com.google.protobuf.ByteString.copyFromUtf8(
+                (java.lang.String) ref);
+        name_ = b;
+        return b;
+      } else {
+        return (com.google.protobuf.ByteString) ref;
+      }
+    }
+
+    private void initFields() {
+      name_ = "";
+    }
+    private byte memoizedIsInitialized = -1;
+    public final boolean isInitialized() {
+      byte isInitialized = memoizedIsInitialized;
+      if (isInitialized != -1) return isInitialized == 1;
+
+      if (!hasName()) {
+        memoizedIsInitialized = 0;
+        return false;
+      }
+      memoizedIsInitialized = 1;
+      return true;
+    }
+
+    public void writeTo(com.google.protobuf.CodedOutputStream output)
+                        throws java.io.IOException {
+      getSerializedSize();
+      if (((bitField0_ & 0x00000001) == 0x00000001)) {
+        output.writeBytes(1, getNameBytes());
+      }
+      getUnknownFields().writeTo(output);
+    }
+
+    private int memoizedSerializedSize = -1;
+    public int getSerializedSize() {
+      int size = memoizedSerializedSize;
+      if (size != -1) return size;
+
+      size = 0;
+      if (((bitField0_ & 0x00000001) == 0x00000001)) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBytesSize(1, getNameBytes());
+      }
+      size += getUnknownFields().getSerializedSize();
+      memoizedSerializedSize = size;
+      return size;
+    }
+
+    private static final long serialVersionUID = 0L;
+    @java.lang.Override
+    protected java.lang.Object writeReplace()
+        throws java.io.ObjectStreamException {
+      return super.writeReplace();
+    }
+
+    public static com.odesk.protobuf.ODeskProtos.Handshake parseFrom(
+        com.google.protobuf.ByteString data)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      return PARSER.parseFrom(data);
+    }
+    public static com.odesk.protobuf.ODeskProtos.Handshake parseFrom(
+        com.google.protobuf.ByteString data,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      return PARSER.parseFrom(data, extensionRegistry);
+    }
+    public static com.odesk.protobuf.ODeskProtos.Handshake parseFrom(byte[] data)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      return PARSER.parseFrom(data);
+    }
+    public static com.odesk.protobuf.ODeskProtos.Handshake parseFrom(
+        byte[] data,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      return PARSER.parseFrom(data, extensionRegistry);
+    }
+    public static com.odesk.protobuf.ODeskProtos.Handshake parseFrom(java.io.InputStream input)
+        throws java.io.IOException {
+      return PARSER.parseFrom(input);
+    }
+    public static com.odesk.protobuf.ODeskProtos.Handshake parseFrom(
+        java.io.InputStream input,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws java.io.IOException {
+      return PARSER.parseFrom(input, extensionRegistry);
+    }
+    public static com.odesk.protobuf.ODeskProtos.Handshake parseDelimitedFrom(java.io.InputStream input)
+        throws java.io.IOException {
+      return PARSER.parseDelimitedFrom(input);
+    }
+    public static com.odesk.protobuf.ODeskProtos.Handshake parseDelimitedFrom(
+        java.io.InputStream input,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws java.io.IOException {
+      return PARSER.parseDelimitedFrom(input, extensionRegistry);
+    }
+    public static com.odesk.protobuf.ODeskProtos.Handshake parseFrom(
+        com.google.protobuf.CodedInputStream input)
+        throws java.io.IOException {
+      return PARSER.parseFrom(input);
+    }
+    public static com.odesk.protobuf.ODeskProtos.Handshake parseFrom(
+        com.google.protobuf.CodedInputStream input,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws java.io.IOException {
+      return PARSER.parseFrom(input, extensionRegistry);
+    }
+
+    public static Builder newBuilder() { return Builder.create(); }
+    public Builder newBuilderForType() { return newBuilder(); }
+    public static Builder newBuilder(com.odesk.protobuf.ODeskProtos.Handshake prototype) {
+      return newBuilder().mergeFrom(prototype);
+    }
+    public Builder toBuilder() { return newBuilder(this); }
+
+    @java.lang.Override
+    protected Builder newBuilderForType(
+        com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+      Builder builder = new Builder(parent);
+      return builder;
+    }
+    /**
+     * Protobuf type {@code odesk.Handshake}
+     */
+    public static final class Builder extends
+        com.google.protobuf.GeneratedMessage.Builder<Builder>
+       implements com.odesk.protobuf.ODeskProtos.HandshakeOrBuilder {
+      public static final com.google.protobuf.Descriptors.Descriptor
+          getDescriptor() {
+        return com.odesk.protobuf.ODeskProtos.internal_static_odesk_Handshake_descriptor;
+      }
+
+      protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
+          internalGetFieldAccessorTable() {
+        return com.odesk.protobuf.ODeskProtos.internal_static_odesk_Handshake_fieldAccessorTable
+            .ensureFieldAccessorsInitialized(
+                com.odesk.protobuf.ODeskProtos.Handshake.class, com.odesk.protobuf.ODeskProtos.Handshake.Builder.class);
+      }
+
+      // Construct using com.odesk.protobuf.ODeskProtos.Handshake.newBuilder()
+      private Builder() {
+        maybeForceBuilderInitialization();
+      }
+
+      private Builder(
+          com.google.protobuf.GeneratedMessage.BuilderParent parent) {
+        super(parent);
+        maybeForceBuilderInitialization();
+      }
+      private void maybeForceBuilderInitialization() {
+        if (com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders) {
+        }
+      }
+      private static Builder create() {
+        return new Builder();
+      }
+
+      public Builder clear() {
+        super.clear();
+        name_ = "";
+        bitField0_ = (bitField0_ & ~0x00000001);
+        return this;
+      }
+
+      public Builder clone() {
+        return create().mergeFrom(buildPartial());
+      }
+
+      public com.google.protobuf.Descriptors.Descriptor
+          getDescriptorForType() {
+        return com.odesk.protobuf.ODeskProtos.internal_static_odesk_Handshake_descriptor;
+      }
+
+      public com.odesk.protobuf.ODeskProtos.Handshake getDefaultInstanceForType() {
+        return com.odesk.protobuf.ODeskProtos.Handshake.getDefaultInstance();
+      }
+
+      public com.odesk.protobuf.ODeskProtos.Handshake build() {
+        com.odesk.protobuf.ODeskProtos.Handshake result = buildPartial();
+        if (!result.isInitialized()) {
+          throw newUninitializedMessageException(result);
+        }
+        return result;
+      }
+
+      public com.odesk.protobuf.ODeskProtos.Handshake buildPartial() {
+        com.odesk.protobuf.ODeskProtos.Handshake result = new com.odesk.protobuf.ODeskProtos.Handshake(this);
+        int from_bitField0_ = bitField0_;
+        int to_bitField0_ = 0;
+        if (((from_bitField0_ & 0x00000001) == 0x00000001)) {
+          to_bitField0_ |= 0x00000001;
+        }
+        result.name_ = name_;
+        result.bitField0_ = to_bitField0_;
+        onBuilt();
+        return result;
+      }
+
+      public Builder mergeFrom(com.google.protobuf.Message other) {
+        if (other instanceof com.odesk.protobuf.ODeskProtos.Handshake) {
+          return mergeFrom((com.odesk.protobuf.ODeskProtos.Handshake)other);
+        } else {
+          super.mergeFrom(other);
+          return this;
+        }
+      }
+
+      public Builder mergeFrom(com.odesk.protobuf.ODeskProtos.Handshake other) {
+        if (other == com.odesk.protobuf.ODeskProtos.Handshake.getDefaultInstance()) return this;
+        if (other.hasName()) {
+          bitField0_ |= 0x00000001;
+          name_ = other.name_;
+          onChanged();
+        }
+        this.mergeUnknownFields(other.getUnknownFields());
+        return this;
+      }
+
+      public final boolean isInitialized() {
+        if (!hasName()) {
+          
+          return false;
+        }
+        return true;
+      }
+
+      public Builder mergeFrom(
+          com.google.protobuf.CodedInputStream input,
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws java.io.IOException {
+        com.odesk.protobuf.ODeskProtos.Handshake parsedMessage = null;
+        try {
+          parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
+        } catch (com.google.protobuf.InvalidProtocolBufferException e) {
+          parsedMessage = (com.odesk.protobuf.ODeskProtos.Handshake) e.getUnfinishedMessage();
+          throw e;
+        } finally {
+          if (parsedMessage != null) {
+            mergeFrom(parsedMessage);
+          }
+        }
+        return this;
+      }
+      private int bitField0_;
+
+      // required string name = 1;
+      private java.lang.Object name_ = "";
+      /**
+       * <code>required string name = 1;</code>
+       */
+      public boolean hasName() {
+        return ((bitField0_ & 0x00000001) == 0x00000001);
+      }
+      /**
+       * <code>required string name = 1;</code>
+       */
+      public java.lang.String getName() {
+        java.lang.Object ref = name_;
+        if (!(ref instanceof java.lang.String)) {
+          java.lang.String s = ((com.google.protobuf.ByteString) ref)
+              .toStringUtf8();
+          name_ = s;
+          return s;
+        } else {
+          return (java.lang.String) ref;
+        }
+      }
+      /**
+       * <code>required string name = 1;</code>
+       */
+      public com.google.protobuf.ByteString
+          getNameBytes() {
+        java.lang.Object ref = name_;
+        if (ref instanceof String) {
+          com.google.protobuf.ByteString b = 
+              com.google.protobuf.ByteString.copyFromUtf8(
+                  (java.lang.String) ref);
+          name_ = b;
+          return b;
+        } else {
+          return (com.google.protobuf.ByteString) ref;
+        }
+      }
+      /**
+       * <code>required string name = 1;</code>
+       */
+      public Builder setName(
+          java.lang.String value) {
+        if (value == null) {
+    throw new NullPointerException();
+  }
+  bitField0_ |= 0x00000001;
+        name_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>required string name = 1;</code>
+       */
+      public Builder clearName() {
+        bitField0_ = (bitField0_ & ~0x00000001);
+        name_ = getDefaultInstance().getName();
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>required string name = 1;</code>
+       */
+      public Builder setNameBytes(
+          com.google.protobuf.ByteString value) {
+        if (value == null) {
+    throw new NullPointerException();
+  }
+  bitField0_ |= 0x00000001;
+        name_ = value;
+        onChanged();
+        return this;
+      }
+
+      // @@protoc_insertion_point(builder_scope:odesk.Handshake)
+    }
+
+    static {
+      defaultInstance = new Handshake(true);
+      defaultInstance.initFields();
+    }
+
+    // @@protoc_insertion_point(class_scope:odesk.Handshake)
   }
 
   private static com.google.protobuf.Descriptors.Descriptor
@@ -1703,6 +2338,11 @@ public final class ODeskProtos {
   private static
     com.google.protobuf.GeneratedMessage.FieldAccessorTable
       internal_static_odesk_DirectlyCommunication_fieldAccessorTable;
+  private static com.google.protobuf.Descriptors.Descriptor
+    internal_static_odesk_Handshake_descriptor;
+  private static
+    com.google.protobuf.GeneratedMessage.FieldAccessorTable
+      internal_static_odesk_Handshake_fieldAccessorTable;
 
   public static com.google.protobuf.Descriptors.FileDescriptor
       getDescriptor() {
@@ -1714,9 +2354,11 @@ public final class ODeskProtos {
     java.lang.String[] descriptorData = {
       "\n\014protos.proto\022\005odesk\"\033\n\013TextMessage\022\014\n\004" +
       "text\030\001 \002(\t\" \n\007Success\022\025\n\007success\030\001 \002(\010:\004" +
-      "true\"O\n\025DirectlyCommunication\022\014\n\004mode\030\001 " +
+      "true\"]\n\025DirectlyCommunication\022\014\n\004mode\030\001 " +
       "\002(\005\022\014\n\004port\030\002 \001(\005\022\014\n\004host\030\003 \001(\t\022\014\n\004text\030" +
-      "\004 \001(\tB!\n\022com.odesk.protobufB\013ODeskProtos"
+      "\004 \001(\t\022\014\n\004name\030\005 \001(\t\"\031\n\tHandshake\022\014\n\004name" +
+      "\030\001 \002(\tB!\n\022com.odesk.protobufB\013ODeskProto" +
+      "s"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
       new com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner() {
@@ -1740,7 +2382,13 @@ public final class ODeskProtos {
           internal_static_odesk_DirectlyCommunication_fieldAccessorTable = new
             com.google.protobuf.GeneratedMessage.FieldAccessorTable(
               internal_static_odesk_DirectlyCommunication_descriptor,
-              new java.lang.String[] { "Mode", "Port", "Host", "Text", });
+              new java.lang.String[] { "Mode", "Port", "Host", "Text", "Name", });
+          internal_static_odesk_Handshake_descriptor =
+            getDescriptor().getMessageTypes().get(3);
+          internal_static_odesk_Handshake_fieldAccessorTable = new
+            com.google.protobuf.GeneratedMessage.FieldAccessorTable(
+              internal_static_odesk_Handshake_descriptor,
+              new java.lang.String[] { "Name", });
           return null;
         }
       };

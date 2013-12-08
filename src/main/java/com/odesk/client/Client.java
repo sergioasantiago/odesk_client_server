@@ -22,6 +22,7 @@ public class Client implements Runnable {
 
     private final String host;
     private final int port;
+    public static String name;
     private String text;
     private int reconnectDelay;
     private Channel channel;
@@ -29,6 +30,23 @@ public class Client implements Runnable {
     private static final Logger logger = Logger.getLogger(Client.class.getName());
     private ChannelInitializer<SocketChannel> initializer;
     private ReconnectFuture reconnectFuture;
+
+    public Client(String host, int port, String name, ChannelInitializer<SocketChannel> initializer) {
+        this.host = host;
+        this.port = port;
+        Client.name = name;
+        this.initializer = initializer;
+        this.reconnectDelay = 0;
+    }
+
+    public Client(String host, int port, String name, String text, ChannelInitializer<SocketChannel> initializer) {
+        this.host = host;
+        this.port = port;
+        this.text = text;
+        Client.name = name;
+        this.initializer = initializer;
+        this.reconnectDelay = 0;
+    }
 
     public void IncrementReconnectDelay(int i) {
         this.reconnectDelay += i;
@@ -50,21 +68,6 @@ public class Client implements Runnable {
         synchronized (Client.this.connectionMonitor) {
             Client.this.connectionMonitor.notify();
         }
-    }
-
-    public Client(String host, int port, ChannelInitializer<SocketChannel> initializer) {
-        this.host = host;
-        this.port = port;
-        this.initializer = initializer;
-        this.reconnectDelay = 0;
-    }
-
-    public Client(String host, int port, String text, ChannelInitializer<SocketChannel> initializer) {
-        this.host = host;
-        this.port = port;
-        this.text = text;
-        this.initializer = initializer;
-        this.reconnectDelay = 0;
     }
 
     public void run() {
@@ -147,16 +150,17 @@ public class Client implements Runnable {
 
     public static void main(String[] args) throws Exception {
         // Print usage if no argument is specified.
-        if (args.length != 2) {
-            System.err.println("Usage: " + Client.class.getSimpleName() + " <host> <port>");
+        if (args.length != 3) {
+            System.err.println("Usage: " + Client.class.getSimpleName() + " <host> <port> <name>");
             return;
         }
 
         // Parse options.
         String host = args[0];
         int port = Integer.parseInt(args[1]);
+        String name = args[2];
 
-        Client client = new Client(host, port, new ClientInitializer());
+        Client client = new Client(host, port, name, new ClientInitializer());
         client.connect();
         client.waitConnection();
         client.prompt();

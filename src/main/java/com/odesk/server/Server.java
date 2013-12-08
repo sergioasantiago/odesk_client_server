@@ -31,7 +31,7 @@ public class Server implements Runnable {
     private static final Logger logger = Logger.getLogger(Server.class.getName());
     private Channel channel;
     private ChannelHandler initializer;
-    public static final Map<Integer, Channel> clientsMap = new HashMap<Integer, Channel>();
+    public static final Map<String, Channel> clientsMap = new HashMap<String, Channel>();
     private static EventLoopGroup bossGroup;
     private static EventLoopGroup workerGroup;
 
@@ -50,14 +50,15 @@ public class Server implements Runnable {
             while (true) {
                 System.out.println("1 - Send message to client using ClientID");
                 System.out.println("2 - Tell clients to communicate directly");
-                System.out.println("3 - Quit");
+                System.out.println("3 - List connected clients");
+                System.out.println("4 - Quit");
                 String line = in.readLine();
                 if (line == null) {
                     break;
                 }
                 if (line.equals("1")) {
                     System.out.print("ClientID: ");
-                    Integer id = Integer.parseInt(in.readLine());
+                    String id = in.readLine();
                     System.out.print("Text: ");
                     String text = in.readLine();
 
@@ -68,29 +69,37 @@ public class Server implements Runnable {
                     }
                 } else if (line.equals("2")) {
                     System.out.print("ClientID of server mode: ");
-                    Integer id1 = Integer.parseInt(in.readLine());
+                    String id1 = in.readLine();
 
                     System.out.print("Server Port: ");
                     Integer port = Integer.parseInt(in.readLine());
 
                     DirectlyCommunication.Builder msg1 = DirectlyCommunication.newBuilder();
                     msg1.setMode(0);
+                    msg1.setName(id1);
                     msg1.setPort(port);
 
                     writeMsg(id1, msg1.build());
 
                     System.out.print("ClientID of client mode: ");
-                    Integer id2 = Integer.parseInt(in.readLine());
+                    String id2 = in.readLine();
                     System.out.print("Text: ");
                     String text = in.readLine();
                     DirectlyCommunication.Builder msg2 = DirectlyCommunication.newBuilder();
                     msg2.setMode(1);
                     msg2.setPort(port);
+                    msg2.setName(id2);
                     msg2.setHost(((InetSocketAddress) clientsMap.get(id1).remoteAddress()).getHostName());
                     msg2.setText(text);
 
                     writeMsg(id2, msg2.build());
 
+                } else if (line.equals("3")) {
+                    System.out.println("Connected Clients:");
+                    for(String id : clientsMap.keySet()) {
+                        System.out.println(id);
+                    }
+                    System.out.println();
                 } else {
                     System.exit(0);
                 }
@@ -102,7 +111,7 @@ public class Server implements Runnable {
         }
     }
 
-    private void writeMsg(Integer id, Message msg) throws InterruptedException {
+    private void writeMsg(String id, Message msg) throws InterruptedException {
         Channel ch = clientsMap.get(id);
         ChannelFuture lastWriteFuture = ch.writeAndFlush(msg);
 

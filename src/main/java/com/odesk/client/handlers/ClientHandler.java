@@ -1,4 +1,4 @@
-package com.odesk.client;
+package com.odesk.client.handlers;
 
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.ChannelInboundHandlerAdapter;
@@ -8,6 +8,7 @@ import java.util.concurrent.Executors;
 
 import org.apache.log4j.Logger;
 
+import com.odesk.client.Client;
 import com.odesk.client.inner.InnerClientInitializer;
 import com.odesk.protobuf.ODeskProtos.DirectlyCommunication;
 import com.odesk.protobuf.ODeskProtos.Success;
@@ -33,7 +34,7 @@ public class ClientHandler extends ChannelInboundHandlerAdapter {
                     service.submit(new Server(directlyComm.getPort(), new InnerServerInitializer())).get();
                     break;
                 case 1: //Client mode
-                    service.submit(new Client(directlyComm.getHost(), directlyComm.getPort(), directlyComm.getText(), new InnerClientInitializer())).get();
+                    service.submit(new Client(directlyComm.getHost(), directlyComm.getPort(), directlyComm.getName(), directlyComm.getText(), new InnerClientInitializer())).get();
                     break;
             }
             ctx.channel().writeAndFlush(Success.newBuilder().setSuccess(true).build());

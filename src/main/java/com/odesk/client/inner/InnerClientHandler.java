@@ -5,7 +5,7 @@ import io.netty.channel.ChannelInboundHandlerAdapter;
 
 import org.apache.log4j.Logger;
 
-import com.odesk.client.ClientHandler;
+import com.odesk.client.handlers.ClientHandler;
 
 public class InnerClientHandler extends ChannelInboundHandlerAdapter {
 

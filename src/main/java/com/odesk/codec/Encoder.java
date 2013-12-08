@@ -6,6 +6,7 @@ import io.netty.channel.ChannelOutboundHandlerAdapter;
 import io.netty.channel.ChannelPromise;
 
 import com.odesk.protobuf.ODeskProtos.DirectlyCommunication;
+import com.odesk.protobuf.ODeskProtos.Handshake;
 import com.odesk.protobuf.ODeskProtos.Success;
 import com.odesk.protobuf.ODeskProtos.TextMessage;
 import com.odesk.protobuf.Types;
@@ -31,6 +32,10 @@ public class Encoder extends ChannelOutboundHandlerAdapter {
             Success success = (Success) msg;
             bytes = success.toByteArray();
             msgType = (short) Types.SUCCESS.ordinal();
+        } else if (msg instanceof Handshake) {
+            Handshake handshake = (Handshake) msg;
+            bytes = handshake.toByteArray();
+            msgType = (short) Types.HANDSHAKE.ordinal();
         }
 
         if(bytes == null)

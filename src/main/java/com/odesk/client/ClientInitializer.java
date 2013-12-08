@@ -3,6 +3,8 @@ package com.odesk.client;
 import io.netty.channel.ChannelInitializer;
 import io.netty.channel.ChannelPipeline;
 import io.netty.channel.socket.SocketChannel;
+
+import com.odesk.client.handlers.ClientHandshakeHandler;
 import com.odesk.codec.Decoder;
 import com.odesk.codec.Encoder;
 
@@ -15,7 +17,6 @@ public class ClientInitializer extends ChannelInitializer<SocketChannel> {
         pipeline.addLast("decoder", new Decoder());
         pipeline.addLast("encoder", new Encoder());
 
-        // and then business logic.
-        pipeline.addLast("handler", new ClientHandler());
+        pipeline.addLast("handshake_handler", new ClientHandshakeHandler());
     }
 }

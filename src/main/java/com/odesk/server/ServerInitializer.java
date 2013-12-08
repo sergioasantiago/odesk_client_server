@@ -6,6 +6,7 @@ import io.netty.channel.socket.SocketChannel;
 
 import com.odesk.codec.Decoder;
 import com.odesk.codec.Encoder;
+import com.odesk.server.handlers.ServerHandshakeHandler;
 
 public class ServerInitializer extends ChannelInitializer<SocketChannel> {
 
@@ -16,7 +17,6 @@ public class ServerInitializer extends ChannelInitializer<SocketChannel> {
         pipeline.addLast("decoder", new Decoder());
         pipeline.addLast("encoder", new Encoder());
 
-        // and then business logic.
-        pipeline.addLast("handler", new ServerHandler());
+        pipeline.addLast("handshake_handler", new ServerHandshakeHandler());
     }
 }
