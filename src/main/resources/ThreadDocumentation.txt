@@ -1,0 +1,26 @@
+Client:
+
+Client starts on the main thread. 
+The main thread calls the connection routine of Netty (In a new Netty Thread), which add a Future listener (ReconnectFuture.java).
+The main thread calls connectionMonitor.wait;
+The Future is called when the connection operation has been completed.
+Future calls connectionMonitor.release, which releases the main thread to call the prompt method on the Client (Wait for text to be sent from the console).
+
+Server:
+
+Server starts on the main thread.
+The main thread creates a new ExecutorService (Java single thread), and call the listen method of the server.
+After that, the main thread calls prompt method on the Server (Wait for commands from the console).
+
+Client to Client routine:
+
+Client as a Server side:
+The main Server send a DirectlyCommunication message to the client which will act as a server.
+The Client receives the message and start a new Thread, in this case a new Instance of a InnerServer, which will bind on the properly port
+and wait for the client connection.
+After the client connection and the text received, the server shutdown itself, finishing the thread and sending the Success message to the main Server.
+
+Client as a Client side:
+The main Server send a DirectlyCommunication message to the client which will act as a client.
+The Client receives the message and start a new Thread, in this case a new Instance of a InnerClient, which will initiate a connection with the server.
+After the connection has been established, the client send the text message and shutdown itself, finishing the thread and sending the Sucess message to the main Server.
