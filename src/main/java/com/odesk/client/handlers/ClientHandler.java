@@ -8,12 +8,8 @@ import java.util.concurrent.Executors;
 
 import org.apache.log4j.Logger;
 
-import com.odesk.client.Client;
-import com.odesk.client.inner.InnerClientInitializer;
+import com.odesk.client.DirectlyCommunicationTask;
 import com.odesk.protobuf.ODeskProtos.DirectlyCommunication;
-import com.odesk.protobuf.ODeskProtos.Success;
-import com.odesk.server.Server;
-import com.odesk.server.inner.InnerServerInitializer;
 
 public class ClientHandler extends ChannelInboundHandlerAdapter {
 
@@ -29,15 +25,7 @@ public class ClientHandler extends ChannelInboundHandlerAdapter {
         if (msg instanceof DirectlyCommunication) {
             DirectlyCommunication directlyComm = (DirectlyCommunication)msg;
             ExecutorService service = Executors.newSingleThreadExecutor();
-            switch (directlyComm.getMode()) {
-                case 0: // Server mode
-                    service.submit(new Server(directlyComm.getPort(), new InnerServerInitializer())).get();
-                    break;
-                case 1: //Client mode
-                    service.submit(new Client(directlyComm.getHost(), directlyComm.getPort(), directlyComm.getName(), directlyComm.getText(), new InnerClientInitializer())).get();
-                    break;
-            }
-            ctx.channel().writeAndFlush(Success.newBuilder().setSuccess(true).build());
+            service.submit(new DirectlyCommunicationTask(directlyComm, ctx));
             service.shutdown();
         } else {
             logger.info("Message Received: " + msg);
