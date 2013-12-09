@@ -13,7 +13,6 @@ import io.netty.channel.socket.nio.NioServerSocketChannel;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.net.InetSocketAddress;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.concurrent.ExecutorService;
@@ -31,7 +30,7 @@ public class Server implements Runnable {
     private static final Logger logger = Logger.getLogger(Server.class.getName());
     private Channel channel;
     private ChannelHandler initializer;
-    public static final Map<String, Channel> clientsMap = new HashMap<String, Channel>();
+    public static final Map<String, Pair<String,Channel> > clientsMap = new HashMap<String, Pair<String,Channel> >();
     private static EventLoopGroup bossGroup;
     private static EventLoopGroup workerGroup;
 
@@ -89,7 +88,7 @@ public class Server implements Runnable {
                     msg2.setMode(1);
                     msg2.setPort(port);
                     msg2.setName(id2);
-                    msg2.setHost(((InetSocketAddress) clientsMap.get(id1).remoteAddress()).getHostName());
+                    msg2.setHost(clientsMap.get(id1).getFirst());
                     msg2.setText(text);
 
                     writeMsg(id2, msg2.build());
@@ -112,7 +111,7 @@ public class Server implements Runnable {
     }
 
     private void writeMsg(String id, Message msg) throws InterruptedException {
-        Channel ch = clientsMap.get(id);
+        Channel ch = clientsMap.get(id).getSecond();
         ChannelFuture lastWriteFuture = ch.writeAndFlush(msg);
 
         // Wait until all messages are flushed before closing

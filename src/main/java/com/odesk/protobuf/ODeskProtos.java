@@ -1861,6 +1861,21 @@ public final class ODeskProtos {
      */
     com.google.protobuf.ByteString
         getNameBytes();
+
+    // optional string host = 2;
+    /**
+     * <code>optional string host = 2;</code>
+     */
+    boolean hasHost();
+    /**
+     * <code>optional string host = 2;</code>
+     */
+    java.lang.String getHost();
+    /**
+     * <code>optional string host = 2;</code>
+     */
+    com.google.protobuf.ByteString
+        getHostBytes();
   }
   /**
    * Protobuf type {@code odesk.Handshake}
@@ -1916,6 +1931,11 @@ public final class ODeskProtos {
             case 10: {
               bitField0_ |= 0x00000001;
               name_ = input.readBytes();
+              break;
+            }
+            case 18: {
+              bitField0_ |= 0x00000002;
+              host_ = input.readBytes();
               break;
             }
           }
@@ -2001,8 +2021,52 @@ public final class ODeskProtos {
       }
     }
 
+    // optional string host = 2;
+    public static final int HOST_FIELD_NUMBER = 2;
+    private java.lang.Object host_;
+    /**
+     * <code>optional string host = 2;</code>
+     */
+    public boolean hasHost() {
+      return ((bitField0_ & 0x00000002) == 0x00000002);
+    }
+    /**
+     * <code>optional string host = 2;</code>
+     */
+    public java.lang.String getHost() {
+      java.lang.Object ref = host_;
+      if (ref instanceof java.lang.String) {
+        return (java.lang.String) ref;
+      } else {
+        com.google.protobuf.ByteString bs = 
+            (com.google.protobuf.ByteString) ref;
+        java.lang.String s = bs.toStringUtf8();
+        if (bs.isValidUtf8()) {
+          host_ = s;
+        }
+        return s;
+      }
+    }
+    /**
+     * <code>optional string host = 2;</code>
+     */
+    public com.google.protobuf.ByteString
+        getHostBytes() {
+      java.lang.Object ref = host_;
+      if (ref instanceof java.lang.String) {
+        com.google.protobuf.ByteString b = 
+            com.google.protobuf.ByteString.copyFromUtf8(
+                (java.lang.String) ref);
+        host_ = b;
+        return b;
+      } else {
+        return (com.google.protobuf.ByteString) ref;
+      }
+    }
+
     private void initFields() {
       name_ = "";
+      host_ = "";
     }
     private byte memoizedIsInitialized = -1;
     public final boolean isInitialized() {
@@ -2023,6 +2087,9 @@ public final class ODeskProtos {
       if (((bitField0_ & 0x00000001) == 0x00000001)) {
         output.writeBytes(1, getNameBytes());
       }
+      if (((bitField0_ & 0x00000002) == 0x00000002)) {
+        output.writeBytes(2, getHostBytes());
+      }
       getUnknownFields().writeTo(output);
     }
 
@@ -2035,6 +2102,10 @@ public final class ODeskProtos {
       if (((bitField0_ & 0x00000001) == 0x00000001)) {
         size += com.google.protobuf.CodedOutputStream
           .computeBytesSize(1, getNameBytes());
+      }
+      if (((bitField0_ & 0x00000002) == 0x00000002)) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBytesSize(2, getHostBytes());
       }
       size += getUnknownFields().getSerializedSize();
       memoizedSerializedSize = size;
@@ -2154,6 +2225,8 @@ public final class ODeskProtos {
         super.clear();
         name_ = "";
         bitField0_ = (bitField0_ & ~0x00000001);
+        host_ = "";
+        bitField0_ = (bitField0_ & ~0x00000002);
         return this;
       }
 
@@ -2186,6 +2259,10 @@ public final class ODeskProtos {
           to_bitField0_ |= 0x00000001;
         }
         result.name_ = name_;
+        if (((from_bitField0_ & 0x00000002) == 0x00000002)) {
+          to_bitField0_ |= 0x00000002;
+        }
+        result.host_ = host_;
         result.bitField0_ = to_bitField0_;
         onBuilt();
         return result;
@@ -2205,6 +2282,11 @@ public final class ODeskProtos {
         if (other.hasName()) {
           bitField0_ |= 0x00000001;
           name_ = other.name_;
+          onChanged();
+        }
+        if (other.hasHost()) {
+          bitField0_ |= 0x00000002;
+          host_ = other.host_;
           onChanged();
         }
         this.mergeUnknownFields(other.getUnknownFields());
@@ -2312,6 +2394,80 @@ public final class ODeskProtos {
         return this;
       }
 
+      // optional string host = 2;
+      private java.lang.Object host_ = "";
+      /**
+       * <code>optional string host = 2;</code>
+       */
+      public boolean hasHost() {
+        return ((bitField0_ & 0x00000002) == 0x00000002);
+      }
+      /**
+       * <code>optional string host = 2;</code>
+       */
+      public java.lang.String getHost() {
+        java.lang.Object ref = host_;
+        if (!(ref instanceof java.lang.String)) {
+          java.lang.String s = ((com.google.protobuf.ByteString) ref)
+              .toStringUtf8();
+          host_ = s;
+          return s;
+        } else {
+          return (java.lang.String) ref;
+        }
+      }
+      /**
+       * <code>optional string host = 2;</code>
+       */
+      public com.google.protobuf.ByteString
+          getHostBytes() {
+        java.lang.Object ref = host_;
+        if (ref instanceof String) {
+          com.google.protobuf.ByteString b = 
+              com.google.protobuf.ByteString.copyFromUtf8(
+                  (java.lang.String) ref);
+          host_ = b;
+          return b;
+        } else {
+          return (com.google.protobuf.ByteString) ref;
+        }
+      }
+      /**
+       * <code>optional string host = 2;</code>
+       */
+      public Builder setHost(
+          java.lang.String value) {
+        if (value == null) {
+    throw new NullPointerException();
+  }
+  bitField0_ |= 0x00000002;
+        host_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional string host = 2;</code>
+       */
+      public Builder clearHost() {
+        bitField0_ = (bitField0_ & ~0x00000002);
+        host_ = getDefaultInstance().getHost();
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>optional string host = 2;</code>
+       */
+      public Builder setHostBytes(
+          com.google.protobuf.ByteString value) {
+        if (value == null) {
+    throw new NullPointerException();
+  }
+  bitField0_ |= 0x00000002;
+        host_ = value;
+        onChanged();
+        return this;
+      }
+
       // @@protoc_insertion_point(builder_scope:odesk.Handshake)
     }
 
@@ -2356,9 +2512,9 @@ public final class ODeskProtos {
       "text\030\001 \002(\t\" \n\007Success\022\025\n\007success\030\001 \002(\010:\004" +
       "true\"]\n\025DirectlyCommunication\022\014\n\004mode\030\001 " +
       "\002(\005\022\014\n\004port\030\002 \001(\005\022\014\n\004host\030\003 \001(\t\022\014\n\004text\030" +
-      "\004 \001(\t\022\014\n\004name\030\005 \001(\t\"\031\n\tHandshake\022\014\n\004name" +
-      "\030\001 \002(\tB!\n\022com.odesk.protobufB\013ODeskProto" +
-      "s"
+      "\004 \001(\t\022\014\n\004name\030\005 \001(\t\"\'\n\tHandshake\022\014\n\004name" +
+      "\030\001 \002(\t\022\014\n\004host\030\002 \001(\tB!\n\022com.odesk.protob" +
+      "ufB\013ODeskProtos"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
       new com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner() {
@@ -2388,7 +2544,7 @@ public final class ODeskProtos {
           internal_static_odesk_Handshake_fieldAccessorTable = new
             com.google.protobuf.GeneratedMessage.FieldAccessorTable(
               internal_static_odesk_Handshake_descriptor,
-              new java.lang.String[] { "Name", });
+              new java.lang.String[] { "Name", "Host", });
           return null;
         }
       };

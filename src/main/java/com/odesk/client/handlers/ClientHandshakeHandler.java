@@ -12,6 +12,7 @@ public class ClientHandshakeHandler extends ChannelInboundHandlerAdapter {
     public void channelActive(ChannelHandlerContext ctx) throws Exception {
         Handshake.Builder handshake = Handshake.newBuilder();
         handshake.setName(Client.name);
+        handshake.setHost(Client.localAddress);
         ctx.channel().writeAndFlush(handshake.build());
     }
 

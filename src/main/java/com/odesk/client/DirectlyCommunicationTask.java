@@ -24,7 +24,7 @@ public class DirectlyCommunicationTask implements Runnable {
                 new Server(this.directlyComm.getPort(), new InnerServerInitializer()).run();
                 break;
             case 1: //Client mode
-                new Client(this.directlyComm.getHost(), this.directlyComm.getPort(), this.directlyComm.getName(), this.directlyComm.getText(), new InnerClientInitializer()).run();
+                new Client(this.directlyComm.getHost(), this.directlyComm.getPort(), this.directlyComm.getName(), this.directlyComm.getText(), Client.localAddress, new InnerClientInitializer()).run();
                 break;
         }
         this.ctx.channel().writeAndFlush(Success.newBuilder().setSuccess(true).build());

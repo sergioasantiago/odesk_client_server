@@ -21,4 +21,5 @@ message DirectlyCommunication {
 
 message Handshake {
     required string name = 1;
+    optional string host = 2;
 }

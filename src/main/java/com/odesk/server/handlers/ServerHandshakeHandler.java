@@ -1,11 +1,13 @@
 package com.odesk.server.handlers;
 
+import io.netty.channel.Channel;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.ChannelInboundHandlerAdapter;
 
 import org.apache.log4j.Logger;
 
 import com.odesk.protobuf.ODeskProtos.Handshake;
+import com.odesk.server.Pair;
 import com.odesk.server.Server;
 
 public class ServerHandshakeHandler extends ChannelInboundHandlerAdapter {
@@ -17,7 +19,7 @@ public class ServerHandshakeHandler extends ChannelInboundHandlerAdapter {
         if(msg instanceof Handshake) {
             Handshake handshake = (Handshake)msg;
             logger.info("New client connected! ClientID: " + handshake.getName());
-            Server.clientsMap.put(handshake.getName(), ctx.channel());
+            Server.clientsMap.put(handshake.getName(), new Pair<String,Channel>(handshake.getHost(), ctx.channel()));
             ctx.pipeline().remove("handshake_handler");
             ctx.pipeline().addLast("handler", new ServerHandler());
             Handshake.Builder handshakeBuilder = Handshake.newBuilder();

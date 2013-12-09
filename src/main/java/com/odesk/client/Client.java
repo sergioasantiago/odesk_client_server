@@ -20,9 +20,10 @@ import com.odesk.protobuf.ODeskProtos.TextMessage;
 
 public class Client implements Runnable {
 
-    private final String host;
+    private final String server_host;
     private final int port;
     public static String name;
+    public static String localAddress;
     private String text;
     private int reconnectDelay;
     private Channel channel;
@@ -31,19 +32,21 @@ public class Client implements Runnable {
     private ChannelInitializer<SocketChannel> initializer;
     private ReconnectFuture reconnectFuture;
 
-    public Client(String host, int port, String name, ChannelInitializer<SocketChannel> initializer) {
-        this.host = host;
+    public Client(String server_host, int port, String name, String localAddress, ChannelInitializer<SocketChannel> initializer) {
+        this.server_host = server_host;
         this.port = port;
         Client.name = name;
+        Client.localAddress = localAddress;
         this.initializer = initializer;
         this.reconnectDelay = 0;
     }
 
-    public Client(String host, int port, String name, String text, ChannelInitializer<SocketChannel> initializer) {
-        this.host = host;
+    public Client(String server_host, int port, String name, String text, String localAddress, ChannelInitializer<SocketChannel> initializer) {
+        this.server_host = server_host;
         this.port = port;
         this.text = text;
         Client.name = name;
+        Client.localAddress = localAddress;
         this.initializer = initializer;
         this.reconnectDelay = 0;
     }
@@ -133,7 +136,7 @@ public class Client implements Runnable {
 
             // Start the connection attempt.
             this.reconnectFuture = new ReconnectFuture(this);
-            b.connect(this.host, this.port).addListener(this.reconnectFuture).await();
+            b.connect(this.server_host, this.port).addListener(this.reconnectFuture).await();
 
         } catch (InterruptedException e) {
             logger.error(e.getMessage(), e);
@@ -150,17 +153,18 @@ public class Client implements Runnable {
 
     public static void main(String[] args) throws Exception {
         // Print usage if no argument is specified.
-        if (args.length != 3) {
-            System.err.println("Usage: " + Client.class.getSimpleName() + " <host> <port> <name>");
+        if (args.length != 4) {
+            System.err.println("Usage: " + Client.class.getSimpleName() + " <server_host> <port> <name> <client_host>");
             return;
         }
 
         // Parse options.
-        String host = args[0];
+        String server_host = args[0];
         int port = Integer.parseInt(args[1]);
         String name = args[2];
+        String localAddress = args[3];
 
-        Client client = new Client(host, port, name, new ClientInitializer());
+        Client client = new Client(server_host, port, name, localAddress, new ClientInitializer());
         client.connect();
         client.waitConnection();
         client.prompt();
