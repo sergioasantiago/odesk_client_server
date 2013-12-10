@@ -5,7 +5,7 @@
     <version>0.0.1-SNAPSHOT</version>
     <name>ClientServerSample</name>
     <description>Client Server Sample</description>
-    <build>
+    <!-- build>
         <plugins>
             <plugin>
                 <artifactId>maven-assembly-plugin</artifactId>
@@ -16,7 +16,7 @@
                     <archive>
                         <manifest>
                             <mainClass>com.odesk.server.Server</mainClass>
-                            <!-- mainClass>com.odesk.client.Client</mainClass-->
+                            <mainClass>com.odesk.client.Client</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
@@ -30,7 +30,7 @@
                 </executions>
             </plugin>
         </plugins>
-    </build>
+    </build-->
     <dependencies>
         <dependency>
             <groupId>io.netty</groupId>

@@ -22,12 +22,13 @@ public class ClientHandler extends ChannelInboundHandlerAdapter {
 
     @Override
     public void channelRead(ChannelHandlerContext ctx, Object msg) throws Exception {
-        logger.info("Message Received: " + msg);
         if (msg instanceof DirectlyCommunication) {
             DirectlyCommunication directlyComm = (DirectlyCommunication)msg;
             ExecutorService service = Executors.newSingleThreadExecutor();
             service.submit(new DirectlyCommunicationTask(directlyComm, ctx));
             service.shutdown();
+        } else {
+            logger.info("Message Received: " + msg);
         }
     }
 
